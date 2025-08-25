@@ -1,0 +1,14 @@
+name: smart-price-tracker
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - requests
+  - pandas
+  - pyspark=3.5.1
+  - pip
+  - pip:
+      - delta-spark=3.2.0
+      - loguru
+      - pytest
