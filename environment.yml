@@ -6,7 +6,7 @@ dependencies:
   - python=3.10
   - requests
   - pandas
-  - pyspark=3.5.1
+  - pyspark
   - pip
   - pip:
       - delta-spark=3.2.0

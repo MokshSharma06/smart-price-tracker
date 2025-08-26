@@ -1,0 +1,32 @@
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  delta: "data/delta"
+
+app:
+  name: "Smart Price Tracker"
+  mode: "development"
+
+source:
+  product_api: 
+  refresh_interval: "24h"
+
+processing:
+  drop_duplicates: true
+  target_currency: "INR"
+
+kafka:
+  # brokers: "localhost:9092"
+  # topic: "price_updates"
+  # group_id: "smart_price_consumer"
+  # startingOffsets: "earliest"
+
+filters:
+  min_price: 100
+  max_price: 10000
+  categories: ["shoes", "clothing", "accessories"]
+
+features:
+  enable_hive: true
+  enable_delta: true
+  enable_alerts: false
