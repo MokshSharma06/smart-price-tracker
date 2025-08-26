@@ -4,6 +4,7 @@ A batch data pipeline to fetch, clean, and track product prices over time.
 This project will first run locally, then later be deployed to the cloud.
 
 📂 Project Structure
+```
 smart-price-tracker/
 ├── conf/                 # Config files
 │   ├── config.yaml       # Pipeline configuration
@@ -28,7 +29,7 @@ smart-price-tracker/
     ├── test_fetch_prices.py
     ├── test_process_data.py
     └── test_utils.py
-
+```
 ⚙️ Tech Stack
 
 Python 3.9+
