@@ -13,6 +13,6 @@ def main():
     logger.info("Created DataFrame")
 
     df.show()
-
+    logger.info("session ended")
 if __name__ == "__main__":
     main()

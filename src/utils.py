@@ -19,8 +19,7 @@ def get_spark_session():
         builder
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-        .config('spark.driver.extraJavaOptions',
-                '-Dlog4j.configuration=file:log4j.properties')
-    )
+        .config("spark.driver.extraJavaOptions", "-Dlog4j.configuration=file:conf/log4j.properties")
+        )
 
     return configure_spark_with_delta_pip(builder).getOrCreate()
