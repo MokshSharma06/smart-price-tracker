@@ -6,21 +6,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import time
+from datetime import datetime
+import sys, os
+import json
 
 def fetch_ajio_product(url):
-    """
-    Fetch product details from an Ajio product page.
-    
-    Returns a dictionary:
-    {
-        "name": str,
-        "mrp": str,
-        "price": str,
-        "discount": str,
-        "url": str
-    }
-    """
     options = Options()
     options.headless = True
     options.add_argument("--disable-gpu")
@@ -44,30 +34,32 @@ def fetch_ajio_product(url):
         
         # Product name
         name_tag = soup.find("h1", class_="prod-name")
-        name = name_tag.get_text(strip=True) if name_tag else None
+        product_name = name_tag.get_text(strip=True) if name_tag else None
+        brand_tag = soup.find("h2",class_="brand-name")
+        brand=brand_tag.get_text(strip=True) if brand_tag else None
         
         # Price / MRP / Discount
         prod_price_div = soup.find("div", class_="prod-price-sec") or soup.find("div", class_="prod-price")
         sp_price_div = soup.find("div", class_="prod-sp")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         
         mrp = None
-        discount = None
         price = None
 
         if prod_price_div:
             mrp_tag = prod_price_div.find("span", class_="prod-cp")
-            discount_tag = prod_price_div.find("span", class_="prod-discount")
             mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
-            discount = discount_tag.get_text(strip=True) if discount_tag else None
 
         if sp_price_div:
             price = sp_price_div.get_text(strip=True)
         
         return {
-            "name": name,
+            "product_name": product_name,
             "mrp": mrp,
             "price": price,
-            "discount": discount,
+            "brand":brand,
+            "timestamp":timestamp,
             "url": url
         }
     
@@ -80,6 +72,30 @@ def fetch_ajio_product(url):
 
 # Example usage
 if __name__ == "__main__":
-    url = "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
-    product = fetch_ajio_product(url)
-    print(product)
+    ajio_urls = [
+        "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green",
+        "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    ]
+#Saving the data to JSON file in the data/Raw folder
+file_path = f"data/raw/ajio_products.json"
+
+if os.path.exists(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        try:
+            all_products = json.load(f)   # read old array
+        except json.JSONDecodeError:
+            all_products = []  # file empty or broken → reset
+else:
+    all_products = []  # first run → start empty
+
+for url in ajio_urls:
+    data = fetch_ajio_product(url)
+    if data:
+        all_products.append(data)
+
+
+
+with open(file_path, "w", encoding="utf-8") as f:
+    json.dump(all_products, f, ensure_ascii=False, indent=4)
+
+print(f"Saved {len(all_products)} products to {file_path}")
