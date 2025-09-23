@@ -7,8 +7,30 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime
-import sys, os
+import sys, os, logging
 import json
+
+logging.getLogger("WDM").setLevel(logging.WARNING)
+logging.getLogger("webdriver_manager").setLevel(logging.CRITICAL)
+
+site_name = "ajio"
+# lets set up the logger
+# Create handlers
+file_handler = logging.FileHandler("logs/ajio_scraper.log")
+console_handler = logging.StreamHandler(sys.stdout)
+
+# Define common format
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Use basicConfig with handlers
+logging.basicConfig(
+    level=logging.INFO,
+    handlers=[file_handler, console_handler]
+)
+
+logger = logging.getLogger("ajio_scraper")
 
 def fetch_ajio_product(url):
     options = Options()
@@ -47,22 +69,28 @@ def fetch_ajio_product(url):
         mrp = None
         price = None
 
-        if prod_price_div:
+
+        if prod_price_div and sp_price_div:
             mrp_tag = prod_price_div.find("span", class_="prod-cp")
             mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
-
-        if sp_price_div:
             price = sp_price_div.get_text(strip=True)
-        
-        return {
-            "product_name": product_name,
-            "mrp": mrp,
-            "price": price,
-            "brand":brand,
-            "timestamp":timestamp,
-            "url": url
-        }
-    
+            product_name = name_tag.text.strip() if name_tag else None
+
+            logger.info(f"Scraped {site_name} | Product: {product_name}")
+
+            return {
+        "product_name": product_name,
+        "mrp": mrp,
+        "price": price,
+        "brand": brand,
+        "website": site_name,
+        "timestamp": timestamp,
+        "url": url
+    }
+        else:
+            logger.warning(f"Price or product details not found on {url}")
+            return None
+
     except Exception as e:
         return {"error": str(e), "url": url}
     
