@@ -16,7 +16,7 @@ os.makedirs("data/raw", exist_ok=True)
 logging.getLogger("WDM").setLevel(logging.WARNING)
 logging.getLogger("webdriver_manager").setLevel(logging.CRITICAL)
 
-file_handler = logging.FileHandler("logs/ajio_scraper.log", mode="a", encoding="utf-8")
+file_handler = logging.FileHandler("/home/moksh/Desktop/smart-price-tracker/logs/ajio_scraper.log")
 console_handler = logging.StreamHandler(sys.stdout)
 
 formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
@@ -144,7 +144,7 @@ if __name__ == "__main__":
         "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
     ]
 
-    file_path = "data/raw/ajio_products.json"
+    file_path = "/home/moksh/Desktop/smart-price-tracker/data/raw/ajio_products.json"
 
     if os.path.exists(file_path):
         try:

@@ -9,7 +9,7 @@ import sys, os
 site_name = "Flipkart"
 
 # Create handlers
-file_handler = logging.FileHandler("logs/flipkart_scraper.log")
+file_handler = logging.FileHandler("/home/moksh/Desktop/smart-price-tracker/logs/flipkart_scraper.log")
 console_handler = logging.StreamHandler(sys.stdout)
 
 # Define common format
@@ -104,7 +104,7 @@ flipkart_urls =[
 ]
 
 #Saving the data to JSON file in the data/Raw folder
-file_path = f"data/raw/flipkart_products.json"
+file_path = f"/home/moksh/Desktop/smart-price-tracker/data/raw/flipkart_products.json"
 
 if os.path.exists(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
