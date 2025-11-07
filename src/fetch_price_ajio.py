@@ -1,4 +1,5 @@
 from selenium import webdriver
+import tempfile
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -8,6 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime
 import sys, os, logging, json
+import shutil
 
 # ---------------- LOGGER SETUP ----------------
 os.makedirs("logs", exist_ok=True)
@@ -30,11 +32,13 @@ logger = logging.getLogger("ajio_scraper")
 def fetch_ajio_product(url):
     logger.info(f"Fetching product from {url}")
     options = Options()
+    user_data_dir = tempfile.mkdtemp(prefix="chrome_user_data_")
     options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/118.0.5993.118 Safari/537.36"
     )
+    options.add_argument(f"--user-data-dir={user_data_dir}")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
@@ -130,9 +134,11 @@ def fetch_ajio_product(url):
     except Exception as e:
         logger.error(f"Error scraping {url}: {e}")
         return {"error": str(e), "url": url}
+    
 
     finally:
         driver.quit()
+        shutil.rmtree(user_data_dir, ignore_errors=True)
 
 
 ############################# Main Method ########################

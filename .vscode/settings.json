@@ -1,0 +1,13 @@
+{
+    {
+  "python.defaultInterpreterPath": "/usr/bin/python3",  // or your venv python path
+  "code-runner.fileDirectoryAsCwd": false,
+  "code-runner.executorMap": {
+    "python": "cd /home/moksh/Desktop/smart-price-tracker && python -m src.process_data"
+  },
+  "python.terminal.executeInFileDir": false,
+  "python.envFile": "${workspaceFolder}/.env",
+  "terminal.integrated.cwd": "/home/moksh/Desktop/smart-price-tracker"
+}
+
+}
