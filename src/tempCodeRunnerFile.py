@@ -1,34 +1,3 @@
-from selenium import webdriver
-import tempfile
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
-from bs4 import BeautifulSoup
-from datetime import datetime
-import sys, os, logging, json
-import shutil
-
-# ---------------- LOGGER SETUP ----------------
-os.makedirs("logs", exist_ok=True)
-os.makedirs("data/raw", exist_ok=True)
-
-logging.getLogger("WDM").setLevel(logging.WARNING)
-logging.getLogger("webdriver_manager").setLevel(logging.CRITICAL)
-
-file_handler = logging.FileHandler("/home/moksh/Desktop/smart-price-tracker/logs/ajio_scraper.log")
-console_handler = logging.StreamHandler(sys.stdout)
-
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-file_handler.setFormatter(formatter)
-console_handler.setFormatter(formatter)
-
-logging.basicConfig(level=logging.INFO, handlers=[file_handler, console_handler])
-logger = logging.getLogger("ajio_scraper")
-
-# -------------------------------------------------
 def fetch_ajio_product(url):
     logger.info(f"Fetching product from {url}")
     options = Options()
@@ -42,7 +11,7 @@ def fetch_ajio_product(url):
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
-    options.headless = True  # Uncomment for silent scraping
+    # options.headless = True  # Uncomment for silent scraping
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--window-size=1920,1080")
@@ -139,35 +108,3 @@ def fetch_ajio_product(url):
     finally:
         driver.quit()
         shutil.rmtree(user_data_dir, ignore_errors=True)
-
-
-############################# Main Method ########################
-if __name__ == "__main__":
-    ajio_urls = [
-        "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green",
-        "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?",
-        "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?",
-        "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
-    ]
-
-    file_path = "/home/moksh/Desktop/smart-price-tracker/data/raw/ajio_products.json"
-
-    if os.path.exists(file_path):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                all_products = json.load(f)
-        except json.JSONDecodeError:
-            all_products = []
-    else:
-        all_products = []
-
-    for url in ajio_urls:
-        data = fetch_ajio_product(url)
-        if data:
-            all_products.append(data)
-
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(all_products, f, ensure_ascii=False, indent=4)
-
-    logger.info(f"Saved {len(all_products)} products to {file_path}")
-    print(f"Saved {len(all_products)} products to {file_path}")
