@@ -690,5 +690,577 @@
     {
         "error": "Message: invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n#0 0x561ecbcc7fba <unknown>\n#1 0x561ecb74c6d0 <unknown>\n#2 0x561ecb73344e <unknown>\n#3 0x561ecb75b259 <unknown>\n#4 0x561ecb7cc2bf <unknown>\n#5 0x561ecb7e9502 <unknown>\n#6 0x561ecb7c3c03 <unknown>\n#7 0x561ecb7907a8 <unknown>\n#8 0x561ecb791421 <unknown>\n#9 0x561ecbc8cb28 <unknown>\n#10 0x561ecbc9087f <unknown>\n#11 0x561ecbc74c49 <unknown>\n#12 0x561ecbc91405 <unknown>\n#13 0x561ecbc5a4ff <unknown>\n#14 0x561ecbcb5258 <unknown>\n#15 0x561ecbcb5432 <unknown>\n#16 0x561ecbcc6fa3 <unknown>\n#17 0x7e3c32a9caa4 <unknown>\n#18 0x7e3c32b29c6c <unknown>\n",
         "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.185)\nStacktrace:\n#0 0x5a23e4b05fba <unknown>\n#1 0x5a23e458a6d0 <unknown>\n#2 0x5a23e455f770 <unknown>\n#3 0x5a23e460a0b8 <unknown>\n#4 0x5a23e4627502 <unknown>\n#5 0x5a23e4601c03 <unknown>\n#6 0x5a23e45ce7a8 <unknown>\n#7 0x5a23e45cf421 <unknown>\n#8 0x5a23e4acab28 <unknown>\n#9 0x5a23e4ace87f <unknown>\n#10 0x5a23e4ab2c49 <unknown>\n#11 0x5a23e4acf405 <unknown>\n#12 0x5a23e4a984ff <unknown>\n#13 0x5a23e4af3258 <unknown>\n#14 0x5a23e4af3432 <unknown>\n#15 0x5a23e4b04fa3 <unknown>\n#16 0x77cc6dc9caa4 <unknown>\n#17 0x77cc6dd29c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "error": "Message: target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=140.0.7339.185)\nStacktrace:\n#0 0x596fb9283fba <unknown>\n#1 0x596fb8d08523 <unknown>\n#2 0x596fb8cf0665 <unknown>\n#3 0x596fb8cef676 <unknown>\n#4 0x596fb8d17259 <unknown>\n#5 0x596fb8d882bf <unknown>\n#6 0x596fb8da5502 <unknown>\n#7 0x596fb8d7fc03 <unknown>\n#8 0x596fb8d4c7a8 <unknown>\n#9 0x596fb8d4d421 <unknown>\n#10 0x596fb9248b28 <unknown>\n#11 0x596fb924c87f <unknown>\n#12 0x596fb9230c49 <unknown>\n#13 0x596fb924d405 <unknown>\n#14 0x596fb92164ff <unknown>\n#15 0x596fb9271258 <unknown>\n#16 0x596fb9271432 <unknown>\n#17 0x596fb9282fa3 <unknown>\n#18 0x7482c929caa4 <unknown>\n#19 0x7482c9329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.185)\nStacktrace:\n#0 0x6390f0d15fba <unknown>\n#1 0x6390f079a6d0 <unknown>\n#2 0x6390f076f770 <unknown>\n#3 0x6390f081a0b8 <unknown>\n#4 0x6390f0837502 <unknown>\n#5 0x6390f0811c03 <unknown>\n#6 0x6390f07de7a8 <unknown>\n#7 0x6390f07df421 <unknown>\n#8 0x6390f0cdab28 <unknown>\n#9 0x6390f0cde87f <unknown>\n#10 0x6390f0cc2c49 <unknown>\n#11 0x6390f0cdf405 <unknown>\n#12 0x6390f0ca84ff <unknown>\n#13 0x6390f0d03258 <unknown>\n#14 0x6390f0d03432 <unknown>\n#15 0x6390f0d14fa3 <unknown>\n#16 0x7b83b029caa4 <unknown>\n#17 0x7b83b0329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "error": "Message: invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n#0 0x60f9cb58afba <unknown>\n#1 0x60f9cb00f6d0 <unknown>\n#2 0x60f9caff644e <unknown>\n#3 0x60f9cb01e259 <unknown>\n#4 0x60f9cb08f2bf <unknown>\n#5 0x60f9cb0ac502 <unknown>\n#6 0x60f9cb086c03 <unknown>\n#7 0x60f9cb0537a8 <unknown>\n#8 0x60f9cb054421 <unknown>\n#9 0x60f9cb54fb28 <unknown>\n#10 0x60f9cb55387f <unknown>\n#11 0x60f9cb537c49 <unknown>\n#12 0x60f9cb554405 <unknown>\n#13 0x60f9cb51d4ff <unknown>\n#14 0x60f9cb578258 <unknown>\n#15 0x60f9cb578432 <unknown>\n#16 0x60f9cb589fa3 <unknown>\n#17 0x77d892a9caa4 <unknown>\n#18 0x77d892b29c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-10 18:48:59",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-10 18:49:07",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-10 18:49:15",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-10 18:49:29",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-11 19:47:05",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-11 19:47:11",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-11 19:47:24",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-11 19:47:29",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:06:39",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:06:49",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:06:56",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:07:04",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:48:12",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:48:20",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:48:33",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:48:43",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:54:17",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:54:30",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:54:40",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 19:54:49",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:01:19",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:01:28",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:01:49",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:01:56",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x5e2b4fab6fba <unknown>\n#1 0x5e2b4f53b6d0 <unknown>\n#2 0x5e2b4f58d2aa <unknown>\n#3 0x5e2b4f58d541 <unknown>\n#4 0x5e2b4f5db6c4 <unknown>\n#5 0x5e2b4f5b2e5d <unknown>\n#6 0x5e2b4f5d8b54 <unknown>\n#7 0x5e2b4f5b2c03 <unknown>\n#8 0x5e2b4f57f7a8 <unknown>\n#9 0x5e2b4f580421 <unknown>\n#10 0x5e2b4fa7bb28 <unknown>\n#11 0x5e2b4fa7f87f <unknown>\n#12 0x5e2b4fa63c49 <unknown>\n#13 0x5e2b4fa80405 <unknown>\n#14 0x5e2b4fa494ff <unknown>\n#15 0x5e2b4faa4258 <unknown>\n#16 0x5e2b4faa4432 <unknown>\n#17 0x5e2b4fab5fa3 <unknown>\n#18 0x70a2d049caa4 <unknown>\n#19 0x70a2d0529c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x61b0994a6fba <unknown>\n#1 0x61b098f2b6d0 <unknown>\n#2 0x61b098f7d2aa <unknown>\n#3 0x61b098f7d541 <unknown>\n#4 0x61b098fcb6c4 <unknown>\n#5 0x61b098fa2e5d <unknown>\n#6 0x61b098fc8b54 <unknown>\n#7 0x61b098fa2c03 <unknown>\n#8 0x61b098f6f7a8 <unknown>\n#9 0x61b098f70421 <unknown>\n#10 0x61b09946bb28 <unknown>\n#11 0x61b09946f87f <unknown>\n#12 0x61b099453c49 <unknown>\n#13 0x61b099470405 <unknown>\n#14 0x61b0994394ff <unknown>\n#15 0x61b099494258 <unknown>\n#16 0x61b099494432 <unknown>\n#17 0x61b0994a5fa3 <unknown>\n#18 0x7e84d249caa4 <unknown>\n#19 0x7e84d2529c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x6548bc85ffba <unknown>\n#1 0x6548bc2e46d0 <unknown>\n#2 0x6548bc3362aa <unknown>\n#3 0x6548bc336541 <unknown>\n#4 0x6548bc3846c4 <unknown>\n#5 0x6548bc35be5d <unknown>\n#6 0x6548bc381b54 <unknown>\n#7 0x6548bc35bc03 <unknown>\n#8 0x6548bc3287a8 <unknown>\n#9 0x6548bc329421 <unknown>\n#10 0x6548bc824b28 <unknown>\n#11 0x6548bc82887f <unknown>\n#12 0x6548bc80cc49 <unknown>\n#13 0x6548bc829405 <unknown>\n#14 0x6548bc7f24ff <unknown>\n#15 0x6548bc84d258 <unknown>\n#16 0x6548bc84d432 <unknown>\n#17 0x6548bc85efa3 <unknown>\n#18 0x74c735a9caa4 <unknown>\n#19 0x74c735b29c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x59f1c4907fba <unknown>\n#1 0x59f1c438c6d0 <unknown>\n#2 0x59f1c43de2aa <unknown>\n#3 0x59f1c43de541 <unknown>\n#4 0x59f1c442c6c4 <unknown>\n#5 0x59f1c4403e5d <unknown>\n#6 0x59f1c4429b54 <unknown>\n#7 0x59f1c4403c03 <unknown>\n#8 0x59f1c43d07a8 <unknown>\n#9 0x59f1c43d1421 <unknown>\n#10 0x59f1c48ccb28 <unknown>\n#11 0x59f1c48d087f <unknown>\n#12 0x59f1c48b4c49 <unknown>\n#13 0x59f1c48d1405 <unknown>\n#14 0x59f1c489a4ff <unknown>\n#15 0x59f1c48f5258 <unknown>\n#16 0x59f1c48f5432 <unknown>\n#17 0x59f1c4906fa3 <unknown>\n#18 0x761b5a89caa4 <unknown>\n#19 0x761b5a929c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x5e1eb5b4832a <unknown>\n#1 0x5e1eb5594e4b <unknown>\n#2 0x5e1eb55c28ef <unknown>\n#3 0x5e1eb55bee43 <unknown>\n#4 0x5e1eb561a4a4 <unknown>\n#5 0x5e1eb5619d6d <unknown>\n#6 0x5e1eb561b962 <unknown>\n#7 0x5e1eb561b736 <unknown>\n#8 0x5e1eb55d9c1a <unknown>\n#9 0x5e1eb55da921 <unknown>\n#10 0x5e1eb5b0f239 <unknown>\n#11 0x5e1eb5b121e8 <unknown>\n#12 0x5e1eb5af84c9 <unknown>\n#13 0x5e1eb5b12db5 <unknown>\n#14 0x5e1eb5adfe93 <unknown>\n#15 0x5e1eb5b35098 <unknown>\n#16 0x5e1eb5b35273 <unknown>\n#17 0x5e1eb5b472c3 <unknown>\n#18 0x733f37e9caa4 <unknown>\n#19 0x733f37f29c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x5ae6501d932a <unknown>\n#1 0x5ae64fc25e4b <unknown>\n#2 0x5ae64fc538ef <unknown>\n#3 0x5ae64fc4fe43 <unknown>\n#4 0x5ae64fcab4a4 <unknown>\n#5 0x5ae64fcaad6d <unknown>\n#6 0x5ae64fcac962 <unknown>\n#7 0x5ae64fcac736 <unknown>\n#8 0x5ae64fc6ac1a <unknown>\n#9 0x5ae64fc6b921 <unknown>\n#10 0x5ae6501a0239 <unknown>\n#11 0x5ae6501a31e8 <unknown>\n#12 0x5ae6501894c9 <unknown>\n#13 0x5ae6501a3db5 <unknown>\n#14 0x5ae650170e93 <unknown>\n#15 0x5ae6501c6098 <unknown>\n#16 0x5ae6501c6273 <unknown>\n#17 0x5ae6501d82c3 <unknown>\n#18 0x700e05e9caa4 <unknown>\n#19 0x700e05f29c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x5955d2b9732a <unknown>\n#1 0x5955d25e3e4b <unknown>\n#2 0x5955d26118ef <unknown>\n#3 0x5955d260de43 <unknown>\n#4 0x5955d26694a4 <unknown>\n#5 0x5955d2668d6d <unknown>\n#6 0x5955d266a962 <unknown>\n#7 0x5955d266a736 <unknown>\n#8 0x5955d2628c1a <unknown>\n#9 0x5955d2629921 <unknown>\n#10 0x5955d2b5e239 <unknown>\n#11 0x5955d2b611e8 <unknown>\n#12 0x5955d2b474c9 <unknown>\n#13 0x5955d2b61db5 <unknown>\n#14 0x5955d2b2ee93 <unknown>\n#15 0x5955d2b84098 <unknown>\n#16 0x5955d2b84273 <unknown>\n#17 0x5955d2b962c3 <unknown>\n#18 0x7d41e409caa4 <unknown>\n#19 0x7d41e4129c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x6331ece3832a <unknown>\n#1 0x6331ec884e4b <unknown>\n#2 0x6331ec8b28ef <unknown>\n#3 0x6331ec8aee43 <unknown>\n#4 0x6331ec90a4a4 <unknown>\n#5 0x6331ec909d6d <unknown>\n#6 0x6331ec90b962 <unknown>\n#7 0x6331ec90b736 <unknown>\n#8 0x6331ec8c9c1a <unknown>\n#9 0x6331ec8ca921 <unknown>\n#10 0x6331ecdff239 <unknown>\n#11 0x6331ece021e8 <unknown>\n#12 0x6331ecde84c9 <unknown>\n#13 0x6331ece02db5 <unknown>\n#14 0x6331ecdcfe93 <unknown>\n#15 0x6331ece25098 <unknown>\n#16 0x6331ece25273 <unknown>\n#17 0x6331ece372c3 <unknown>\n#18 0x714dee29caa4 <unknown>\n#19 0x714dee329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Access Denied",
+        "brand": null,
+        "mrp": null,
+        "price": null,
+        "status": "Out of Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:51:02",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Access Denied",
+        "brand": null,
+        "mrp": null,
+        "price": null,
+        "status": "Out of Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:51:31",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Access Denied",
+        "brand": null,
+        "mrp": null,
+        "price": null,
+        "status": "Out of Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:51:59",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Access Denied",
+        "brand": null,
+        "mrp": null,
+        "price": null,
+        "status": "Out of Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:52:28",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "brand": "NIKE",
+        "mrp": "MRP",
+        "price": "₹7,130",
+        "status": "In Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:54:27",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "brand": "NIKE",
+        "mrp": "MRP",
+        "price": "₹3,522",
+        "status": "In Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:54:41",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Access Denied",
+        "brand": null,
+        "mrp": null,
+        "price": null,
+        "status": "Out of Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:55:10",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "brand": "NIKE",
+        "mrp": "MRP",
+        "price": "₹6,316",
+        "status": "In Stock",
+        "website": "ajio",
+        "timestamp": "2025-11-12 20:55:30",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x635fcdad532a <unknown>\n#1 0x635fcd521e4b <unknown>\n#2 0x635fcd54f8ef <unknown>\n#3 0x635fcd54be43 <unknown>\n#4 0x635fcd5a74a4 <unknown>\n#5 0x635fcd5a6d6d <unknown>\n#6 0x635fcd5a8962 <unknown>\n#7 0x635fcd5a8736 <unknown>\n#8 0x635fcd566c1a <unknown>\n#9 0x635fcd567921 <unknown>\n#10 0x635fcda9c239 <unknown>\n#11 0x635fcda9f1e8 <unknown>\n#12 0x635fcda854c9 <unknown>\n#13 0x635fcda9fdb5 <unknown>\n#14 0x635fcda6ce93 <unknown>\n#15 0x635fcdac2098 <unknown>\n#16 0x635fcdac2273 <unknown>\n#17 0x635fcdad42c3 <unknown>\n#18 0x7a4b4929caa4 <unknown>\n#19 0x7a4b49329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x5fd0de7a532a <unknown>\n#1 0x5fd0de1f1e4b <unknown>\n#2 0x5fd0de21f8ef <unknown>\n#3 0x5fd0de21be43 <unknown>\n#4 0x5fd0de2774a4 <unknown>\n#5 0x5fd0de276d6d <unknown>\n#6 0x5fd0de278962 <unknown>\n#7 0x5fd0de278736 <unknown>\n#8 0x5fd0de236c1a <unknown>\n#9 0x5fd0de237921 <unknown>\n#10 0x5fd0de76c239 <unknown>\n#11 0x5fd0de76f1e8 <unknown>\n#12 0x5fd0de7554c9 <unknown>\n#13 0x5fd0de76fdb5 <unknown>\n#14 0x5fd0de73ce93 <unknown>\n#15 0x5fd0de792098 <unknown>\n#16 0x5fd0de792273 <unknown>\n#17 0x5fd0de7a42c3 <unknown>\n#18 0x7a934829caa4 <unknown>\n#19 0x7a9348329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x57c2efa9632a <unknown>\n#1 0x57c2ef4e2e4b <unknown>\n#2 0x57c2ef5108ef <unknown>\n#3 0x57c2ef50ce43 <unknown>\n#4 0x57c2ef5684a4 <unknown>\n#5 0x57c2ef567d6d <unknown>\n#6 0x57c2ef569962 <unknown>\n#7 0x57c2ef569736 <unknown>\n#8 0x57c2ef527c1a <unknown>\n#9 0x57c2ef528921 <unknown>\n#10 0x57c2efa5d239 <unknown>\n#11 0x57c2efa601e8 <unknown>\n#12 0x57c2efa464c9 <unknown>\n#13 0x57c2efa60db5 <unknown>\n#14 0x57c2efa2de93 <unknown>\n#15 0x57c2efa83098 <unknown>\n#16 0x57c2efa83273 <unknown>\n#17 0x57c2efa952c3 <unknown>\n#18 0x78fe6409caa4 <unknown>\n#19 0x78fe64129c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "error": "Message: invalid argument: cannot parse capability: goog:chromeOptions\nfrom invalid argument: unrecognized chrome option: excludeSwitches\nStacktrace:\n#0 0x62e8237e132a <unknown>\n#1 0x62e82322de4b <unknown>\n#2 0x62e82325b8ef <unknown>\n#3 0x62e823257e43 <unknown>\n#4 0x62e8232b34a4 <unknown>\n#5 0x62e8232b2d6d <unknown>\n#6 0x62e8232b4962 <unknown>\n#7 0x62e8232b4736 <unknown>\n#8 0x62e823272c1a <unknown>\n#9 0x62e823273921 <unknown>\n#10 0x62e8237a8239 <unknown>\n#11 0x62e8237ab1e8 <unknown>\n#12 0x62e8237914c9 <unknown>\n#13 0x62e8237abdb5 <unknown>\n#14 0x62e823778e93 <unknown>\n#15 0x62e8237ce098 <unknown>\n#16 0x62e8237ce273 <unknown>\n#17 0x62e8237e02c3 <unknown>\n#18 0x71b44329caa4 <unknown>\n#19 0x71b443329c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:31:54",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:32:02",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:32:22",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:32:40",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:40:45",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:40:50",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:40:56",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:41:04",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:42:51",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:42:56",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:43:05",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 12:43:10",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 13:00:07",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-13 13:00:13",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x633e144fc32a <unknown>\n#1 0x633e13f48e4b <unknown>\n#2 0x633e13f9b82b <unknown>\n#3 0x633e13f9ba61 <unknown>\n#4 0x633e13feaa44 <unknown>\n#5 0x633e13fe7df7 <unknown>\n#6 0x633e13f8dc1a <unknown>\n#7 0x633e13f8e921 <unknown>\n#8 0x633e144c3239 <unknown>\n#9 0x633e144c61e8 <unknown>\n#10 0x633e144ac4c9 <unknown>\n#11 0x633e144c6db5 <unknown>\n#12 0x633e14493e93 <unknown>\n#13 0x633e144e9098 <unknown>\n#14 0x633e144e9273 <unknown>\n#15 0x633e144fb2c3 <unknown>\n#16 0x7a505889caa4 <unknown>\n#17 0x7a5058929c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "error": "Message: \nStacktrace:\n#0 0x619e831d732a <unknown>\n#1 0x619e82c23e4b <unknown>\n#2 0x619e82c7682b <unknown>\n#3 0x619e82c76a61 <unknown>\n#4 0x619e82cc5a44 <unknown>\n#5 0x619e82cc2df7 <unknown>\n#6 0x619e82c68c1a <unknown>\n#7 0x619e82c69921 <unknown>\n#8 0x619e8319e239 <unknown>\n#9 0x619e831a11e8 <unknown>\n#10 0x619e831874c9 <unknown>\n#11 0x619e831a1db5 <unknown>\n#12 0x619e8316ee93 <unknown>\n#13 0x619e831c4098 <unknown>\n#14 0x619e831c4273 <unknown>\n#15 0x619e831d62c3 <unknown>\n#16 0x7c102709caa4 <unknown>\n#17 0x7c1027129c6c <unknown>\n",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹7,130",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-14 15:17:27",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,522",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-14 15:17:35",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,608",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-14 15:17:50",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,316",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-14 15:17:57",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
     }
 ]

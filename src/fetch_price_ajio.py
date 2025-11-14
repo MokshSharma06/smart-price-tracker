@@ -38,6 +38,7 @@ def fetch_ajio_product(url):
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/118.0.5993.118 Safari/537.36"
     )
+    options.add_argument("--headless=new")
     options.add_argument(f"--user-data-dir={user_data_dir}")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])

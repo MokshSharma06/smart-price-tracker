@@ -1,13 +1,12 @@
-{
-    {
-  //"python.defaultInterpreterPath": "/home/moksh/.conda/envs/smart-price-tracker/bin/python",  // or your venv python path
-  "code-runner.fileDirectoryAsCwd": false,
-  "code-runner.executorMap": {
-    //"python": "cd /home/moksh/Desktop/smart-price-tracker && python -m src.process_data"
-  },
-  "python.terminal.executeInFileDir": false,
-  "python.envFile": "${workspaceFolder}/.env",
-  "terminal.integrated.cwd": "/home/moksh/Desktop/smart-price-tracker"
-}
-
-}
+// {
+//   "python.defaultInterpreterPath": "/home/moksh/.conda/envs/smart-price-tracker/bin/python",
+//   "python.terminal.activateEnvironment": true,
+//   "terminal.integrated.inheritEnv": false,
+//   "terminal.integrated.profiles.linux": {
+//     "bash": {
+//       "path": "/bin/bash",
+//       "args": ["-l"]
+//     }
+//   },
+//   "terminal.integrated.defaultProfile.linux": "bash"
+// }

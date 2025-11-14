@@ -6,10 +6,10 @@ dependencies:
   - python=3.10
   - requests
   - pandas
-  - pyspark
   - pip
   - pip:
       - delta-spark==3.2.0
+      - pyspark==3.5
       - pytest
       - packaging
       - beautifulsoup4
