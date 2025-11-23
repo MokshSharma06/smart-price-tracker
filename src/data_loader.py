@@ -33,5 +33,6 @@ print(f"count is = {rc2}")
 # combining the data frames in order to gather data at one place for the downstream consumption
 combined_df = df.unionByName(df2)
 count = combined_df.count()
-combined_df.show(n = combined_df.count(), truncate= 20)
+# combined_df.show(n = combined_df.count(), truncate= 20)
+combined_df.printSchema()
 print(f"count is = file1 + file 2= {count}")
