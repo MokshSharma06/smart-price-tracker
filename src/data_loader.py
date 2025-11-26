@@ -11,7 +11,7 @@ df = spark.read\
     .option("multiline","True")\
     .json("data/raw/flipkart_products.json")\
     
-df.printSchema()
+# df.printSchema()
 # df.show(truncate=True)
 rc=df.count()
 print(f"count is = {rc}")
@@ -25,7 +25,7 @@ df2 = df2.drop("error") \
          .withColumnRenamed("mrp", "mrp_price") \
          .withColumnRenamed("price", "selling_price")
 
-df2.printSchema()
+# df2.printSchema()
 # df2.show()
 rc2=df2.count()
 print(f"count is = {rc2}")
@@ -34,5 +34,5 @@ print(f"count is = {rc2}")
 combined_df = df.unionByName(df2)
 count = combined_df.count()
 # combined_df.show(n = combined_df.count(), truncate= 20)
-combined_df.printSchema()
+# combined_df.printSchema()
 print(f"count is = file1 + file 2= {count}")

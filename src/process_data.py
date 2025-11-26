@@ -1,42 +1,59 @@
 from pyspark.sql.functions import col, regexp_replace, round, current_date, lit , coalesce, when ,to_date,to_timestamp,trim
 from src.utils import get_spark_session
 from src.logger import Log4j
-from src.data_loader import df, df2 ,combined_df
+from src.data_loader import combined_df
+from pyspark.sql import functions as F, Window
+
 spark = get_spark_session()
 logger = Log4j(spark)
 
-
-
-#initially when i made project i didnt add the col for Product availability and later i added however there are some records with availability = null
-date = "2025-09-10 23:59:59"
-df_transformed = combined_df.withColumn(
-    "status",
-    when(
-        (col("status").isNull()) &
-        (col("timestamp").cast("timestamp") <= (lit(date).cast("timestamp"))) &
-        (col("selling_price").isNotNull() | col("mrp_price").isNotNull()),
-        lit("In Stock") 
-    ).otherwise(col("status"))
-)
-
-# so some products were being sold at mrp price and hence selling price was same as mrp but mrp returned null , so used coalesce function
-df_transformed_2 = df_transformed.withColumn(
-    "mrp_price",
-    when(
-        (col("status") == "In Stock"),
-        coalesce(col("mrp_price"), col("selling_price"))
-    ).otherwise(col("mrp_price"))
-)
 # lets remove the Ruppee symbol and , from the prices and cast them to double for calculations
-df_cleaned = df_transformed_2.withColumn(
+df_cleaned = combined_df.withColumn(
     "mrp_price",
     trim(regexp_replace(col("mrp_price"), "[₹,]", "")).cast("double")
 ).withColumn(
     "selling_price",
     trim(regexp_replace(col("selling_price"), "[₹,]", "")).cast("double")
+).withColumn(
+    "timestamp",
+    col("timestamp").cast("timestamp")
+).filter(~(
+        col("status").isNull() | (col("status")=="Out of Stock")
+    # col("brand").isNull() &
+    # col("mrp_price").isNull() &
+    # col("product_name").isNull())
+)
+
 )
 
 
-df_cleaned.show(n=50)
+# found a better logic to deal with products who have mrp col as null got to know about function ffill
+w = Window.partitionBy("url").orderBy("timestamp") \
+          .rowsBetween(Window.unboundedPreceding, Window.currentRow)
+
+# 1) Forward-fill true MRP
+df = df_cleaned.withColumn(
+    "mrp_ffill",
+    F.last("mrp_price", ignorenulls=True).over(w)
+)
+
+# 2) For rows before first MRP (where mrp_ffill is still null),
+#    treat selling_price as MRP
+df = df.withColumn(
+    "mrp_final",
+    F.when(F.col("mrp_ffill").isNull(), F.col("selling_price"))
+     .otherwise(F.col("mrp_ffill"))
+)
+df =df.withColumn(
+    "Discount Percentage",
+    round(
+        ((F.col("mrp_final") - F.col("selling_price")) / F.col("mrp_final")) * 100,
+        2
+    )
+)
+
+
+df.printSchema()
+df.show(n=364)
 
 print("Row count:", df_cleaned.count())
