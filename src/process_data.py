@@ -8,52 +8,67 @@ spark = get_spark_session()
 logger = Log4j(spark)
 
 # lets remove the Ruppee symbol and , from the prices and cast them to double for calculations
-df_cleaned = combined_df.withColumn(
-    "mrp_price",
-    trim(regexp_replace(col("mrp_price"), "[₹,]", "")).cast("double")
-).withColumn(
-    "selling_price",
-    trim(regexp_replace(col("selling_price"), "[₹,]", "")).cast("double")
-).withColumn(
-    "timestamp",
-    col("timestamp").cast("timestamp")
-).filter(~(
-        col("status").isNull() | (col("status")=="Out of Stock")
-    # col("brand").isNull() &
-    # col("mrp_price").isNull() &
-    # col("product_name").isNull())
-)
-
-)
-
-
-# found a better logic to deal with products who have mrp col as null got to know about function ffill
-w = Window.partitionBy("url").orderBy("timestamp") \
-          .rowsBetween(Window.unboundedPreceding, Window.currentRow)
-
-# 1) Forward-fill true MRP
-df = df_cleaned.withColumn(
-    "mrp_ffill",
-    F.last("mrp_price", ignorenulls=True).over(w)
-)
-
-# 2) For rows before first MRP (where mrp_ffill is still null),
-#    treat selling_price as MRP
-df = df.withColumn(
-    "mrp_final",
-    F.when(F.col("mrp_ffill").isNull(), F.col("selling_price"))
-     .otherwise(F.col("mrp_ffill"))
-)
-df =df.withColumn(
-    "Discount Percentage",
-    round(
-        ((F.col("mrp_final") - F.col("selling_price")) / F.col("mrp_final")) * 100,
-        2
+def clean_prices(df):
+    return (
+        df.withColumn(
+            "mrp_price",
+            trim(regexp_replace(col("mrp_price"), "[₹,]", "")).cast("double")
+        )
+        .withColumn(
+            "selling_price",
+            trim(regexp_replace(col("selling_price"), "[₹,]", "")).cast("double")
+        )
+        .withColumn(
+            "timestamp",
+            col("timestamp").cast("timestamp")
+        )
     )
-)
+
+def filter_valid_data(df):
+    return df.filter(
+        ~(
+            col("status").isNull() | (col("status") == "Out of Stock")
+            # col("brand").isNull() &
+            # col("mrp_price").isNull() &
+            # col("product_name").isNull()
+        )
+    )
+
+def add_final_mrp(df):
+    w = Window.partitionBy("url").orderBy("timestamp") \
+              .rowsBetween(Window.unboundedPreceding, Window.currentRow)
+
+    # 1) Forward-fill true MRP
+    df = df.withColumn(
+        "mrp_ffill",
+        F.last("mrp_price", ignorenulls=True).over(w)
+    )
+
+    # 2) For rows before first MRP (where mrp_ffill is still null),
+    # treat selling_price as MRP
+    df = df.withColumn(
+        "mrp_final",
+        F.when(F.col("mrp_ffill").isNull(), F.col("selling_price"))
+         .otherwise(F.col("mrp_ffill"))
+    )
+    return df
+
+def calculate_disc(df):
+    return df.withColumn(
+        "Discount Percentage",
+        round(
+            ((F.col("mrp_final") - F.col("selling_price")) / F.col("mrp_final")) * 100,
+            2
+        )
+    )
 
 
-df.printSchema()
-df.show(n=364)
-
-print("Row count:", df_cleaned.count())
+def process_data(df):
+    """
+    High-level pipeline you can call from main and tests.
+    """
+    df1 = clean_prices(df)
+    df2 = filter_valid_data(df1)
+    df3 = add_final_mrp(df2)
+    df4 = calculate_disc(df3)
+    return df4

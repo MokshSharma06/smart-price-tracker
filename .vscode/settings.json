@@ -1,12 +1,19 @@
 // {
-//   "python.defaultInterpreterPath": "/home/moksh/.conda/envs/smart-price-tracker/bin/python",
-//   "python.terminal.activateEnvironment": true,
-//   "terminal.integrated.inheritEnv": false,
-//   "terminal.integrated.profiles.linux": {
-//     "bash": {
-//       "path": "/bin/bash",
-//       "args": ["-l"]
-//     }
-//   },
-//   "terminal.integrated.defaultProfile.linux": "bash"
-// }
+//     "python.testing.pytestArgs": [
+//         "tests"
+//     ],
+//     "python.testing.unittestEnabled": false,
+//     "python.testing.pytestEnabled": true,
+//     "python.defaultInterpreterPath": "/home/moksh/.conda/envs/smart-price-tracker/bin/python"
+// } // {
+//   ,
+// //   "python.terminal.activateEnvironment": true,
+// //   "terminal.integrated.inheritEnv": false,
+// //   "terminal.integrated.profiles.linux": {
+// //     "bash": {
+// //       "path": "/bin/bash",
+// //       "args": ["-l"]
+// //     }
+// //   },
+// //   "terminal.integrated.defaultProfile.linux": "bash"
+// // }
