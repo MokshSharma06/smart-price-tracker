@@ -36,10 +36,10 @@ def scrape_flipkart_product(url):
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, "html.parser")
         
-        sold_out_tag = soup.find("div", class_="Z8JjpR")
+        sold_out_tag = soup.find("div", class_="VkYRUs") #keep check if flipkart changes the classes
         if sold_out_tag and "Sold Out" in sold_out_tag.get_text():
-            name_tag = soup.find("span", class_="VU-ZEz")
-            brand_tag = soup.find("span", class_="mEh187")
+            name_tag = soup.find("span", class_="LMizgS")
+            brand_tag = soup.find("span", class_="qbKhdn")
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             logger.warning(f"Product is out of stock {name_tag.text.strip()}")
 
@@ -59,7 +59,7 @@ def scrape_flipkart_product(url):
 
         # Selling price with fallbacks
         
-        price_tag = soup.find("div", class_=["Nx9bqj", "CxhGGd"])
+        price_tag = soup.find("div", class_=["hZ3P6w", "bnqy13"])
         if not price_tag:
             price_tag = soup.find(string=lambda x: x and "₹" in x)
         if not price_tag:
@@ -68,10 +68,10 @@ def scrape_flipkart_product(url):
                 price_tag = match.group(0)
 
         # MRP tag
-        mrp_tag = soup.find("div", class_=["yRaY8j", "_3I9_wc"])
+        mrp_tag = soup.find("div", class_=["kRYCnD", "yHYOcc"])
         # Name & brand tags
-        name_tag = soup.find("span", class_="VU-ZEz")
-        brand_tag = soup.find("span", class_="mEh187")
+        name_tag = soup.find("span", class_="LMizgS")
+        brand_tag = soup.find("span", class_="qbKhdn")
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         if price_tag and name_tag and brand_tag:
