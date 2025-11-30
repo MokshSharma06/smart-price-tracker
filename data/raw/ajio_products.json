@@ -1822,5 +1822,45 @@
         "website": "ajio",
         "timestamp": "2025-11-29 16:37:46",
         "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
+    },
+    {
+        "product_name": "Men C1TY Low-Top Lace-Up Basket Ball Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,782",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-30 22:05:43",
+        "url": "https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green"
+    },
+    {
+        "product_name": "Downshifter 13 Running Shoes",
+        "mrp": "₹4,295",
+        "status": "In Stock",
+        "price": "₹3,350",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-30 22:05:48",
+        "url": "https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?"
+    },
+    {
+        "product_name": "Field General Running Shoes",
+        "mrp": "₹8,695",
+        "status": "In Stock",
+        "price": "₹6,695",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-30 22:05:56",
+        "url": "https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?"
+    },
+    {
+        "product_name": "Men Killshot 2 Leather Lace-Up Tennis Shoes",
+        "mrp": "₹7,995",
+        "status": "In Stock",
+        "price": "₹6,236",
+        "brand": "NIKE",
+        "website": "ajio",
+        "timestamp": "2025-11-30 22:06:03",
+        "url": "https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?"
     }
 ]
