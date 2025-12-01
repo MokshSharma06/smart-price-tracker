@@ -1,6 +1,6 @@
 import sys
 print("sys.path:", sys.path)
-
+from datetime import datetime
 from src.process_data import *
 from pyspark.sql.functions import col
 import pytest
@@ -145,6 +145,66 @@ class Testing_Process:
                              expected_df_2.printSchema()
 
                              assert result_df.collect() == expected_df_2.collect()
+
+        def test_process(self,spark):
+                timestamp_str = "2025-11-27 11:00:28"
+                date_time = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+                sample_data_4 = [
+                        (date_time, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com"),
+                        (date_time, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com"),
+                        (date_time, "A", "Nike", "Running Shoe", 80.0, 100.0, "In Stock", "nike.com"),
+    ]
+                sample_df_4 = spark.createDataFrame(
+        sample_data_4,
+        [
+            "timestamp",
+            "URL",
+            "Brand",
+            "product_name",
+            "selling_price",
+            "mrp_price",
+            "status",
+            "website",
+        ],
+                )
+                expected_data = [
+                                     (date_time, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com", None, 100.0, 0.0),
+                                     (date_time, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com", None, 100.0, 0.0),
+                                     (date_time, "A", "Nike", "Running Shoe", 80.0, 100.0, "In Stock", "nike.com", 100.0, 100.0, 20.0),
+                             ]
+                from pyspark.sql.types import StructType, StructField, StringType, DoubleType, TimestampType
+
+                expected_schema = StructType([
+    StructField("timestamp", TimestampType(), True),
+    StructField("URL", StringType(), True),
+    StructField("Brand", StringType(), True),
+    StructField("product_name", StringType(), True),
+    StructField("selling_price", DoubleType(), True),
+    StructField("mrp_price", DoubleType(), True),
+    StructField("status", StringType(), True),
+    StructField("website", StringType(), True),
+    StructField("mrp_ffill", DoubleType(), True),
+    StructField("mrp_final", DoubleType(), True),
+    StructField("discount_percentage", DoubleType(), True)
+])
+                expected_df_3 = spark.createDataFrame(
+                        expected_data,
+                        schema=expected_schema
+                        )
+
+                result_df = process_data(sample_df_4)
+                print("Result schema:")
+                result_df.printSchema()
+                print("Expected schema:")
+                expected_df_3.printSchema()
+                assert result_df.collect() == expected_df_3.collect()
+
+                
+
+
+                
+                
+                
 
 
                

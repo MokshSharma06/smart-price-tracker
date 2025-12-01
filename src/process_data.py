@@ -64,9 +64,6 @@ def calculate_disc(df):
 
 
 def process_data(df):
-    """
-    High-level pipeline you can call from main and tests.
-    """
     df1 = clean_prices(df)
     df2 = filter_valid_data(df1)
     df3 = add_final_mrp(df2)
