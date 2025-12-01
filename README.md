@@ -26,7 +26,6 @@ smart-price-tracker/
 │   └── utils.py          # Utility functions
 └── tests/                # Unit tests
     ├── test_delta_loader.py
-    ├── test_fetch_prices.py
     ├── test_process_data.py
     └── test_utils.py
 ```
@@ -49,4 +48,4 @@ Unit tested modules for reliability.
 Scalable design – can later be deployed to cloud.
 
 👨‍💻 Author
-Moksh Sharma – Aspiring Data Engineer | BCA Graduate | Azure & PySpark Enthusiast
+Moksh Sharma – Aspiring Data Engineer | BCA Graduate | Azure & PySpark Enthusiast | DP- 900 
