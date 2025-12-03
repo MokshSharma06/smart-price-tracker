@@ -17,3 +17,8 @@
 // //   },
 // //   "terminal.integrated.defaultProfile.linux": "bash"
 // // }
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "./venv/bin/python"
+}
