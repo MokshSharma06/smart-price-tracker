@@ -89,7 +89,7 @@ from pathlib import Path
 
 
 def write_processed_data(df, full_path):
-    df.write.mode("overwrite").partitionBy("timestamp").parquet(f"{full_path}")
+    df.write.mode("overwrite").parquet(f"{full_path}")
 
     print(f" Data has been written to {full_path}")
     return str(full_path)

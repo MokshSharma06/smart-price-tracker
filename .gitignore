@@ -8,6 +8,10 @@ __pycache__/
 dist/
 build/
 logs/
+data/processed/test_data
+*.parquet
+*.crc
+
 
 # ---- Virtual Environment ----
 .env
