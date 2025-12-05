@@ -11,6 +11,8 @@ logs/
 data/processed/test_data
 *.parquet
 *.crc
+data/processed/processed_data
+*.crc
 
 
 # ---- Virtual Environment ----
