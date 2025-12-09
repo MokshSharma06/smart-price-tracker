@@ -3,6 +3,8 @@ from src.logger import get_logger
 from delta.tables import DeltaTable
 from pyspark.sql.functions import col, lit, current_timestamp, max as spark_max
 
+spark = get_spark_session()
+
 
 def delta_loader(
     spark,

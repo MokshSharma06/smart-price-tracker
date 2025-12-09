@@ -2,6 +2,7 @@ from src.utils import get_spark_session
 from src.logger import Log4j
 from src.data_loader import *
 from src.process_data import *
+from src.delta_loader import *
 
 
 def main():
@@ -26,6 +27,9 @@ def main():
 
     df5 = write_processed_data(df4, "./data/processed/processed_data")
     logger.info("Data has successfully been written from raw to processed data")
+
+    df6 = delta_loader(spark, df5)
+    logger.info("Data was successfuly writeen to delta table")
 
 
 if __name__ == "__main__":

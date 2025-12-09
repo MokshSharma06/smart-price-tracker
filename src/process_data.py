@@ -69,7 +69,7 @@ def add_final_mrp(df):
 
 def calculate_disc(df):
     return df.withColumn(
-        "Discount Percentage",
+        "Discount_Percentage",
         round(
             ((F.col("mrp_final") - F.col("selling_price")) / F.col("mrp_final")) * 100,
             2,
