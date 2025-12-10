@@ -1,5 +1,5 @@
 {
-	"name": "Notebook 1",
+	"name": "run_pipeline",
 	"properties": {
 		"nbformat": 4,
 		"nbformat_minor": 2,
@@ -18,12 +18,16 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "43d57c79-f92f-4da3-84e1-e48e03cf8cc6"
+				"spark.autotune.trackingId": "c2346a2a-8458-4466-bf58-57dafe5ef06b"
 			}
 		},
 		"metadata": {
 			"saveOutput": true,
 			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
 			"language_info": {
 				"name": "python"
 			},
@@ -34,45 +38,30 @@
 				"endpoint": "https://smart-price-tracker-ws.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkpool",
 				"auth": {
 					"type": "AAD",
-					"authResource": "https://dev.azuresynapse.net",
-					"authHeader": null
+					"authResource": "https://dev.azuresynapse.net"
 				},
 				"sparkVersion": "3.5",
 				"nodeCount": 3,
 				"cores": 4,
 				"memory": 28,
-				"extraHeader": null
+				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30
 		},
 		"cells": [
 			{
 				"cell_type": "code",
-				"metadata": {
-					"collapsed": false
-				},
 				"source": [
-					"PARQUET_PATH = \"abfss://smart-price-container@smartpricetrackerstorage.dfs.core.windows.net/Data/processed/processed_data/part-00000-c80c3602-a15e-403f-bbef-f2bcd67fc184-c000.snappy.parquet\"\n",
-					"\n",
-					"# Read Parquet\n",
-					"df_processed = spark.read.parquet(PARQUET_PATH)\n",
-					"print(f\"Schema: {df_processed.printSchema()}\")\n",
-					"print(f\"Rows: {df_processed.count()}\")\n",
-					"\n",
-					"# Display sample\n",
-					"display(df_processed.limit(10))\n",
-					"\n",
-					"# Your medallion structure confirmed!\n",
-					"print(\"✅ PROCESSED (Silver) layer ready for Delta loading\")\n",
-					""
+					"#integrating github with synpase "
 				],
-				"execution_count": 10
+				"execution_count": 1
 			},
 			{
 				"cell_type": "code",
 				"source": [
 					""
-				]
+				],
+				"execution_count": null
 			}
 		]
 	}
