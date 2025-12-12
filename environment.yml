@@ -6,6 +6,7 @@ dependencies:
   - python=3.10
   - requests
   - pandas
+  - openjdk=17
   - pip
   - pip:
       - delta-spark==3.2.0
