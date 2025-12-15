@@ -1,32 +1,17 @@
-paths:
-  raw: "data/raw"
-  processed: "data/processed"
-  delta: "data/delta"
+azure:
+  # The name of your Azure Storage Account (e.g., 'prcetracker01')
+  account_name: "smartpricetrackerstorage" 
+  
+  # The name of your Azure container/filesystem (e.g., 'price-data-container')
+  # This acts as the root of your data lake.
+  container_name: "smart-price-container"
+  
+  raw_path: "Data/raw"
+  processed_path: "Data/processed"
+  delta_path: "Data/delta_data"
 
-app:
-  name: "Smart Price Tracker"
-  mode: "development"
 
-source:
-  product_api: 
-  refresh_interval: "24h"
+spark:
+  app_name: "SmartPriceTrackerPipeline"
+  master: "local[*]" # Use all local cores for development
 
-processing:
-  drop_duplicates: true
-  target_currency: "INR"
-
-kafka:
-  # brokers: "localhost:9092"
-  # topic: "price_updates"
-  # group_id: "smart_price_consumer"
-  # startingOffsets: "earliest"
-
-filters:
-  min_price: 100
-  max_price: 10000
-  categories: ["shoes", "clothing", "accessories"]
-
-features:
-  enable_hive: true
-  enable_delta: true
-  enable_alerts: false
