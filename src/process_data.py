@@ -12,10 +12,10 @@ from pyspark.sql.functions import (
 )
 from src.utils import get_spark_session
 from src.logger import Log4j
-from src.data_loader import combined_df
+from src.data_loader import *
 from pyspark.sql import functions as F, Window
 
-spark = get_spark_session()
+spark, config = get_spark_session("Process_data")
 logger = Log4j(spark)
 
 
@@ -92,4 +92,4 @@ def write_processed_data(df, full_path):
     df.write.mode("overwrite").parquet(f"{full_path}")
 
     print(f" Data has been written to {full_path}")
-    return str(full_path)
+    return df
