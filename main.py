@@ -3,15 +3,32 @@ from src.logger import Log4j
 from src.data_loader import *
 from src.process_data import *
 from src.delta_loader import *
+from src.fetch_prices import *
+from src.fetch_price_ajio import *
 
+
+raw_path= adls_path("raw")
+silver_path =adls_path("processed")
+delta_path=adls_path("delta_path")
 
 def main():
-    spark = get_spark_session()
+    spark,config = get_spark_session()
     logger = Log4j(spark)
 
     logger.info("Starting Spark application")
 
-    df = clean_prices(combined_df)
+    run_flipkart_scraper()
+    logger.info("starting the flipkart scraper and ajio scraper")
+
+    run_ajio_scraper()
+    logger.info("scraping done ! ")
+
+
+    raw_df = load_combined_data(spark,logger,BASE_ADLS_PATH)
+    logger.info("combining the data of two sources into one")
+
+  
+    df = clean_prices(raw_df)
     logger.info("DataFrame has been cleaned")
 
     df2 = filter_valid_data(df)
@@ -25,11 +42,11 @@ def main():
 
     # lets write down the final data frame to our processed location as it has been duly cleaned , transformed (Raw(Bronze)-------> Processed(Silver))
 
-    df5 = write_processed_data(df4, "./data/processed/processed_data")
-    logger.info("Data has successfully been written from raw to processed data")
-
-    df6 = delta_loader(spark, df5)
-    logger.info("Data was successfuly writeen to delta table")
+    write_processed_data(df4, silver_path)
+    logger.info(f"Data successfully written to Silver path: {silver_path}")
+    logger.info("Starting Delta Loader: Silver -> Curated")
+    delta_loader(spark, silver_path, delta_path)
+    logger.info("Pipeline Execution Finished Successfully")
 
 
 if __name__ == "__main__":
