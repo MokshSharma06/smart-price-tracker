@@ -106,16 +106,22 @@ flipkart_urls = [
     "https://www.flipkart.com/nike-killshot-2-leather-sneakers-men/p/itm28a181bebad18?pid=SHOHFF25UUMSAKZY&lid=LSTSHOHFF25UUMSAKZYGFDTPW&marketplace=FLIPKART&q=killshot+2&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=565272a9-a421-4a4d-a80b-bb66db86d404.SHOHFF25UUMSAKZY.SEARCH&ppt=sp&ppn=sp&ssid=dscy7gk029gx5iww1757505100423&qH=5a1643cee092c11e",
 ]
 
-# Saving the data to JSON file in the data/Raw folder
+# Saving the data to cloud using abfss protocol to adls
 from src.utils import *
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType
 
 
-def run_flipkart_scraper(spark: SparkSession, urls: list) -> str:
+def run_flipkart_scraper(spark =None, urls =None) -> str:
+    if urls is None:
+        urls = flipkart_urls
+
+    # 2. Fallback to existing Spark session if none provided
+    if spark is None:
+        from src.utils import get_spark_session
+        spark,config = get_spark_session()
     all_products = []
 
-    # 1. Scrape data into a Python list (This replaces your 'for url in ...' loop)
     for url in urls:
         data = scrape_flipkart_product(url)
         if data:
@@ -125,7 +131,6 @@ def run_flipkart_scraper(spark: SparkSession, urls: list) -> str:
         logger.warning("No data scraped successfully. Skipping write to cloud.")
         return ""
 
-    # Define the schema where all fields are strings
     custom_schema = StructType(
         [
             StructField("product_name", StringType(), True),
@@ -138,42 +143,27 @@ def run_flipkart_scraper(spark: SparkSession, urls: list) -> str:
             StructField("url", StringType(), True),
         ]
     )
-
-    # Inside run_flipkart_scraper:
-    # raw_df = spark.createDataFrame(all_products, schema=custom_schema)
-
-    # 2. Convert the list of dictionaries into a Spark DataFrame
-    # Note: Spark can infer the schema from the list of dicts.
     raw_df = spark.createDataFrame(all_products, custom_schema)
 
-    # 3. Construct the ADLS Gen2 Path for the RAW layer
     from pyspark.sql.utils import AnalysisException
 
     base_raw_path = adls_path("raw")
-    # ... (Previous code to sanitize data and create raw_df - the NEW data) ...
     site_folder = "flipkart"
     # full_output_path is: abfss://.../Data/raw/flipkart_products.json
     full_output_path = f"{base_raw_path}{site_folder}/"
 
     print(f"Appending new records to ADLS Gen2 directory: {full_output_path}")
 
-    # 2. Use the standard Data Lake method: Append new data to the directory.
-    # This is distributed, fast, and creates new part-files alongside old ones.
     raw_df.write.mode("append").format("json").save(full_output_path)
 
     print(f"--- Write Complete: New files added to the 'flipkart' folder ---")
 
 
-# Add this block for direct execution testing
-if __name__ == "__main__":
-    # You need to pass the URLs list (defined earlier in the file)
-    from .utils import get_spark_session
+# testing
+# if __name__ == "__main__":
 
-    # 1. Create the session
-    spark, config = get_spark_session("DirectScraperTest")
+#     from .utils import get_spark_session
 
-    # 2. Run the main scraping function (using the global flipkart_urls list)
-    run_flipkart_scraper(spark, flipkart_urls)
-
-    # 3. Stop the session
-    spark.stop()
+#     spark,config= get_spark_session()
+#     run_flipkart_scraper(spark, flipkart_urls)
+#     spark.stop()
