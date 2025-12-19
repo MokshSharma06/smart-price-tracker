@@ -1,0 +1,58 @@
+2025-12-19 19:41:09,434 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 19:41:36,590 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x5c2c5817b61a <unknown>
+#1 0x5c2c57bf820b <unknown>
+#2 0x5c2c57c4990f <unknown>
+#3 0x5c2c57c49b51 <unknown>
+#4 0x5c2c57c97d84 <unknown>
+#5 0x5c2c57c9520e <unknown>
+#6 0x5c2c57c3c232 <unknown>
+#7 0x5c2c57c3cee1 <unknown>
+#8 0x5c2c581443f9 <unknown>
+#9 0x5c2c5814734d <unknown>
+#10 0x5c2c5812d122 <unknown>
+#11 0x5c2c58147f2b <unknown>
+#12 0x5c2c58113c30 <unknown>
+#13 0x5c2c58168d78 <unknown>
+#14 0x5c2c58168f4c <unknown>
+#15 0x5c2c5817a973 <unknown>
+#16 0x7a233b09caa4 <unknown>
+#17 0x7a233b129c6c <unknown>
+
+2025-12-19 19:41:36,752 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 19:41:58,784 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5a261ef5061a <unknown>
+#1 0x5a261e9cd20b <unknown>
+#2 0x5a261ea1e90f <unknown>
+#3 0x5a261ea1eb51 <unknown>
+#4 0x5a261ea6cd84 <unknown>
+#5 0x5a261ea6a20e <unknown>
+#6 0x5a261ea11232 <unknown>
+#7 0x5a261ea11ee1 <unknown>
+#8 0x5a261ef193f9 <unknown>
+#9 0x5a261ef1c34d <unknown>
+#10 0x5a261ef02122 <unknown>
+#11 0x5a261ef1cf2b <unknown>
+#12 0x5a261eee8c30 <unknown>
+#13 0x5a261ef3dd78 <unknown>
+#14 0x5a261ef3df4c <unknown>
+#15 0x5a261ef4f973 <unknown>
+#16 0x7fae5049caa4 <unknown>
+#17 0x7fae50529c6c <unknown>
+
+2025-12-19 19:41:58,946 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 19:42:05,874 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-19 19:42:06,063 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 19:42:16,814 - INFO - Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+2025-12-19 19:42:17,005 - INFO - Closing down clientserver connection
+2025-12-19 19:42:52,429 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 19:42:59,003 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-19 19:42:59,194 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 19:43:05,980 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-19 19:43:06,166 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 19:43:12,638 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-19 19:43:12,824 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 19:43:18,713 - INFO - Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+2025-12-19 19:43:28,377 - INFO - Closing down clientserver connection

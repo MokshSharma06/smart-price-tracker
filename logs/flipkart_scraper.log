@@ -1,0 +1,427 @@
+2025-08-29 20:39:16,061 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-running-shoes-women/p/itm73a37010820b3?pid=SHOH33SDBRFDK5XX&lid=LSTSHOH33SDBRFDK5XXPJLTBA&marketplace=FLIPKART&q=shoes&store=osp&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=127aeba1-ea89-4082-bc13-762f5cb0ebad.SHOH33SDBRFDK5XX.SEARCH&ppt=sp&ppn=sp&ssid=wsgzyrrbo4ucs2kg1756394844172&qH=b0a8b6f820479900
+2025-08-29 20:44:15,378 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-running-shoes-women/p/itm73a37010820b3?pid=SHOH33SDBRFDK5XX&lid=LS
+2025-08-29 20:44:32,577 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-
+2025-08-29 20:44:54,353 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-08-29 20:49:47,385 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-08-29 20:52:14,292 - INFO - Scraping Flipkart | Product: <span class="VU-ZEz">Softride Alexandria Wns Running Shoes For Women<!-- -->  (Black , 8)</span>
+2025-08-29 20:52:14,292 - INFO - Price found: <div class="Nx9bqj CxhGGd yKS4la">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-08-29 20:53:21,070 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-08-29 20:53:21,070 - INFO - Price found: <div class="Nx9bqj CxhGGd yKS4la">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-08-29 20:58:44,030 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-08-29 20:58:44,030 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,176</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-09-09 16:44:45,618 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 16:44:45,619 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,131</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-09-09 17:04:18,845 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 17:04:18,845 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,131</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-09-09 17:35:50,074 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 17:35:50,074 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,131</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-09-09 18:00:14,147 - INFO - Scraping Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:00:14,147 - INFO - Price found: <div class="Nx9bqj CxhGGd">₹2,131</div> for https://www.flipkart.com/puma-softride-alexandria-wns-runnin
+2025-09-09 18:13:38,765 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:13:39,452 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-09 18:16:13,844 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:16:14,543 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-09 18:39:51,370 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:39:51,989 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-09 18:43:47,330 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:43:48,308 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-09 18:44:10,138 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-09 18:44:11,067 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 16:24:34,452 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 16:24:35,161 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 16:28:36,566 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 16:28:37,213 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 16:28:41,439 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 16:28:42,214 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 16:34:38,080 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 16:34:38,820 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 16:34:45,438 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 16:34:46,293 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 17:08:32,695 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 17:08:33,329 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 17:08:38,904 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 17:08:39,503 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 17:22:46,546 - INFO - Scraped Flipkart | Product: Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-10 17:22:47,157 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 17:22:47,831 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-10 17:22:48,687 - INFO - Scraped Flipkart | Product: SB Heritage Vulc Sneakers For Men  (Blue , 9)
+2025-09-10 17:22:49,579 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-10 18:00:20,196 - ERROR - Error scraping https://www.flipkart.com/puma-softride-alexandria-wns-running-shoes-women/p/itm73a37010820b3?pid=SHOH33SDBRFDK5XX&lid=LSTSHOH33SDBRFDK5XXPJLTBA&marketplace=FLIPKART&q=shoes&store=osp&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=127aeba1-ea89-4082-bc13-762f5cb0ebad.SHOH33SDBRFDK5XX.SEARCH&ppt=sp&ppn=sp&ssid=wsgzyrrbo4ucs2kg1756394844172&qH=b0a8b6f820479900: cannot access local variable 'timestamp' where it is not associated with a value
+2025-09-10 18:00:20,836 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 18:00:21,566 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-10 18:00:22,494 - INFO - Scraped Flipkart | Product: SB Heritage Vulc Sneakers For Men  (Blue , 9)
+2025-09-10 18:00:23,167 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-10 18:01:59,409 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-10 18:02:00,134 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-10 18:02:00,913 - INFO - Scraped Flipkart | Product: SB Heritage Vulc Sneakers For Men  (Blue , 9)
+2025-09-10 18:02:01,602 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-12 16:24:57,546 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-12 16:24:58,277 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-12 16:24:59,779 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-12 16:28:50,860 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-12 16:28:51,914 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-12 16:28:53,632 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-12 16:34:31,981 - WARNING - Product is out of stock 
+2025-09-12 16:34:32,720 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-12 16:34:33,451 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-12 16:34:34,218 - WARNING - Product is out of stock 
+2025-09-12 16:34:34,996 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-12 16:36:17,480 - WARNING - Product is out of stock <span class="VU-ZEz">Softride Alexandria Wns Running Shoes For Women<!-- -->  (Black , 8)</span>
+2025-09-12 16:36:18,240 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-12 16:36:19,049 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-12 16:36:19,804 - WARNING - Product is out of stock <span class="VU-ZEz">Heritage Vulc Sneakers For Men<!-- -->  (Blue , 9)</span>
+2025-09-12 16:36:20,452 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-12 16:36:50,272 - WARNING - Product is out of stock Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-12 16:36:51,114 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-12 16:36:51,717 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-12 16:36:52,457 - WARNING - Product is out of stock Heritage Vulc Sneakers For Men  (Blue , 9)
+2025-09-12 16:36:53,223 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-09-19 12:34:36,085 - WARNING - Product is out of stock Softride Alexandria Wns Running Shoes For Women  (Black , 8)
+2025-09-19 12:34:36,893 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-09-19 12:34:37,798 - INFO - Scraped Flipkart | Product: Field General Sneakers For Women  (White , 9)
+2025-09-19 12:34:38,576 - WARNING - Product is out of stock Heritage Vulc Sneakers For Men  (Blue , 9)
+2025-09-19 12:34:39,431 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:13:13,975 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:13:15,031 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:13:15,825 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:13:16,556 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:13:16,558 - INFO - Closing down clientserver connection
+2025-12-19 13:14:51,701 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:14:52,761 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:14:53,671 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:14:54,636 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:14:56,633 - INFO - Closing down clientserver connection
+2025-12-19 13:17:24,941 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:17:25,864 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:17:26,739 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:17:27,732 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:17:29,604 - INFO - Closing down clientserver connection
+2025-12-19 13:19:24,741 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:19:25,886 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:19:26,895 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:19:27,623 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:19:29,476 - INFO - Closing down clientserver connection
+2025-12-19 13:20:59,943 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:21:00,796 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:21:01,659 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:21:02,579 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:21:04,433 - INFO - Closing down clientserver connection
+2025-12-19 13:23:11,900 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:23:12,820 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:23:13,813 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:23:14,744 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:23:16,705 - INFO - Closing down clientserver connection
+2025-12-19 13:25:15,960 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 13:25:16,748 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 13:25:17,566 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 13:25:18,301 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 13:25:28,493 - INFO - Closing down clientserver connection
+2025-12-19 19:39:01,449 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 19:39:02,211 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 19:39:03,219 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 19:39:03,909 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 19:39:14,866 - INFO - Closing down clientserver connection
+2025-12-19 20:47:36,817 - INFO - Closing down clientserver connection
+2025-12-19 20:48:31,823 - INFO - Closing down clientserver connection
+2025-12-19 20:55:12,692 - INFO - Closing down clientserver connection
+2025-12-19 20:56:06,171 - INFO - Closing down clientserver connection
+2025-12-19 20:57:34,341 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 20:57:35,321 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 20:57:35,957 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 20:57:36,565 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 20:57:42,931 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 20:57:47,576 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-19 20:57:47,688 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 20:57:52,862 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-19 20:57:52,975 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 20:58:14,119 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x60688ef0f61a <unknown>
+#1 0x60688e98c20b <unknown>
+#2 0x60688e9dd90f <unknown>
+#3 0x60688e9ddb51 <unknown>
+#4 0x60688ea2bd84 <unknown>
+#5 0x60688ea2920e <unknown>
+#6 0x60688e9d0232 <unknown>
+#7 0x60688e9d0ee1 <unknown>
+#8 0x60688eed83f9 <unknown>
+#9 0x60688eedb34d <unknown>
+#10 0x60688eec1122 <unknown>
+#11 0x60688eedbf2b <unknown>
+#12 0x60688eea7c30 <unknown>
+#13 0x60688eefcd78 <unknown>
+#14 0x60688eefcf4c <unknown>
+#15 0x60688ef0e973 <unknown>
+#16 0x7d6a7d49caa4 <unknown>
+#17 0x7d6a7d529c6c <unknown>
+
+2025-12-19 20:58:14,232 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 20:58:35,796 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5aba4356261a <unknown>
+#1 0x5aba42fdf20b <unknown>
+#2 0x5aba4303090f <unknown>
+#3 0x5aba43030b51 <unknown>
+#4 0x5aba4307ed84 <unknown>
+#5 0x5aba4307c20e <unknown>
+#6 0x5aba43023232 <unknown>
+#7 0x5aba43023ee1 <unknown>
+#8 0x5aba4352b3f9 <unknown>
+#9 0x5aba4352e34d <unknown>
+#10 0x5aba43514122 <unknown>
+#11 0x5aba4352ef2b <unknown>
+#12 0x5aba434fac30 <unknown>
+#13 0x5aba4354fd78 <unknown>
+#14 0x5aba4354ff4c <unknown>
+#15 0x5aba43561973 <unknown>
+#16 0x7e903569caa4 <unknown>
+#17 0x7e9035729c6c <unknown>
+
+2025-12-19 20:58:39,218 - INFO - Closing down clientserver connection
+2025-12-19 21:07:16,280 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 21:07:17,014 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 21:07:17,829 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 21:07:18,397 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 21:07:24,470 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 21:07:45,706 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x625d7fcae61a <unknown>
+#1 0x625d7f72b20b <unknown>
+#2 0x625d7f77c90f <unknown>
+#3 0x625d7f77cb51 <unknown>
+#4 0x625d7f7cad84 <unknown>
+#5 0x625d7f7c820e <unknown>
+#6 0x625d7f76f232 <unknown>
+#7 0x625d7f76fee1 <unknown>
+#8 0x625d7fc773f9 <unknown>
+#9 0x625d7fc7a34d <unknown>
+#10 0x625d7fc60122 <unknown>
+#11 0x625d7fc7af2b <unknown>
+#12 0x625d7fc46c30 <unknown>
+#13 0x625d7fc9bd78 <unknown>
+#14 0x625d7fc9bf4c <unknown>
+#15 0x625d7fcad973 <unknown>
+#16 0x7f832149caa4 <unknown>
+#17 0x7f8321529c6c <unknown>
+
+2025-12-19 21:07:45,787 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 21:07:50,086 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-19 21:07:50,214 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 21:07:54,791 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-19 21:07:54,901 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 21:07:59,160 - INFO - Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+2025-12-19 21:08:19,841 - ERROR - [CAST_INVALID_INPUT] The value 'MRP' of the type "STRING" cannot be cast to "DOUBLE" because it is malformed. Correct the value as per the syntax, or change its target type. Use `try_cast` to tolerate malformed input and return NULL instead. SQLSTATE: 22018
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o183.parquet.
+: org.apache.spark.SparkNumberFormatException: [CAST_INVALID_INPUT] The value 'MRP' of the type "STRING" cannot be cast to "DOUBLE" because it is malformed. Correct the value as per the syntax, or change its target type. Use `try_cast` to tolerate malformed input and return NULL instead. SQLSTATE: 22018
+== DataFrame ==
+"cast" was called from
+/home/moksh/Desktop/smart-price-tracker/src/process_data.py:27
+
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.invalidInputInCastToNumberError(QueryExecutionErrors.scala:145)
+	at org.apache.spark.sql.errors.QueryExecutionErrors.invalidInputInCastToNumberError(QueryExecutionErrors.scala)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:171)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:57)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:111)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryExecutionErrors$.invalidInputInCastToNumberError(QueryExecutionErrors.scala:145)
+		at org.apache.spark.sql.errors.QueryExecutionErrors.invalidInputInCastToNumberError(QueryExecutionErrors.scala)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+		at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+		at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:171)
+		at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:57)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:111)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+		at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+		at org.apache.spark.scheduler.Task.run(Task.scala:147)
+		at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+		at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+		at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+
+2025-12-19 21:08:19,854 - INFO - Closing down clientserver connection
+2025-12-19 21:22:34,134 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 21:22:35,105 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 21:22:35,833 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 21:22:36,594 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 21:22:45,616 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 21:22:52,237 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-19 21:22:52,429 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 21:22:59,074 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-19 21:22:59,301 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 21:23:06,354 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-19 21:23:06,613 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 21:23:28,055 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5c636c34961a <unknown>
+#1 0x5c636bdc620b <unknown>
+#2 0x5c636be1790f <unknown>
+#3 0x5c636be17b51 <unknown>
+#4 0x5c636be65d84 <unknown>
+#5 0x5c636be6320e <unknown>
+#6 0x5c636be0a232 <unknown>
+#7 0x5c636be0aee1 <unknown>
+#8 0x5c636c3123f9 <unknown>
+#9 0x5c636c31534d <unknown>
+#10 0x5c636c2fb122 <unknown>
+#11 0x5c636c315f2b <unknown>
+#12 0x5c636c2e1c30 <unknown>
+#13 0x5c636c336d78 <unknown>
+#14 0x5c636c336f4c <unknown>
+#15 0x5c636c348973 <unknown>
+#16 0x7f85c5a9caa4 <unknown>
+#17 0x7f85c5b29c6c <unknown>
+
+2025-12-19 21:23:53,339 - ERROR - [CAST_INVALID_INPUT] The value '' of the type "STRING" cannot be cast to "DOUBLE" because it is malformed. Correct the value as per the syntax, or change its target type. Use `try_cast` to tolerate malformed input and return NULL instead. SQLSTATE: 22018
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o182.parquet.
+: org.apache.spark.SparkNumberFormatException: [CAST_INVALID_INPUT] The value '' of the type "STRING" cannot be cast to "DOUBLE" because it is malformed. Correct the value as per the syntax, or change its target type. Use `try_cast` to tolerate malformed input and return NULL instead. SQLSTATE: 22018
+== DataFrame ==
+"cast" was called from
+/home/moksh/Desktop/smart-price-tracker/src/process_data.py:27
+
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.invalidInputInCastToNumberError(QueryExecutionErrors.scala:145)
+	at org.apache.spark.sql.errors.QueryExecutionErrors.invalidInputInCastToNumberError(QueryExecutionErrors.scala)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:171)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:57)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:111)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryExecutionErrors$.invalidInputInCastToNumberError(QueryExecutionErrors.scala:145)
+		at org.apache.spark.sql.errors.QueryExecutionErrors.invalidInputInCastToNumberError(QueryExecutionErrors.scala)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+		at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+		at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:171)
+		at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:57)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:111)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+		at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+		at org.apache.spark.scheduler.Task.run(Task.scala:147)
+		at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+		at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+		at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+
+2025-12-19 21:23:53,747 - INFO - Closing down clientserver connection
+2025-12-19 21:30:56,381 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-19 21:30:57,260 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-19 21:30:58,033 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-19 21:30:58,724 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-19 21:31:07,432 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-19 21:31:14,345 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-19 21:31:14,534 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-19 21:31:20,527 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-19 21:31:20,753 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-19 21:31:27,748 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-19 21:31:27,970 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-19 21:31:49,392 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x63d62b58661a <unknown>
+#1 0x63d62b00320b <unknown>
+#2 0x63d62b05490f <unknown>
+#3 0x63d62b054b51 <unknown>
+#4 0x63d62b0a2d84 <unknown>
+#5 0x63d62b0a020e <unknown>
+#6 0x63d62b047232 <unknown>
+#7 0x63d62b047ee1 <unknown>
+#8 0x63d62b54f3f9 <unknown>
+#9 0x63d62b55234d <unknown>
+#10 0x63d62b538122 <unknown>
+#11 0x63d62b552f2b <unknown>
+#12 0x63d62b51ec30 <unknown>
+#13 0x63d62b573d78 <unknown>
+#14 0x63d62b573f4c <unknown>
+#15 0x63d62b585973 <unknown>
+#16 0x7f9fbbe9caa4 <unknown>
+#17 0x7f9fbbf29c6c <unknown>
+
+2025-12-19 21:32:32,604 - INFO - Closing down clientserver connection
