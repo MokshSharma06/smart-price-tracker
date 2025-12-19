@@ -7,7 +7,6 @@ __pycache__/
 *.egg
 dist/
 build/
-logs/
 data/processed/test_data
 *.parquet
 *.crc

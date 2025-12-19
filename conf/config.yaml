@@ -1,14 +1,11 @@
 azure:
-  # The name of your Azure Storage Account (e.g., 'prcetracker01')
-  account_name: "smartpricetrackerstorage" 
-  
-  # The name of your Azure container/filesystem (e.g., 'price-data-container')
-  # This acts as the root of your data lake.
+  account_name: "smartpricetrackerstorage"
+  access_key: "OwdwKueskwEZli7MrM1cz274lHsRYYuF6W2gIZDZdJgFM70Jchli203dRK7iw+sJpmuweAz/MPVh+AStL0ISWw=="
   container_name: "smart-price-container"
   
   raw_path: "Data/raw"
-  processed_path: "Data/processed"
-  delta_path: "Data/delta_data"
+  processed_path: "Data/processed/processed_data"
+  delta_path: "Data/delta_data/curated_data"
 
 
 spark:

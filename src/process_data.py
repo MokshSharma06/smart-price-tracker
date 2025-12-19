@@ -9,6 +9,7 @@ from pyspark.sql.functions import (
     to_date,
     to_timestamp,
     trim,
+    expr,
 )
 from src.utils import get_spark_session
 from src.logger import Log4j
@@ -19,19 +20,23 @@ spark, config = get_spark_session("Process_data")
 logger = Log4j(spark)
 
 
-# lets remove the Ruppee symbol and , from the prices and cast them to double for calculations
+# lets remove the Ruppee symbol and , from the prices and cast them to double for calculations, using try_cast because some mrp fiels contain literal MRP or MRP 500
 def clean_prices(df):
-    return (
-        df.withColumn(
-            "mrp_price",
-            trim(regexp_replace(col("mrp_price"), "[₹,]", "")).cast("double"),
-        )
-        .withColumn(
-            "selling_price",
-            trim(regexp_replace(col("selling_price"), "[₹,]", "")).cast("double"),
-        )
-        .withColumn("timestamp", col("timestamp").cast("timestamp"))
+    df = df.withColumn(
+        "mrp_price",
+        trim(regexp_replace(col("mrp_price"), "[₹,]", ""))
+    ).withColumn(
+        "mrp_price", 
+        expr("try_cast(mrp_price AS double)")
+    ).withColumn(
+        "selling_price",
+        expr("try_cast(regexp_replace(selling_price, '[₹,]', '') AS double)")
+    ).withColumn(
+        "timestamp", 
+        col("timestamp").cast("timestamp")
     )
+    
+    return df
 
 
 def filter_valid_data(df):
@@ -40,7 +45,7 @@ def filter_valid_data(df):
             col("status").isNull()
             | (col("status") == "Out of Stock")
             # col("brand").isNull() &
-            # col("mrp_price").isNull() &
+            # col("mrp_price").isNull()
             # col("product_name").isNull()
         )
     )

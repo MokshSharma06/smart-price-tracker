@@ -2,15 +2,15 @@ from src.utils import get_spark_session
 from src.logger import get_logger
 from delta.tables import DeltaTable
 from pyspark.sql.functions import col, lit, current_timestamp, max as spark_max
+from src.utils import*
 
 spark = get_spark_session()
-
+silver_path =adls_path("processed")
+delta_path=adls_path("delta_path")
 
 def delta_loader(
-    spark,
-    silver_path: str = "data/processed",
-    delta_path: str = "data/delta_data/curated_data",
-):
+    spark,silver_path ,delta_path):
+
     logger = get_logger(spark, "delta_loader")
     logger.info("Starting Delta_Loader")
     logger.info(f"silver source: {silver_path} to Delta sink: {delta_path}")
@@ -60,3 +60,35 @@ def delta_loader(
     logger.info(f"Appending {new_count:,} records to Delta table...")
     new_df.write.format("delta").mode("append").save(delta_path)
     logger.info("Data has been appended successfully.")
+
+
+
+# if __name__ == "__main__":
+
+#     from .utils import get_spark_session
+#     spark,config= get_spark_session()
+
+
+
+# def test_delta_loader(spark, silver_path, delta_path):
+#     print("--- Starting Test ---")
+    
+#     
+#     delta_loader(spark, silver_path, delta_path)
+    
+#     
+#     try:
+#         print(f"Verifying data at: {delta_path}")
+#         result_df = spark.read.format("delta").load(delta_path)
+        
+#         row_count = result_df.count()
+#         print(f"Delta table found with {row_count} records.")
+        
+#       
+#         result_df.show(5)
+        
+#     except Exception as e:
+#         print(f"Test Failed! Could not read Delta table. Error: {str(e)}")
+
+# 
+# test_delta_loader(spark, silver_path, delta_path)
