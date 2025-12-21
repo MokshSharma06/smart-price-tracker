@@ -58,7 +58,7 @@ def delta_loader(
 
     # Append New Data to Delta Table
     logger.info(f"Appending {new_count:,} records to Delta table...")
-    new_df.write.format("delta").mode("append").save(delta_path)
+    new_df.write.format("delta").mode("append").option("mergeSchema",True).save(delta_path)
     logger.info("Data has been appended successfully.")
 
 

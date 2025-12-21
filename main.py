@@ -5,49 +5,49 @@ from src.process_data import *
 from src.delta_loader import *
 from src.fetch_prices import *
 from src.fetch_price_ajio import *
+from src.logic import *
 
-
-raw_path= adls_path("raw")
-silver_path =adls_path("processed")
-delta_path=adls_path("delta_path")
+# Configuration
+raw_path = adls_path("raw")
+silver_path = adls_path("processed")
+delta_path = adls_path("delta_path")
 
 def main():
-    spark,config = get_spark_session()
+    spark, config = get_spark_session()
     logger = Log4j(spark)
 
     logger.info("Starting Spark application")
 
+    # 1. Ingestion Phase
+    logger.info("Starting Flipkart and Ajio scrapers...")
     run_flipkart_scraper()
-    logger.info("starting the flipkart scraper and ajio scraper")
-
     run_ajio_scraper()
-    logger.info("scraping done ! ")
+    logger.info("Scraping completed successfully.")
 
+    # 2. Silver Layer: Cleaning & Transformation
+    raw_df = load_combined_data(spark, logger, BASE_ADLS_PATH)
+    logger.info("Combining data sources and beginning transformation.")
 
-    raw_df = load_combined_data(spark,logger,BASE_ADLS_PATH)
-    logger.info("combining the data of two sources into one")
+    df_cleaned = clean_prices(raw_df)
+    df_filtered = filter_valid_data(df_cleaned)
+    df_with_mrp = add_final_mrp(df_filtered)
+    df_final_silver = calculate_disc(df_with_mrp)
+    
+    logger.info("Silver transformation complete. Writing to processed path.")
+    write_processed_data(df_final_silver, silver_path)
 
-  
-    df = clean_prices(raw_df)
-    logger.info("DataFrame has been cleaned")
+    # 3. Curated Layer: Buy/Wait Signals
+    logger.info("Calculating Buying Signals and Moving Averages...")
+    final_df = generate_signals(df_final_silver)
 
-    df2 = filter_valid_data(df)
-    logger.info("data has been filtered")
+    # 4. Delta Load with Schema Evolution
+    logger.info(f"Syncing enriched data to Curated path: {delta_path}")
+    final_df.write.format("delta") \
+        .mode("append") \
+        .option("mergeSchema", "true") \
+        .save(delta_path)
 
-    df3 = add_final_mrp(df2)
-    logger.info("calculated mrp col has been added")
-
-    df4 = calculate_disc(df3)
-    logger.info("Discount has been calculated (mrp - SP /mrp)*100 ")
-
-    # lets write down the final data frame to our processed location as it has been duly cleaned , transformed (Raw(Bronze)-------> Processed(Silver))
-
-    write_processed_data(df4, silver_path)
-    logger.info(f"Data successfully written to Silver path: {silver_path}")
-    logger.info("Starting Delta Loader: Silver -> Curated")
-    delta_loader(spark, silver_path, delta_path)
     logger.info("Pipeline Execution Finished Successfully")
-
 
 if __name__ == "__main__":
     main()
