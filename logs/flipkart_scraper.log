@@ -425,3 +425,1609 @@ Stacktrace:
 #17 0x7f9fbbf29c6c <unknown>
 
 2025-12-19 21:32:32,604 - INFO - Closing down clientserver connection
+2025-12-21 18:15:10,984 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 18:15:11,770 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 18:15:12,659 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 18:15:13,281 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 18:15:20,716 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 18:20:12,504 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x5b3f6a30661a <unknown>
+#1 0x5b3f69d8320b <unknown>
+#2 0x5b3f69dd490f <unknown>
+#3 0x5b3f69dd4b51 <unknown>
+#4 0x5b3f69e22d84 <unknown>
+#5 0x5b3f69e2020e <unknown>
+#6 0x5b3f69dc7232 <unknown>
+#7 0x5b3f69dc7ee1 <unknown>
+#8 0x5b3f6a2cf3f9 <unknown>
+#9 0x5b3f6a2d234d <unknown>
+#10 0x5b3f6a2b8122 <unknown>
+#11 0x5b3f6a2d2f2b <unknown>
+#12 0x5b3f6a29ec30 <unknown>
+#13 0x5b3f6a2f3d78 <unknown>
+#14 0x5b3f6a2f3f4c <unknown>
+#15 0x5b3f6a305973 <unknown>
+#16 0x78756769caa4 <unknown>
+#17 0x787567729c6c <unknown>
+
+2025-12-21 18:20:12,618 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 18:20:33,694 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5ba85dcc661a <unknown>
+#1 0x5ba85d74320b <unknown>
+#2 0x5ba85d79490f <unknown>
+#3 0x5ba85d794b51 <unknown>
+#4 0x5ba85d7e2d84 <unknown>
+#5 0x5ba85d7e020e <unknown>
+#6 0x5ba85d787232 <unknown>
+#7 0x5ba85d787ee1 <unknown>
+#8 0x5ba85dc8f3f9 <unknown>
+#9 0x5ba85dc9234d <unknown>
+#10 0x5ba85dc78122 <unknown>
+#11 0x5ba85dc92f2b <unknown>
+#12 0x5ba85dc5ec30 <unknown>
+#13 0x5ba85dcb3d78 <unknown>
+#14 0x5ba85dcb3f4c <unknown>
+#15 0x5ba85dcc5973 <unknown>
+#16 0x74f5a429caa4 <unknown>
+#17 0x74f5a4329c6c <unknown>
+
+2025-12-21 18:20:33,791 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 18:23:10,214 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x61d3e6cda61a <unknown>
+#1 0x61d3e675720b <unknown>
+#2 0x61d3e67a890f <unknown>
+#3 0x61d3e67a8b51 <unknown>
+#4 0x61d3e67f6d84 <unknown>
+#5 0x61d3e67f420e <unknown>
+#6 0x61d3e679b232 <unknown>
+#7 0x61d3e679bee1 <unknown>
+#8 0x61d3e6ca33f9 <unknown>
+#9 0x61d3e6ca634d <unknown>
+#10 0x61d3e6c8c122 <unknown>
+#11 0x61d3e6ca6f2b <unknown>
+#12 0x61d3e6c72c30 <unknown>
+#13 0x61d3e6cc7d78 <unknown>
+#14 0x61d3e6cc7f4c <unknown>
+#15 0x61d3e6cd9973 <unknown>
+#16 0x78827409caa4 <unknown>
+#17 0x788274129c6c <unknown>
+
+2025-12-21 18:23:10,294 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 18:25:45,452 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x64d9b1fc461a <unknown>
+#1 0x64d9b1a4120b <unknown>
+#2 0x64d9b1a9290f <unknown>
+#3 0x64d9b1a92b51 <unknown>
+#4 0x64d9b1ae0d84 <unknown>
+#5 0x64d9b1ade20e <unknown>
+#6 0x64d9b1a85232 <unknown>
+#7 0x64d9b1a85ee1 <unknown>
+#8 0x64d9b1f8d3f9 <unknown>
+#9 0x64d9b1f9034d <unknown>
+#10 0x64d9b1f76122 <unknown>
+#11 0x64d9b1f90f2b <unknown>
+#12 0x64d9b1f5cc30 <unknown>
+#13 0x64d9b1fb1d78 <unknown>
+#14 0x64d9b1fb1f4c <unknown>
+#15 0x64d9b1fc3973 <unknown>
+#16 0x710c1629caa4 <unknown>
+#17 0x710c16329c6c <unknown>
+
+2025-12-21 18:26:34,460 - INFO - Closing down clientserver connection
+2025-12-21 19:13:49,774 - INFO - Closing down clientserver connection
+2025-12-21 19:14:51,870 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 19:14:53,229 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 19:14:54,018 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 19:14:55,596 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 19:15:06,145 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 19:15:12,677 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-21 19:15:12,898 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 19:15:20,639 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,264
+2025-12-21 19:15:20,863 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 19:15:28,035 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,173
+2025-12-21 19:15:28,291 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 19:15:34,798 - INFO - Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+2025-12-21 19:16:20,191 - ERROR - [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o191.agg.
+: org.apache.spark.sql.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703;
+'Aggregate ['max('timestamp) AS max_ts#121]
++- Relation [product_name#116,price_date#117,selling_price#118,avg_price_7d#119,signal#120] parquet
+
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:84)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:54)
+	at org.apache.spark.sql.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:158)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+		at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+		at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+		at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 22 more
+
+2025-12-21 19:16:21,273 - INFO - Closing down clientserver connection
+2025-12-21 19:24:11,973 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 19:24:13,607 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 19:24:14,265 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 19:24:15,154 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 19:24:24,352 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 19:24:32,301 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-21 19:24:32,525 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 19:27:08,535 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5baf5d09961a <unknown>
+#1 0x5baf5cb1620b <unknown>
+#2 0x5baf5cb6790f <unknown>
+#3 0x5baf5cb67b51 <unknown>
+#4 0x5baf5cbb5d84 <unknown>
+#5 0x5baf5cbb320e <unknown>
+#6 0x5baf5cb5a232 <unknown>
+#7 0x5baf5cb5aee1 <unknown>
+#8 0x5baf5d0623f9 <unknown>
+#9 0x5baf5d06534d <unknown>
+#10 0x5baf5d04b122 <unknown>
+#11 0x5baf5d065f2b <unknown>
+#12 0x5baf5d031c30 <unknown>
+#13 0x5baf5d086d78 <unknown>
+#14 0x5baf5d086f4c <unknown>
+#15 0x5baf5d098973 <unknown>
+#16 0x7adc51c9caa4 <unknown>
+#17 0x7adc51d29c6c <unknown>
+
+2025-12-21 19:27:08,695 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 19:29:44,213 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x62d46642e61a <unknown>
+#1 0x62d465eab20b <unknown>
+#2 0x62d465efc90f <unknown>
+#3 0x62d465efcb51 <unknown>
+#4 0x62d465f4ad84 <unknown>
+#5 0x62d465f4820e <unknown>
+#6 0x62d465eef232 <unknown>
+#7 0x62d465eefee1 <unknown>
+#8 0x62d4663f73f9 <unknown>
+#9 0x62d4663fa34d <unknown>
+#10 0x62d4663e0122 <unknown>
+#11 0x62d4663faf2b <unknown>
+#12 0x62d4663c6c30 <unknown>
+#13 0x62d46641bd78 <unknown>
+#14 0x62d46641bf4c <unknown>
+#15 0x62d46642d973 <unknown>
+#16 0x77598029caa4 <unknown>
+#17 0x775980329c6c <unknown>
+
+2025-12-21 19:29:44,358 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 19:30:06,392 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5e557bb5b61a <unknown>
+#1 0x5e557b5d820b <unknown>
+#2 0x5e557b62990f <unknown>
+#3 0x5e557b629b51 <unknown>
+#4 0x5e557b677d84 <unknown>
+#5 0x5e557b67520e <unknown>
+#6 0x5e557b61c232 <unknown>
+#7 0x5e557b61cee1 <unknown>
+#8 0x5e557bb243f9 <unknown>
+#9 0x5e557bb2734d <unknown>
+#10 0x5e557bb0d122 <unknown>
+#11 0x5e557bb27f2b <unknown>
+#12 0x5e557baf3c30 <unknown>
+#13 0x5e557bb48d78 <unknown>
+#14 0x5e557bb48f4c <unknown>
+#15 0x5e557bb5a973 <unknown>
+#16 0x7f9295c9caa4 <unknown>
+#17 0x7f9295d29c6c <unknown>
+
+2025-12-21 19:30:51,955 - ERROR - [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o191.agg.
+: org.apache.spark.sql.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703;
+'Aggregate ['max('timestamp) AS max_ts#121]
++- Relation [product_name#116,price_date#117,selling_price#118,avg_price_7d#119,signal#120] parquet
+
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:84)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:54)
+	at org.apache.spark.sql.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:158)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+		at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+		at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+		at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 22 more
+
+2025-12-21 19:30:53,116 - INFO - Closing down clientserver connection
+2025-12-21 19:33:00,708 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 19:33:01,530 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 19:33:03,104 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 19:35:18,803 - ERROR - Error scraping https://www.flipkart.com/nike-killshot-2-leather-sneakers-men/p/itm28a181bebad18?pid=SHOHFF25UUMSAKZY&lid=LSTSHOHFF25UUMSAKZYGFDTPW&marketplace=FLIPKART&q=killshot+2&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=565272a9-a421-4a4d-a80b-bb66db86d404.SHOHFF25UUMSAKZY.SEARCH&ppt=sp&ppn=sp&ssid=dscy7gk029gx5iww1757505100423&qH=5a1643cee092c11e: HTTPSConnectionPool(host='www.flipkart.com', port=443): Max retries exceeded with url: /nike-killshot-2-leather-sneakers-men/p/itm28a181bebad18?pid=SHOHFF25UUMSAKZY&lid=LSTSHOHFF25UUMSAKZYGFDTPW&marketplace=FLIPKART&q=killshot+2&store=osp%2Fcil%2Fe1f&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=565272a9-a421-4a4d-a80b-bb66db86d404.SHOHFF25UUMSAKZY.SEARCH&ppt=sp&ppn=sp&ssid=dscy7gk029gx5iww1757505100423&qH=5a1643cee092c11e (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x703a3ef938b0>, 'Connection to www.flipkart.com timed out. (connect timeout=None)'))
+2025-12-21 19:35:27,630 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 19:35:50,096 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x58c05228f61a <unknown>
+#1 0x58c051d0c20b <unknown>
+#2 0x58c051d5d90f <unknown>
+#3 0x58c051d5db51 <unknown>
+#4 0x58c051dabd84 <unknown>
+#5 0x58c051da920e <unknown>
+#6 0x58c051d50232 <unknown>
+#7 0x58c051d50ee1 <unknown>
+#8 0x58c0522583f9 <unknown>
+#9 0x58c05225b34d <unknown>
+#10 0x58c052241122 <unknown>
+#11 0x58c05225bf2b <unknown>
+#12 0x58c052227c30 <unknown>
+#13 0x58c05227cd78 <unknown>
+#14 0x58c05227cf4c <unknown>
+#15 0x58c05228e973 <unknown>
+#16 0x79cef389caa4 <unknown>
+#17 0x79cef3929c6c <unknown>
+
+2025-12-21 19:35:50,282 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 19:36:12,306 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x63e61ef1a61a <unknown>
+#1 0x63e61e99720b <unknown>
+#2 0x63e61e9e890f <unknown>
+#3 0x63e61e9e8b51 <unknown>
+#4 0x63e61ea36d84 <unknown>
+#5 0x63e61ea3420e <unknown>
+#6 0x63e61e9db232 <unknown>
+#7 0x63e61e9dbee1 <unknown>
+#8 0x63e61eee33f9 <unknown>
+#9 0x63e61eee634d <unknown>
+#10 0x63e61eecc122 <unknown>
+#11 0x63e61eee6f2b <unknown>
+#12 0x63e61eeb2c30 <unknown>
+#13 0x63e61ef07d78 <unknown>
+#14 0x63e61ef07f4c <unknown>
+#15 0x63e61ef19973 <unknown>
+#16 0x704e3ba9caa4 <unknown>
+#17 0x704e3bb29c6c <unknown>
+
+2025-12-21 19:36:13,504 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 19:36:35,527 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x58411bb1061a <unknown>
+#1 0x58411b58d20b <unknown>
+#2 0x58411b5de90f <unknown>
+#3 0x58411b5deb51 <unknown>
+#4 0x58411b62cd84 <unknown>
+#5 0x58411b62a20e <unknown>
+#6 0x58411b5d1232 <unknown>
+#7 0x58411b5d1ee1 <unknown>
+#8 0x58411bad93f9 <unknown>
+#9 0x58411badc34d <unknown>
+#10 0x58411bac2122 <unknown>
+#11 0x58411badcf2b <unknown>
+#12 0x58411baa8c30 <unknown>
+#13 0x58411bafdd78 <unknown>
+#14 0x58411bafdf4c <unknown>
+#15 0x58411bb0f973 <unknown>
+#16 0x71ff64a9caa4 <unknown>
+#17 0x71ff64b29c6c <unknown>
+
+2025-12-21 19:36:35,695 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 19:36:57,968 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5f92e6b7f61a <unknown>
+#1 0x5f92e65fc20b <unknown>
+#2 0x5f92e664d90f <unknown>
+#3 0x5f92e664db51 <unknown>
+#4 0x5f92e669bd84 <unknown>
+#5 0x5f92e669920e <unknown>
+#6 0x5f92e6640232 <unknown>
+#7 0x5f92e6640ee1 <unknown>
+#8 0x5f92e6b483f9 <unknown>
+#9 0x5f92e6b4b34d <unknown>
+#10 0x5f92e6b31122 <unknown>
+#11 0x5f92e6b4bf2b <unknown>
+#12 0x5f92e6b17c30 <unknown>
+#13 0x5f92e6b6cd78 <unknown>
+#14 0x5f92e6b6cf4c <unknown>
+#15 0x5f92e6b7e973 <unknown>
+#16 0x7ed44489caa4 <unknown>
+#17 0x7ed444929c6c <unknown>
+
+2025-12-21 19:37:46,979 - ERROR - [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o191.agg.
+: org.apache.spark.sql.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`signal`, `price_date`, `product_name`, `avg_price_7d`, `selling_price`]. SQLSTATE: 42703;
+'Aggregate ['max('timestamp) AS max_ts#121]
++- Relation [product_name#116,price_date#117,selling_price#118,avg_price_7d#119,signal#120] parquet
+
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:84)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.toDF(RelationalGroupedDataset.scala:54)
+	at org.apache.spark.sql.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:158)
+	at org.apache.spark.sql.classic.RelationalGroupedDataset.agg(RelationalGroupedDataset.scala:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:401)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:169)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:404)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+		at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+		at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:251)
+		at scala.collection.immutable.Vector.foreach(Vector.scala:2125)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:251)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$6$adapted(CheckAnalysis.scala:402)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:402)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:252)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:284)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:255)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:244)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$resolveInFixedPoint$1(HybridAnalyzer.scala:192)
+		at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:192)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 22 more
+
+2025-12-21 19:37:51,834 - ERROR - [TRAILING_COMMA_IN_SELECT] Trailing comma detected in SELECT clause. Remove the trailing comma before the FROM clause. SQLSTATE: 42601
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o40.sql.
+: org.apache.spark.sql.AnalysisException: [TRAILING_COMMA_IN_SELECT] Trailing comma detected in SELECT clause. Remove the trailing comma before the FROM clause. SQLSTATE: 42601; line 7 pos 8
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.trailingCommaInSelectError(QueryCompilationErrors.scala:372)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkTrailingCommaInSelect(CheckAnalysis.scala:224)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkTrailingCommaInSelect$(CheckAnalysis.scala:208)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkTrailingCommaInSelect(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1454)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.plans.logical.SubqueryAlias.mapChildren(basicLogicalOperators.scala:1697)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.plans.logical.CTERelationDef.mapChildren(cteOperators.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at scala.collection.immutable.List.map(List.scala:247)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$5(Dataset.scala:139)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:136)
+	at org.apache.spark.sql.classic.SparkSession.$anonfun$sql$1(SparkSession.scala:462)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:449)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:467)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.trailingCommaInSelectError(QueryCompilationErrors.scala:372)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkTrailingCommaInSelect(CheckAnalysis.scala:224)
+		at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkTrailingCommaInSelect$(CheckAnalysis.scala:208)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.checkTrailingCommaInSelect(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1454)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.plans.logical.SubqueryAlias.mapChildren(basicLogicalOperators.scala:1697)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.plans.logical.CTERelationDef.mapChildren(cteOperators.scala:90)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at scala.collection.immutable.List.map(List.scala:247)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+		at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+		at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+		at scala.collection.immutable.List.foldLeft(List.scala:79)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 23 more
+
+2025-12-21 19:37:51,939 - INFO - Closing down clientserver connection
+2025-12-21 19:39:36,383 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 19:39:37,179 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 19:39:38,872 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 19:39:39,611 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 19:39:48,509 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 19:40:10,447 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x5ce49345561a <unknown>
+#1 0x5ce492ed220b <unknown>
+#2 0x5ce492f2390f <unknown>
+#3 0x5ce492f23b51 <unknown>
+#4 0x5ce492f71d84 <unknown>
+#5 0x5ce492f6f20e <unknown>
+#6 0x5ce492f16232 <unknown>
+#7 0x5ce492f16ee1 <unknown>
+#8 0x5ce49341e3f9 <unknown>
+#9 0x5ce49342134d <unknown>
+#10 0x5ce493407122 <unknown>
+#11 0x5ce493421f2b <unknown>
+#12 0x5ce4933edc30 <unknown>
+#13 0x5ce493442d78 <unknown>
+#14 0x5ce493442f4c <unknown>
+#15 0x5ce493454973 <unknown>
+#16 0x713e23a9caa4 <unknown>
+#17 0x713e23b29c6c <unknown>
+
+2025-12-21 19:40:10,619 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 19:40:32,811 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x57344673d61a <unknown>
+#1 0x5734461ba20b <unknown>
+#2 0x57344620b90f <unknown>
+#3 0x57344620bb51 <unknown>
+#4 0x573446259d84 <unknown>
+#5 0x57344625720e <unknown>
+#6 0x5734461fe232 <unknown>
+#7 0x5734461feee1 <unknown>
+#8 0x5734467063f9 <unknown>
+#9 0x57344670934d <unknown>
+#10 0x5734466ef122 <unknown>
+#11 0x573446709f2b <unknown>
+#12 0x5734466d5c30 <unknown>
+#13 0x57344672ad78 <unknown>
+#14 0x57344672af4c <unknown>
+#15 0x57344673c973 <unknown>
+#16 0x7d14d009caa4 <unknown>
+#17 0x7d14d0129c6c <unknown>
+
+2025-12-21 19:40:33,006 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 19:40:55,522 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x5956a8d7661a <unknown>
+#1 0x5956a87f320b <unknown>
+#2 0x5956a884490f <unknown>
+#3 0x5956a8844b51 <unknown>
+#4 0x5956a8892d84 <unknown>
+#5 0x5956a889020e <unknown>
+#6 0x5956a8837232 <unknown>
+#7 0x5956a8837ee1 <unknown>
+#8 0x5956a8d3f3f9 <unknown>
+#9 0x5956a8d4234d <unknown>
+#10 0x5956a8d28122 <unknown>
+#11 0x5956a8d42f2b <unknown>
+#12 0x5956a8d0ec30 <unknown>
+#13 0x5956a8d63d78 <unknown>
+#14 0x5956a8d63f4c <unknown>
+#15 0x5956a8d75973 <unknown>
+#16 0x740b1ba9caa4 <unknown>
+#17 0x740b1bb29c6c <unknown>
+
+2025-12-21 19:40:55,686 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 19:41:18,469 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5e9f3dcac61a <unknown>
+#1 0x5e9f3d72920b <unknown>
+#2 0x5e9f3d77a90f <unknown>
+#3 0x5e9f3d77ab51 <unknown>
+#4 0x5e9f3d7c8d84 <unknown>
+#5 0x5e9f3d7c620e <unknown>
+#6 0x5e9f3d76d232 <unknown>
+#7 0x5e9f3d76dee1 <unknown>
+#8 0x5e9f3dc753f9 <unknown>
+#9 0x5e9f3dc7834d <unknown>
+#10 0x5e9f3dc5e122 <unknown>
+#11 0x5e9f3dc78f2b <unknown>
+#12 0x5e9f3dc44c30 <unknown>
+#13 0x5e9f3dc99d78 <unknown>
+#14 0x5e9f3dc99f4c <unknown>
+#15 0x5e9f3dcab973 <unknown>
+#16 0x7f17b289caa4 <unknown>
+#17 0x7f17b2929c6c <unknown>
+
+2025-12-21 19:42:22,106 - ERROR - [AMBIGUOUS_REFERENCE] Reference `price_date` is ambiguous, could be: [`cte`.`price_date`, `cte`.`price_date`]. SQLSTATE: 42704
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o40.sql.
+: org.apache.spark.sql.AnalysisException: [AMBIGUOUS_REFERENCE] Reference `price_date` is ambiguous, could be: [`cte`.`price_date`, `cte`.`price_date`]. SQLSTATE: 42704; line 14 pos 25
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.ambiguousReferenceError(QueryCompilationErrors.scala:2163)
+	at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq.resolve(package.scala:356)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveChildren(LogicalPlan.scala:164)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpressionByPlanChildren$1(ColumnResolutionHelper.scala:520)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$3(ColumnResolutionHelper.scala:172)
+	at org.apache.spark.sql.catalyst.analysis.package$.withPosition(package.scala:104)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:179)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at scala.collection.immutable.List.map(List.scala:247)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at scala.collection.immutable.List.map(List.scala:251)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1259)
+	at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1256)
+	at org.apache.spark.sql.catalyst.expressions.WindowExpression.mapChildren(windowExpressions.scala:345)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.expressions.UnaryExpression.mapChildren(Expression.scala:563)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpression(ColumnResolutionHelper.scala:209)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren(ColumnResolutionHelper.scala:527)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren$(ColumnResolutionHelper.scala:513)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.resolveExpressionByPlanChildren(Analyzer.scala:1400)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.$anonfun$applyOrElse$107(Analyzer.scala:1566)
+	at scala.collection.immutable.List.map(List.scala:251)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1566)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.plans.logical.SubqueryAlias.mapChildren(basicLogicalOperators.scala:1697)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.plans.logical.CTERelationDef.mapChildren(cteOperators.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at scala.collection.immutable.Vector1.map(Vector.scala:2141)
+	at scala.collection.immutable.Vector1.map(Vector.scala:386)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$5(Dataset.scala:139)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:136)
+	at org.apache.spark.sql.classic.SparkSession.$anonfun$sql$1(SparkSession.scala:462)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:449)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:467)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.ambiguousReferenceError(QueryCompilationErrors.scala:2163)
+		at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq.resolve(package.scala:356)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveChildren(LogicalPlan.scala:164)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpressionByPlanChildren$1(ColumnResolutionHelper.scala:520)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$3(ColumnResolutionHelper.scala:172)
+		at org.apache.spark.sql.catalyst.analysis.package$.withPosition(package.scala:104)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:179)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at scala.collection.immutable.List.map(List.scala:247)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at scala.collection.immutable.List.map(List.scala:251)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren(TreeNode.scala:1259)
+		at org.apache.spark.sql.catalyst.trees.BinaryLike.mapChildren$(TreeNode.scala:1256)
+		at org.apache.spark.sql.catalyst.expressions.WindowExpression.mapChildren(windowExpressions.scala:345)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.expressions.UnaryExpression.mapChildren(Expression.scala:563)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpression(ColumnResolutionHelper.scala:209)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren(ColumnResolutionHelper.scala:527)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren$(ColumnResolutionHelper.scala:513)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.resolveExpressionByPlanChildren(Analyzer.scala:1400)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.$anonfun$applyOrElse$107(Analyzer.scala:1566)
+		at scala.collection.immutable.List.map(List.scala:251)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1566)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.plans.logical.SubqueryAlias.mapChildren(basicLogicalOperators.scala:1697)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.plans.logical.CTERelationDef.mapChildren(cteOperators.scala:90)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at scala.collection.immutable.Vector1.map(Vector.scala:2141)
+		at scala.collection.immutable.Vector1.map(Vector.scala:386)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+		at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+		at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+		at scala.collection.immutable.List.foldLeft(List.scala:79)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 23 more
+
+2025-12-21 19:42:22,212 - INFO - Closing down clientserver connection
+2025-12-21 19:45:30,591 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 19:45:31,708 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 19:45:32,845 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 19:45:33,848 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 19:45:42,065 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 19:46:04,451 - ERROR - Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x6474eb7cc61a <unknown>
+#1 0x6474eb24920b <unknown>
+#2 0x6474eb29a90f <unknown>
+#3 0x6474eb29ab51 <unknown>
+#4 0x6474eb2e8d84 <unknown>
+#5 0x6474eb2e620e <unknown>
+#6 0x6474eb28d232 <unknown>
+#7 0x6474eb28dee1 <unknown>
+#8 0x6474eb7953f9 <unknown>
+#9 0x6474eb79834d <unknown>
+#10 0x6474eb77e122 <unknown>
+#11 0x6474eb798f2b <unknown>
+#12 0x6474eb764c30 <unknown>
+#13 0x6474eb7b9d78 <unknown>
+#14 0x6474eb7b9f4c <unknown>
+#15 0x6474eb7cb973 <unknown>
+#16 0x7f7deb89caa4 <unknown>
+#17 0x7f7deb929c6c <unknown>
+
+2025-12-21 19:46:04,598 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 19:46:26,588 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5cad6f8f461a <unknown>
+#1 0x5cad6f37120b <unknown>
+#2 0x5cad6f3c290f <unknown>
+#3 0x5cad6f3c2b51 <unknown>
+#4 0x5cad6f410d84 <unknown>
+#5 0x5cad6f40e20e <unknown>
+#6 0x5cad6f3b5232 <unknown>
+#7 0x5cad6f3b5ee1 <unknown>
+#8 0x5cad6f8bd3f9 <unknown>
+#9 0x5cad6f8c034d <unknown>
+#10 0x5cad6f8a6122 <unknown>
+#11 0x5cad6f8c0f2b <unknown>
+#12 0x5cad6f88cc30 <unknown>
+#13 0x5cad6f8e1d78 <unknown>
+#14 0x5cad6f8e1f4c <unknown>
+#15 0x5cad6f8f3973 <unknown>
+#16 0x74b57cc9caa4 <unknown>
+#17 0x74b57cd29c6c <unknown>
+
+2025-12-21 19:46:26,733 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 19:46:48,674 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x5c07a911f61a <unknown>
+#1 0x5c07a8b9c20b <unknown>
+#2 0x5c07a8bed90f <unknown>
+#3 0x5c07a8bedb51 <unknown>
+#4 0x5c07a8c3bd84 <unknown>
+#5 0x5c07a8c3920e <unknown>
+#6 0x5c07a8be0232 <unknown>
+#7 0x5c07a8be0ee1 <unknown>
+#8 0x5c07a90e83f9 <unknown>
+#9 0x5c07a90eb34d <unknown>
+#10 0x5c07a90d1122 <unknown>
+#11 0x5c07a90ebf2b <unknown>
+#12 0x5c07a90b7c30 <unknown>
+#13 0x5c07a910cd78 <unknown>
+#14 0x5c07a910cf4c <unknown>
+#15 0x5c07a911e973 <unknown>
+#16 0x767d0909caa4 <unknown>
+#17 0x767d09129c6c <unknown>
+
+2025-12-21 19:46:48,820 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 19:49:23,694 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x64960aa1e61a <unknown>
+#1 0x64960a49b20b <unknown>
+#2 0x64960a4ec90f <unknown>
+#3 0x64960a4ecb51 <unknown>
+#4 0x64960a53ad84 <unknown>
+#5 0x64960a53820e <unknown>
+#6 0x64960a4df232 <unknown>
+#7 0x64960a4dfee1 <unknown>
+#8 0x64960a9e73f9 <unknown>
+#9 0x64960a9ea34d <unknown>
+#10 0x64960a9d0122 <unknown>
+#11 0x64960a9eaf2b <unknown>
+#12 0x64960a9b6c30 <unknown>
+#13 0x64960aa0bd78 <unknown>
+#14 0x64960aa0bf4c <unknown>
+#15 0x64960aa1d973 <unknown>
+#16 0x7bce07a9caa4 <unknown>
+#17 0x7bce07b29c6c <unknown>
+
+2025-12-21 19:50:33,782 - ERROR - [AMBIGUOUS_REFERENCE] Reference `avg_price_7d` is ambiguous, could be: [`rolling_avg`.`avg_price_7d`, `rolling_avg`.`avg_price_7d`]. SQLSTATE: 42704
+Traceback (most recent call last):
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 282, in deco
+    return f(*a, **kw)
+  File "/home/moksh/.conda/envs/smart-price-tracker/lib/python3.10/site-packages/py4j/protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o40.sql.
+: org.apache.spark.sql.AnalysisException: [AMBIGUOUS_REFERENCE] Reference `avg_price_7d` is ambiguous, could be: [`rolling_avg`.`avg_price_7d`, `rolling_avg`.`avg_price_7d`]. SQLSTATE: 42704; line 18 pos 14
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.ambiguousReferenceError(QueryCompilationErrors.scala:2163)
+	at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq.resolve(package.scala:356)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveChildren(LogicalPlan.scala:164)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpressionByPlanChildren$1(ColumnResolutionHelper.scala:520)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$3(ColumnResolutionHelper.scala:172)
+	at org.apache.spark.sql.catalyst.analysis.package$.withPosition(package.scala:104)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:179)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at scala.collection.immutable.List.map(List.scala:247)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+	at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+	at org.apache.spark.sql.catalyst.expressions.UnaryExpression.mapChildren(Expression.scala:563)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpression(ColumnResolutionHelper.scala:209)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren(ColumnResolutionHelper.scala:527)
+	at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren$(ColumnResolutionHelper.scala:513)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.resolveExpressionByPlanChildren(Analyzer.scala:1400)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.$anonfun$applyOrElse$107(Analyzer.scala:1566)
+	at scala.collection.immutable.List.map(List.scala:251)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1566)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+	at scala.collection.immutable.Vector1.map(Vector.scala:2141)
+	at scala.collection.immutable.Vector1.map(Vector.scala:386)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+	at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)
+	at org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$5(Dataset.scala:139)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:136)
+	at org.apache.spark.sql.classic.SparkSession.$anonfun$sql$1(SparkSession.scala:462)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:449)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:467)
+	at org.apache.spark.sql.classic.SparkSession.sql(SparkSession.scala:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryCompilationErrors$.ambiguousReferenceError(QueryCompilationErrors.scala:2163)
+		at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq.resolve(package.scala:356)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveChildren(LogicalPlan.scala:164)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpressionByPlanChildren$1(ColumnResolutionHelper.scala:520)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$3(ColumnResolutionHelper.scala:172)
+		at org.apache.spark.sql.catalyst.analysis.package$.withPosition(package.scala:104)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:179)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at scala.collection.immutable.List.map(List.scala:247)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$9(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren(TreeNode.scala:1231)
+		at org.apache.spark.sql.catalyst.trees.UnaryLike.mapChildren$(TreeNode.scala:1230)
+		at org.apache.spark.sql.catalyst.expressions.UnaryExpression.mapChildren(Expression.scala:563)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.$anonfun$resolveExpression$1(ColumnResolutionHelper.scala:202)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.innerResolve$1(ColumnResolutionHelper.scala:145)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpression(ColumnResolutionHelper.scala:209)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren(ColumnResolutionHelper.scala:527)
+		at org.apache.spark.sql.catalyst.analysis.ColumnResolutionHelper.resolveExpressionByPlanChildren$(ColumnResolutionHelper.scala:513)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.resolveExpressionByPlanChildren(Analyzer.scala:1400)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.$anonfun$applyOrElse$107(Analyzer.scala:1566)
+		at scala.collection.immutable.List.map(List.scala:251)
+		at scala.collection.immutable.List.map(List.scala:79)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1566)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$14.applyOrElse(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$2(AnalysisHelper.scala:136)
+		at scala.collection.immutable.Vector1.map(Vector.scala:2141)
+		at scala.collection.immutable.Vector1.map(Vector.scala:386)
+		at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:708)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:136)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)
+		at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1435)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences.apply(Analyzer.scala:1400)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)
+		at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+		at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+		at scala.collection.immutable.List.foldLeft(List.scala:79)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)
+		at scala.collection.immutable.List.foreach(List.scala:334)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)
+		at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)
+		at org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)
+		at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)
+		at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)
+		at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)
+		at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)
+		at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+		at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)
+		at org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)
+		at scala.util.Try$.apply(Try.scala:217)
+		at org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)
+		at org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)
+		at org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)
+		... 23 more
+
+2025-12-21 19:50:33,896 - INFO - Closing down clientserver connection
+2025-12-21 20:02:11,004 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-21 20:02:12,312 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-21 20:02:13,412 - WARNING - Product is out of stock Sneakers For Women  (Pink , 7)
+2025-12-21 20:02:14,359 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-21 20:02:25,027 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-21 20:02:31,506 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,608
+2025-12-21 20:02:31,729 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-21 20:02:53,715 - ERROR - Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x57885215361a <unknown>
+#1 0x578851bd020b <unknown>
+#2 0x578851c2190f <unknown>
+#3 0x578851c21b51 <unknown>
+#4 0x578851c6fd84 <unknown>
+#5 0x578851c6d20e <unknown>
+#6 0x578851c14232 <unknown>
+#7 0x578851c14ee1 <unknown>
+#8 0x57885211c3f9 <unknown>
+#9 0x57885211f34d <unknown>
+#10 0x578852105122 <unknown>
+#11 0x57885211ff2b <unknown>
+#12 0x5788520ebc30 <unknown>
+#13 0x578852140d78 <unknown>
+#14 0x578852140f4c <unknown>
+#15 0x578852152973 <unknown>
+#16 0x71809209caa4 <unknown>
+#17 0x718092129c6c <unknown>
+
+2025-12-21 20:02:54,874 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-21 20:05:29,968 - ERROR - Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x5e237fbea61a <unknown>
+#1 0x5e237f66720b <unknown>
+#2 0x5e237f6b890f <unknown>
+#3 0x5e237f6b8b51 <unknown>
+#4 0x5e237f706d84 <unknown>
+#5 0x5e237f70420e <unknown>
+#6 0x5e237f6ab232 <unknown>
+#7 0x5e237f6abee1 <unknown>
+#8 0x5e237fbb33f9 <unknown>
+#9 0x5e237fbb634d <unknown>
+#10 0x5e237fb9c122 <unknown>
+#11 0x5e237fbb6f2b <unknown>
+#12 0x5e237fb82c30 <unknown>
+#13 0x5e237fbd7d78 <unknown>
+#14 0x5e237fbd7f4c <unknown>
+#15 0x5e237fbe9973 <unknown>
+#16 0x7fa94129caa4 <unknown>
+#17 0x7fa941329c6c <unknown>
+
+2025-12-21 20:05:30,081 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-21 20:05:51,284 - ERROR - Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x58e1e959461a <unknown>
+#1 0x58e1e901120b <unknown>
+#2 0x58e1e906290f <unknown>
+#3 0x58e1e9062b51 <unknown>
+#4 0x58e1e90b0d84 <unknown>
+#5 0x58e1e90ae20e <unknown>
+#6 0x58e1e9055232 <unknown>
+#7 0x58e1e9055ee1 <unknown>
+#8 0x58e1e955d3f9 <unknown>
+#9 0x58e1e956034d <unknown>
+#10 0x58e1e9546122 <unknown>
+#11 0x58e1e9560f2b <unknown>
+#12 0x58e1e952cc30 <unknown>
+#13 0x58e1e9581d78 <unknown>
+#14 0x58e1e9581f4c <unknown>
+#15 0x58e1e9593973 <unknown>
+#16 0x7e7a91e9caa4 <unknown>
+#17 0x7e7a91f29c6c <unknown>
+
+2025-12-21 20:06:44,846 - INFO - Closing down clientserver connection
