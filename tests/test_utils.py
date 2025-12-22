@@ -3,7 +3,7 @@ from src.utils import get_spark_session
 from pyspark.sql import SparkSession
 @pytest.fixture(scope="session")
 def spark():
-    spark = get_spark_session()
+    spark,config = get_spark_session()
     yield spark
     spark.stop()
 def test_spark_session_created(spark):

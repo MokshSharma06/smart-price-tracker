@@ -15,7 +15,7 @@ delta_path = f"{TEST_BASE_DIR}/delta_data/curated_data"
 
 @pytest.fixture(scope="session")
 def spark_session():
-    spark = get_spark_session()
+    spark,config = get_spark_session()
 
     yield spark
     print("Stopping Spark Session.")

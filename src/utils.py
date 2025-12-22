@@ -40,26 +40,43 @@ def adls_path(layer_name: str) -> str:
 # --- SPARK SESSION BUILDER ---
 def get_spark_session(app_name: str = "smart-price-tracker"):
     config = load_config()
-    account_name = config['azure']['account_name']
-    access_key = config['azure']['access_key']
+    account_name = config["azure"]["account_name"]
+    access_key = os.getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
-    # the Azure jars
+    if not access_key:
+        raise RuntimeError(
+            "AZURE_STORAGE_ACCOUNT_KEY environment variable not set"
+        )
+
     azure_packages = [
         "org.apache.hadoop:hadoop-azure:3.3.4",
         "com.microsoft.azure:azure-storage:8.6.6"
     ]
 
-    builder = SparkSession.builder.appName(app_name)
-
     builder = (
-        builder
-        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-        .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-        .config("spark.driver.extraJavaOptions", "-Dlog4j.configuration=file:conf/log4j.properties")
-        .config(f"fs.azure.account.key.{account_name}.dfs.core.windows.net", access_key)
+        SparkSession.builder
+        .appName(app_name)
+        .master("local[*]") 
+        .config(
+            "spark.sql.extensions",
+            "io.delta.sql.DeltaSparkSessionExtension"
+        )
+        .config(
+            "spark.sql.catalog.spark_catalog",
+            "org.apache.spark.sql.delta.catalog.DeltaCatalog"
+        )
+        .config(
+            "spark.driver.extraJavaOptions",
+            "-Dlog4j.configuration=file:conf/log4j.properties"
+        )
+        .config(
+            f"fs.azure.account.key.{account_name}.dfs.core.windows.net",
+            access_key
+        )
     )
+
     spark = configure_spark_with_delta_pip(
-        builder, 
+        builder,
         extra_packages=azure_packages
     ).getOrCreate()
 

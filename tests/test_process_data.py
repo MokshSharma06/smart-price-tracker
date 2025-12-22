@@ -11,7 +11,7 @@ from pyspark.sql import SparkSession
 
 @pytest.fixture(scope="session")
 def spark():
-    spark = get_spark_session()
+    spark,config = get_spark_session()
     yield spark
     spark.stop()
 
@@ -516,7 +516,7 @@ class Testing_Process:
         ]
         df_to_write = spark.createDataFrame(data_to_write, schema=columns)
         write_path = write_processed_data(df_to_write, "./data/processed/test_data")
-        verify_df = spark.read.option("basePath", write_path).parquet(write_path)
+        verify_df = spark.read.parquet("./data/processed/test_data")
         verify_df.show()
 
         assert verify_df.count() == df_to_write.count()

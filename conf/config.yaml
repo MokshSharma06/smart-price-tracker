@@ -1,6 +1,6 @@
 azure:
   account_name: "smartpricetrackerstorage"
-  access_key: "OwdwKueskwEZli7MrM1cz274lHsRYYuF6W2gIZDZdJgFM70Jchli203dRK7iw+sJpmuweAz/MPVh+AStL0ISWw=="
+  access_key: ""
   container_name: "smart-price-container"
   
   raw_path: "Data/raw"

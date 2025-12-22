@@ -2031,3 +2031,16 @@ Stacktrace:
 #17 0x7e7a91f29c6c <unknown>
 
 2025-12-21 20:06:44,846 - INFO - Closing down clientserver connection
+2025-12-22 21:16:32,240 - WARNING - Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+2025-12-22 21:16:33,152 - INFO - Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+2025-12-22 21:16:33,850 - INFO - Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
+2025-12-22 21:16:34,424 - INFO - Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+2025-12-22 21:16:41,726 - INFO - Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+2025-12-22 21:16:49,192 - INFO - Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782
+2025-12-22 21:16:49,374 - INFO - Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+2025-12-22 21:16:54,114 - INFO - Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,350
+2025-12-22 21:16:54,292 - INFO - Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+2025-12-22 21:16:59,013 - INFO - Scraped Ajio Product: Field General Running Shoes | Price: ₹6,521
+2025-12-22 21:16:59,195 - INFO - Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+2025-12-22 21:17:04,170 - INFO - Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+2025-12-22 21:18:02,833 - INFO - Closing down clientserver connection
