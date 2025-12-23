@@ -40,23 +40,12 @@ def adls_path(layer_name: str) -> str:
 # --- SPARK SESSION BUILDER ---
 def get_spark_session(app_name: str = "smart-price-tracker"):
     config = load_config()
-    account_name = config["azure"]["account_name"]
-    access_key = os.getenv("AZURE_STORAGE_ACCOUNT_KEY")
-
-    if not access_key:
-        raise RuntimeError(
-            "AZURE_STORAGE_ACCOUNT_KEY environment variable not set"
-        )
-
-    azure_packages = [
-        "org.apache.hadoop:hadoop-azure:3.3.4",
-        "com.microsoft.azure:azure-storage:8.6.6"
-    ]
+    spark_env = os.getenv("SPARK_ENV", "prod") #default env set to prod
 
     builder = (
         SparkSession.builder
         .appName(app_name)
-        .master("local[*]") 
+        .master("local[*]")
         .config(
             "spark.sql.extensions",
             "io.delta.sql.DeltaSparkSessionExtension"
@@ -69,15 +58,33 @@ def get_spark_session(app_name: str = "smart-price-tracker"):
             "spark.driver.extraJavaOptions",
             "-Dlog4j.configuration=file:conf/log4j.properties"
         )
-        .config(
+    )
+
+    if spark_env == "prod":
+        account_name = config["azure"]["account_name"]
+        access_key = os.getenv("AZURE_STORAGE_ACCOUNT_KEY")
+
+        if not access_key:
+            raise RuntimeError(
+                "AZURE_STORAGE_ACCOUNT_KEY environment variable not set"
+            )
+
+        azure_packages = [
+            "org.apache.hadoop:hadoop-azure:3.3.4",
+            "com.microsoft.azure:azure-storage:8.6.6"
+        ]
+
+        builder = builder.config(
             f"fs.azure.account.key.{account_name}.dfs.core.windows.net",
             access_key
         )
-    )
 
-    spark = configure_spark_with_delta_pip(
-        builder,
-        extra_packages=azure_packages
-    ).getOrCreate()
+        spark = configure_spark_with_delta_pip(
+            builder,
+            extra_packages=azure_packages
+        ).getOrCreate()
+    else:
+        # for ci / cd and tests to run without azure support
+        spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
     return spark, config

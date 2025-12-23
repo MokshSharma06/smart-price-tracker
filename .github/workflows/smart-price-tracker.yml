@@ -11,6 +11,8 @@ on:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    env:
+        SPARK_ENV: ci
 
     steps:
       - name: Checkout code
