@@ -17,4 +17,4 @@ dependencies:
       - selenium
       - webdriver-manager
       - python-dotenv
-      -pyyaml
+      - pyyaml
