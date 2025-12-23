@@ -25,6 +25,8 @@ jobs:
 
       - name: Verify Conda environment
         shell: bash -l {0}
+        env:
+          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
         run: |
           conda info
           conda list
