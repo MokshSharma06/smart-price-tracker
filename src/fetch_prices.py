@@ -35,7 +35,7 @@ def scrape_flipkart_product(url):
             name_tag = soup.find("span", class_="LMizgS")
             brand_tag = soup.find("span", class_="qbKhdn")
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            logger.warning(f"Product is out of stock {name_tag.text.strip()}")
+            logger.warn(f"Product is out of stock {name_tag.text.strip()}")
 
             return {
                 "product_name": name_tag.text.strip() if name_tag else None,
@@ -83,7 +83,7 @@ def scrape_flipkart_product(url):
             logger.info(f"Scraped {site_name} | Product: {name_tag.text.strip()}")
             return product_data
         else:
-            logger.warning(f"Price or product details not found on {url}")
+            logger.warn(f"Price or product details not found on {url}")
             return None
 
     except Exception as e:
@@ -120,7 +120,7 @@ def run_flipkart_scraper(spark =None, urls =None) -> str:
             all_products.append(data)
 
     if not all_products:
-        logger.warning("No data scraped successfully. Skipping write to cloud.")
+        logger.warn("No data scraped successfully. Skipping write to cloud.")
         return ""
 
     custom_schema = StructType(

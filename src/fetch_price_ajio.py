@@ -80,10 +80,10 @@ def fetch_ajio_product(url):
             button_text = add_to_bag_button.get_text(strip=True).lower()
             if "out of stock" in button_text or "sold out" in button_text:
                 status = "Out of Stock"
-                logger.warning(f"Product is out of stock {product_name.text.strip()}")
+                logger.warn(f"Product is out of stock {product_name.text.strip()}")
         elif add_to_bag_button is None:
             status = "Out of Stock"
-            logger.warning(f"Product is out of stock {product_name.text.strip()}")
+            logger.warn(f"Product is out of stock {product_name.text.strip()}")
 
         if prod_price_div and sp_price_div:
             mrp_tag = prod_price_div.find(
@@ -101,12 +101,12 @@ def fetch_ajio_product(url):
             price = sp_price_div.get_text(strip=True)
             mrp = price
         else:
-            logger.warning(f"Price not found for {url}")
+            logger.warn(f"Price not found for {url}")
 
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         if not product_name:
-            logger.warning(f"Product name not found for {url}")
+            logger.warn(f"Product name not found for {url}")
 
         data = {
             "product_name": product_name,
@@ -159,7 +159,7 @@ def run_ajio_scraper(spark=None, urls=None) -> str:
             all_products.append(data)
 
     if not all_products:
-        logger.warning("No data scraped successfully. Skipping write to cloud.")
+        logger.warn("No data scraped successfully. Skipping write to cloud.")
         return ""
 
     # Defining custom schema to string so doesnt raises any type erro
