@@ -22,7 +22,6 @@ jobs:
           auto-update-conda: true
           activate-environment: smart-price-tracker
           environment-file: environment.yml
-          python-version: 3.10
 
       - name: Verify Conda environment
         shell: bash -l {0}
