@@ -20,4 +20,3 @@ data/processed/processed_data
 venv/
 env/
 conda-env/
-logs/
