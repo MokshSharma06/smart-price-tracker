@@ -9,26 +9,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime
 import sys, os, logging, json
+from src.logger import get_logger
+from src.utils import get_spark_session
+
 import shutil
 
 # ---------------- LOGGER SETUP ----------------
-os.makedirs("logs", exist_ok=True)
-os.makedirs("data/raw", exist_ok=True)
-
-logging.getLogger("WDM").setLevel(logging.WARNING)
-logging.getLogger("webdriver_manager").setLevel(logging.CRITICAL)
-
-file_handler = logging.FileHandler(
-    "/home/moksh/Desktop/smart-price-tracker/logs/ajio_scraper.log"
-)
-console_handler = logging.StreamHandler(sys.stdout)
-
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-file_handler.setFormatter(formatter)
-console_handler.setFormatter(formatter)
-
-logging.basicConfig(level=logging.INFO, handlers=[file_handler, console_handler])
-logger = logging.getLogger("ajio_scraper")
+spark,config = get_spark_session()
+logger = get_logger(spark, "ajio_scraper")
+logger.info("starting ajio scraper")
 
 
 # -------------------------------------------------

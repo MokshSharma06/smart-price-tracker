@@ -1,28 +1,20 @@
 import requests
 import logging
+from src.logger import get_logger
 import json
 import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 import sys, os
+from src.utils import get_spark_session
+
 
 site_name = "Flipkart"
 
 # Create handlers
-file_handler = logging.FileHandler(
-    "/home/moksh/Desktop/smart-price-tracker/logs/flipkart_scraper.log"
-)
-console_handler = logging.StreamHandler(sys.stdout)
-
-# Define common format
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-file_handler.setFormatter(formatter)
-console_handler.setFormatter(formatter)
-
-# Use basicConfig with handlers
-logging.basicConfig(level=logging.INFO, handlers=[file_handler, console_handler])
-
-logger = logging.getLogger("flipkart_scraper")
+spark,config = get_spark_session()
+logger = get_logger(spark, "flipkart_scraper")
+logger.info("Starting Flipkart scraper")
 
 
 def scrape_flipkart_product(url):

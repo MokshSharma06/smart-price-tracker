@@ -41,6 +41,11 @@ def adls_path(layer_name: str) -> str:
 def get_spark_session(app_name: str = "smart-price-tracker"):
     config = load_config()
     spark_env = os.getenv("SPARK_ENV", "prod") #default env set to prod
+    log4j_file = (
+    "conf/log4j-ci.properties"
+    if spark_env == "ci"
+    else "conf/log4j.properties"
+)
 
     builder = (
         SparkSession.builder
@@ -56,8 +61,8 @@ def get_spark_session(app_name: str = "smart-price-tracker"):
         )
         .config(
             "spark.driver.extraJavaOptions",
-            "-Dlog4j.configuration=file:conf/log4j.properties"
-        )
+            f"-Dlog4j.configuration=file:{log4j_file}"
+               )
     )
 
     if spark_env == "prod":

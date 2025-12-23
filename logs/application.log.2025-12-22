@@ -57,26 +57,3 @@
 25/12/22 22:00:22 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
 25/12/22 22:00:22 INFO delta_loader: [delta_loader] Found 0 new records to append
 25/12/22 22:00:22 INFO delta_loader: [delta_loader] No new data to append. Exiting.
-25/12/23 19:32:20 INFO delta_loader: [delta_loader] Starting Delta_Loader
-25/12/23 19:32:20 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
-25/12/23 19:32:20 INFO delta_loader: [delta_loader] Loaded 2 silver records
-25/12/23 19:32:21 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
-25/12/23 19:32:21 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
-25/12/23 19:32:21 INFO delta_loader: [delta_loader] Found 2 new records to append
-25/12/23 19:32:21 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
-25/12/23 19:32:25 INFO delta_loader: [delta_loader] Data has been appended successfully.
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Starting Delta_Loader
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Loaded 4 silver records
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Found 2 new records to append
-25/12/23 19:32:27 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
-25/12/23 19:32:28 INFO delta_loader: [delta_loader] Data has been appended successfully.
-25/12/23 19:32:29 INFO delta_loader: [delta_loader] Starting Delta_Loader
-25/12/23 19:32:29 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
-25/12/23 19:32:30 INFO delta_loader: [delta_loader] Loaded 6 silver records
-25/12/23 19:32:30 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
-25/12/23 19:32:30 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
-25/12/23 19:32:30 INFO delta_loader: [delta_loader] Found 0 new records to append
-25/12/23 19:32:30 INFO delta_loader: [delta_loader] No new data to append. Exiting.

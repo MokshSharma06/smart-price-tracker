@@ -4,13 +4,14 @@ from delta.tables import DeltaTable
 from pyspark.sql.functions import col, lit, current_timestamp, max as spark_max
 from src.utils import*
 
-spark = get_spark_session()
+spark,config = get_spark_session()
+
+
 silver_path =adls_path("processed")
 delta_path=adls_path("delta_path")
 
 def delta_loader(
     spark,silver_path ,delta_path):
-
     logger = get_logger(spark, "delta_loader")
     logger.info("Starting Delta_Loader")
     logger.info(f"silver source: {silver_path} to Delta sink: {delta_path}")
