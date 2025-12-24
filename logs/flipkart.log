@@ -1,30 +1,5 @@
-25/12/23 20:12:28 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:30:20 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:34:22 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:34:22 ERROR flipkart_scraper: [flipkart_scraper] Error scraping https://www.flipkart.com/nike-downshifter-13-running-shoes-women/p/itm672e266097def?pid=SHOGYHFQGABKUUBK&lid=LSTSHOGYHFQGABKUUBK2GVOX2&marketplace=FLIPKART&q=nike+downshifter+13+men&store=osp%2Fiko&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&fm=search-autosuggest&iid=e4c88bac-a1fa-4e65-9bd2-986fad928192.SHOGYHFQGABKUUBK.SEARCH&ppt=sp&ppn=sp&ssid=9dyl2pok2n9bfzeo1760435674061&qH=a550c8f3d4f26f1e: 'Log4j' object has no attribute 'warning'
-25/12/23 20:34:23 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
-25/12/23 20:34:24 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
-25/12/23 20:34:24 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
-25/12/23 20:37:55 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:37:56 ERROR flipkart_scraper: [flipkart_scraper] Error scraping https://www.flipkart.com/nike-downshifter-13-running-shoes-women/p/itm672e266097def?pid=SHOGYHFQGABKUUBK&lid=LSTSHOGYHFQGABKUUBK2GVOX2&marketplace=FLIPKART&q=nike+downshifter+13+men&store=osp%2Fiko&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&fm=search-autosuggest&iid=e4c88bac-a1fa-4e65-9bd2-986fad928192.SHOGYHFQGABKUUBK.SEARCH&ppt=sp&ppn=sp&ssid=9dyl2pok2n9bfzeo1760435674061&qH=a550c8f3d4f26f1e: 'Log4j' object has no attribute 'warning'
-25/12/23 20:37:57 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
-25/12/23 20:37:57 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
-25/12/23 20:37:58 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
-25/12/23 20:50:20 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:51:40 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:52:28 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:52:34 ERROR flipkart_scraper: [flipkart_scraper] Error scraping https://www.flipkart.com/nike-downshifter-13-running-shoes-women/p/itm672e266097def?pid=SHOGYHFQGABKUUBK&lid=LSTSHOGYHFQGABKUUBK2GVOX2&marketplace=FLIPKART&q=nike+downshifter+13+men&store=osp%2Fiko&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&fm=search-autosuggest&iid=e4c88bac-a1fa-4e65-9bd2-986fad928192.SHOGYHFQGABKUUBK.SEARCH&ppt=sp&ppn=sp&ssid=9dyl2pok2n9bfzeo1760435674061&qH=a550c8f3d4f26f1e: 'Log4j' object has no attribute 'warning'
-25/12/23 20:52:35 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
-25/12/23 20:52:36 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
-25/12/23 20:52:36 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
-25/12/23 20:59:53 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 20:59:54 ERROR flipkart_scraper: [flipkart_scraper] Error scraping https://www.flipkart.com/nike-downshifter-13-running-shoes-women/p/itm672e266097def?pid=SHOGYHFQGABKUUBK&lid=LSTSHOGYHFQGABKUUBK2GVOX2&marketplace=FLIPKART&q=nike+downshifter+13+men&store=osp%2Fiko&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&fm=search-autosuggest&iid=e4c88bac-a1fa-4e65-9bd2-986fad928192.SHOGYHFQGABKUUBK.SEARCH&ppt=sp&ppn=sp&ssid=9dyl2pok2n9bfzeo1760435674061&qH=a550c8f3d4f26f1e: 'Log4j' object has no attribute 'warning'
-25/12/23 21:01:03 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
-25/12/23 21:01:04 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
-25/12/23 21:01:04 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
-25/12/23 21:16:30 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 21:19:36 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
-25/12/23 21:19:37 ERROR flipkart_scraper: [flipkart_scraper] Error scraping https://www.flipkart.com/nike-downshifter-13-running-shoes-women/p/itm672e266097def?pid=SHOGYHFQGABKUUBK&lid=LSTSHOGYHFQGABKUUBK2GVOX2&marketplace=FLIPKART&q=nike+downshifter+13+men&store=osp%2Fiko&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_ps&fm=search-autosuggest&iid=e4c88bac-a1fa-4e65-9bd2-986fad928192.SHOGYHFQGABKUUBK.SEARCH&ppt=sp&ppn=sp&ssid=9dyl2pok2n9bfzeo1760435674061&qH=a550c8f3d4f26f1e: 'Log4j' object has no attribute 'warning'
-25/12/23 21:19:39 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
-25/12/23 21:19:39 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
-25/12/23 21:19:40 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
+25/12/24 21:38:20 INFO flipkart_scraper: [flipkart_scraper] Starting Flipkart scraper
+25/12/24 21:38:21 WARN flipkart_scraper: [flipkart_scraper] Product is out of stock Downshifter 13 Running Shoes For Women  (Black , 6)
+25/12/24 21:38:21 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: C1TY Sneakers For Men  (Grey , 7)
+25/12/24 21:38:22 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Sneakers For Women  (Pink , 7)
+25/12/24 21:38:23 INFO flipkart_scraper: [flipkart_scraper] Scraped Flipkart | Product: Killshot 2 Leather Sneakers For Men  (White , 8.5)
