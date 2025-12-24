@@ -39,10 +39,3 @@ jobs:
           AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
         run: |
           pytest tests/
-
-      - name: Run Smart Price Tracker
-        shell: bash -l {0}
-        env:
-          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
-        run: |
-          python main.py
