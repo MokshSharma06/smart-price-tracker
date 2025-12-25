@@ -11,126 +11,113 @@ from datetime import datetime
 import sys, os, logging, json
 from src.logger import get_logger
 from src.utils import get_spark_session
+from pyvirtualdisplay import Display
 
 import shutil
-
-# ---------------- LOGGER SETUP ----------------
-spark,config = get_spark_session()
-logger = get_logger(spark, "ajio_scraper")
-logger.info("starting ajio scraper")
 
 
 # -------------------------------------------------
 def fetch_ajio_product(url):
-    logger.info(f"Fetching product from {url}")
-    options = Options()
-    user_data_dir = tempfile.mkdtemp(prefix="chrome_user_data_")
-    options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/118.0.5993.118 Safari/537.36"
-    )
-    options.add_argument("--headless=new")
-    options.add_argument(f"--user-data-dir={user_data_dir}")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
-    options.headless = True  # Uncomment for silent scraping
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--window-size=1920,1080")
+    spark,config = get_spark_session()
+    logger = get_logger(spark, "ajio_scraper")
+    logger.info("starting ajio scraper")
+    with Display(visible=0, size=(1920, 1080)) as disp:
+        logger.info(f"Fetching product from {url}")
+        
+        # Creates a temporary directory for Chrome user data to avoid conflicts
+        user_data_dir = tempfile.mkdtemp(prefix="chrome_user_data_")
+        
+        try:
+            options = Options()
+            options.add_argument("--headless=new")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--disable-gpu")
+            options.add_argument("--window-size=1920,1080")
+            options.add_argument(f"--user-data-dir={user_data_dir}")
+            
+            # Anti-bot and stealth settings
+            options.add_argument(
+                "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/118.0.5993.118 Safari/537.36"
+            )
+            options.add_argument("--disable-blink-features=AutomationControlled")
+            options.add_experimental_option("excludeSwitches", ["enable-automation"])
+            options.add_experimental_option("useAutomationExtension", False)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=options)
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()), options=options
-    )
+            # 3. Perform the Scraping
+            driver.get(url)
 
-    try:
-        driver.get(url)
+            # Wait for the product name to load
+            wait = WebDriverWait(driver, 20)
+            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "h1.prod-name")))
 
-        # Wait for product name to load (up to 20 seconds)
-        wait = WebDriverWait(driver, 20)
-        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "h1.prod-name")))
+            soup = BeautifulSoup(driver.page_source, "html.parser")
 
-        soup = BeautifulSoup(driver.page_source, "html.parser")
+            # ---- Extract Data ----
+            product_name_elem = soup.find("h1", class_="prod-name")
+            product_name = product_name_elem.get_text(strip=True) if product_name_elem else None
+            
+            brand_elem = soup.find("h2", class_="brand-name")
+            brand = brand_elem.get_text(strip=True) if brand_elem else None
 
-        # ---- Extract Data ----
-        product_name = (
-            soup.find("h1", class_="prod-name").get_text(strip=True)
-            if soup.find("h1", class_="prod-name")
-            else None
-        )
-        brand = (
-            soup.find("h2", class_="brand-name").get_text(strip=True)
-            if soup.find("h2", class_="brand-name")
-            else None
-        )
+            prod_price_div = soup.find("div", class_="prod-price-sec") or soup.find("div", class_="prod-price")
+            sp_price_div = soup.find("div", class_="prod-sp")
+            add_to_bag_button = soup.find("div", class_="pdp-addtocart-button")
 
-        prod_price_div = soup.find("div", class_="prod-price-sec") or soup.find(
-            "div", class_="prod-price"
-        )
-        sp_price_div = soup.find("div", class_="prod-sp")
+            mrp = None
+            price = None
+            status = "In Stock"
 
-        add_to_bag_button = soup.find("div", class_="pdp-addtocart-button")
-
-        mrp = None
-        price = None
-        status = "In Stock"
-
-        if add_to_bag_button:
-            button_text = add_to_bag_button.get_text(strip=True).lower()
-            if "out of stock" in button_text or "sold out" in button_text:
+            # Check Availability
+            if add_to_bag_button:
+                button_text = add_to_bag_button.get_text(strip=True).lower()
+                if "out of stock" in button_text or "sold out" in button_text:
+                    status = "Out of Stock"
+            else:
                 status = "Out of Stock"
-                logger.warn(f"Product is out of stock {product_name.text.strip()}")
-        elif add_to_bag_button is None:
-            status = "Out of Stock"
-            logger.warn(f"Product is out of stock {product_name.text.strip()}")
 
-        if prod_price_div and sp_price_div:
-            mrp_tag = prod_price_div.find(
-                "span", class_="prod-cp"
-            ) or prod_price_div.find("span", class_="prod-mrp")
-            mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
-            price = sp_price_div.get_text(strip=True)
-        elif prod_price_div:
-            mrp_tag = prod_price_div.find(
-                "span", class_="prod-cp"
-            ) or prod_price_div.find("span", class_="prod-mrp")
-            mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
-            price = mrp
-        elif sp_price_div:
-            price = sp_price_div.get_text(strip=True)
-            mrp = price
-        else:
-            logger.warn(f"Price not found for {url}")
+            # Price Extraction Logic
+            if prod_price_div and sp_price_div:
+                mrp_tag = prod_price_div.find("span", class_="prod-cp") or prod_price_div.find("span", class_="prod-mrp")
+                mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
+                price = sp_price_div.get_text(strip=True)
+            elif prod_price_div:
+                mrp_tag = prod_price_div.find("span", class_="prod-cp") or prod_price_div.find("span", class_="prod-mrp")
+                mrp = mrp_tag.get_text(strip=True) if mrp_tag else None
+                price = mrp
+            elif sp_price_div:
+                price = sp_price_div.get_text(strip=True)
+                mrp = price
 
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        if not product_name:
-            logger.warn(f"Product name not found for {url}")
+            data = {
+                "product_name": product_name,
+                "mrp": mrp,
+                "status": status,
+                "price": price,
+                "brand": brand,
+                "website": "ajio",
+                "timestamp": timestamp,
+                "url": url,
+            }
 
-        data = {
-            "product_name": product_name,
-            "mrp": mrp,
-            "status": status,
-            "price": price,
-            "brand": brand,
-            "website": "ajio",
-            "timestamp": timestamp,
-            "url": url,
-        }
+            logger.info(f"Scraped: {product_name} | Price: {price} | Status: {status}")
+            return data
 
-        logger.info(
-            f"Scraped Ajio Product: {product_name or 'Unknown'} | Price: {price}"
-        )
-        return data
+        except Exception as e:
+            logger.error(f"Error scraping {url}: {e}")
+            return {"error": str(e), "url": url}
 
-    except Exception as e:
-        logger.error(f"Error scraping {url}: {e}")
-        return {"error": str(e), "url": url}
-
-    finally:
-        driver.quit()
-        shutil.rmtree(user_data_dir, ignore_errors=True)
+        finally:
+            # 4. Clean up the driver before exiting the 'with' block
+            if 'driver' in locals():
+                driver.quit()
+            shutil.rmtree(user_data_dir, ignore_errors=True)
 
 
 ajio_urls = [

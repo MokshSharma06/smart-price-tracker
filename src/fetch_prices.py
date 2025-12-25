@@ -11,13 +11,10 @@ from src.utils import get_spark_session
 
 site_name = "Flipkart"
 
-# Create handlers
-spark,config = get_spark_session()
-logger = get_logger(spark, "flipkart_scraper")
-logger.info("Starting Flipkart scraper")
-
-
 def scrape_flipkart_product(url):
+    spark,config = get_spark_session()
+    logger = get_logger(spark, "flipkart_scraper")
+    logger.info("Starting Flipkart scraper")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "

@@ -1,0 +1,31 @@
+25/12/24 21:38:20 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/24 21:38:20 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/24 21:38:54 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/24 21:38:54 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/24 21:39:32 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/24 21:39:35 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 329
+25/12/24 21:40:05 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/24 21:40:05 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/24 21:40:08 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 674
+25/12/24 21:40:10 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 674
+25/12/24 21:40:10 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/24 21:40:13 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 674 | After = 674
+25/12/24 21:40:13 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/24 21:40:15 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 184 | Remaining = 490
+25/12/24 21:40:15 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/24 21:40:15 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 10
+25/12/24 21:40:15 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/24 21:40:18 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 490
+25/12/24 21:40:18 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to processed path
+25/12/24 21:40:23 INFO smart-price-tracker: [smart-price-tracker] Calculating buying signals and moving averages
+25/12/24 21:40:23 INFO smart-price-tracker: [smart-price-tracker] Signal generation completed
+25/12/24 21:40:23 INFO smart-price-tracker: [smart-price-tracker] Starting Delta incremental load
+25/12/24 21:40:23 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/24 21:40:23 INFO delta_loader: [delta_loader] silver source: abfss://smart-price-container@smartpricetrackerstorage.dfs.core.windows.net/Data/processed/processed_data/ to Delta sink: abfss://smart-price-container@smartpricetrackerstorage.dfs.core.windows.net/Data/delta_data/curated_data/
+25/12/24 21:40:24 INFO delta_loader: [delta_loader] Loaded 490 silver records
+25/12/24 21:40:30 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-12-23 21:19:56
+25/12/24 21:40:30 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-12-23 21:19:56
+25/12/24 21:40:31 INFO delta_loader: [delta_loader] Found 19 new records to append
+25/12/24 21:40:31 INFO delta_loader: [delta_loader] Appending 19 records to Delta table...
+25/12/24 21:40:35 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/24 21:40:35 INFO smart-price-tracker: [smart-price-tracker] Pipeline execution finished successfully

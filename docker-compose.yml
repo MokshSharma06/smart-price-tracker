@@ -1,0 +1,16 @@
+
+services:
+  smart-price-tracker:
+    build: .
+    user: root
+    image: smart-price-tracker:latest
+    container_name: smart-price-tracker-app
+    env_file:
+      - .env
+    environment:
+      - AZURE_STORAGE_ACCOUNT_KEY=${AZURE_STORAGE_ACCOUNT_KEY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./logs:/app/logs
+    tty: true
+    stdin_open: true

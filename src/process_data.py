@@ -16,12 +16,13 @@ from src.logger import Log4j
 from src.data_loader import *
 from pyspark.sql import functions as F, Window
 
-spark, config = get_spark_session("Process_data")
-logger = Log4j(spark)
+
 
 
 # lets remove the Ruppee symbol and , from the prices and cast them to double for calculations, using try_cast because some mrp fiels contain literal MRP or MRP 500
 def clean_prices(df):
+    spark, config = get_spark_session("Process_data")
+    logger = Log4j(spark)
     df = df.withColumn(
         "mrp_price",
         trim(regexp_replace(col("mrp_price"), "[₹,]", ""))

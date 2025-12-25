@@ -1,38 +1,36 @@
-# ---- Conda-based Dockerfile (reliable, but larger images) ----
 FROM continuumio/miniconda3:latest
-# Workdir
+
 WORKDIR /app
 
-# Copy environment first so changes to code don't bust dependency layer
+# 1. Install Linux dependencies for Chrome and Virtual Screen
+USER root
+RUN apt-get update && apt-get install -y \
+    wget gnupg unzip xvfb libxi6 libgconf-2-4 \
+    libnss3 libgbm1 libasound2 libxrender1 libxtst6 \
+    libfontconfig1 libx11-6 \
+    && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list \
+    && apt-get update && apt-get install -y google-chrome-stable \
+    && rm -rf /var/lib/apt/lists/*
+
+# setting up env 
 COPY environment.yml /app/environment.yml
+ENV CONDA_ENV_NAME=smart-price-tracker
 
-ENV CONDA_ENV_NAME=spt-env
-
-# Create conda env from environment.yml
 SHELL ["bash", "-lc"]
 RUN conda env create -f /app/environment.yml -n ${CONDA_ENV_NAME} \
-    && conda clean -afy \
-    && rm -rf /root/.cache/pip /root/.cache/conda
+    && conda clean -afy
 
-# Ensure conda env binaries are first on PATH
+# setting up paths
 ENV PATH=/opt/conda/envs/${CONDA_ENV_NAME}/bin:$PATH
-ENV JAVA_HOME="/opt/conda/envs/$CONDA_ENV_NAME"
-ENV SPARK_MASTER_URL="local[*]"
-# Set the Spark Home to the correct location for python execution
-ENV SPARK_HOME="/opt/conda/envs/$CONDA_ENV_NAME/lib/python3.10/site-packages/pyspark"
-# Copy application code
+ENV JAVA_HOME="/opt/conda/envs/${CONDA_ENV_NAME}"
+ENV SPARK_HOME="/opt/conda/envs/${CONDA_ENV_NAME}/lib/python3.10/site-packages/pyspark"
+ENV DISPLAY=:99
+
+# Permissions and Code
 COPY . /app
-
-# Create non-root user and give ownership
-RUN useradd -m appuser \
-    && chown -R appuser:appuser /app \
-    && chown -R appuser:appuser /opt/conda/envs/${CONDA_ENV_NAME}
-
+RUN useradd -m appuser && chown -R appuser:appuser /app
 USER appuser
-WORKDIR /app
 
-# Make run script executable (if present)
-RUN chmod +x /app/run.sh || true
-
-# Default command: run your main.py using the conda env
-CMD ["bash", "-lc", "conda run -n spt-env python main.py"]
+# 5. Launch with Xvfb
+CMD ["bash", "-lc", "Xvfb :99 -screen 0 1920x1080x24 & conda run -n smart-price-tracker python main.py"]

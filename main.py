@@ -12,12 +12,14 @@ from src.process_data import (
 )
 from src.logic import generate_signals
 from src.delta_loader import delta_loader
-
+from dotenv import load_dotenv
+import os
 
 def main():
     # --------------------------------------------------
     # 1. Spark + Application Logger
     # --------------------------------------------------
+    load_dotenv()
     spark, config = get_spark_session()
     app_logger = get_logger(spark, "smart-price-tracker")
 

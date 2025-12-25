@@ -18,3 +18,5 @@ dependencies:
       - webdriver-manager
       - python-dotenv
       - pyyaml
+      - pyvirtualdisplay
+

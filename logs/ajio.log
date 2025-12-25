@@ -1,9 +1,45 @@
-25/12/24 21:38:20 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
-25/12/24 21:38:29 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
-25/12/24 21:38:35 INFO ajio_scraper: [ajio_scraper] Scraped Ajio Product: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782
-25/12/24 21:38:35 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
-25/12/24 21:38:41 INFO ajio_scraper: [ajio_scraper] Scraped Ajio Product: Downshifter 13 Running Shoes | Price: ₹3,350
-25/12/24 21:38:41 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
-25/12/24 21:38:45 INFO ajio_scraper: [ajio_scraper] Scraped Ajio Product: Field General Running Shoes | Price: ₹6,521
-25/12/24 21:38:46 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
-25/12/24 21:38:50 INFO ajio_scraper: [ajio_scraper] Scraped Ajio Product: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076
+25/12/25 20:36:49 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 20:36:49 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/25 20:36:58 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+25/12/25 20:36:58 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/25 20:37:05 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+25/12/25 20:37:05 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/25 20:37:12 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+25/12/25 20:37:12 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/25 20:37:19 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+25/12/25 15:56:06 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:56:06 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/25 15:56:12 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+25/12/25 15:56:12 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:56:12 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/25 15:56:17 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+25/12/25 15:56:17 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:56:17 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/25 15:56:21 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+25/12/25 15:56:21 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:56:21 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/25 15:56:26 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+25/12/25 15:59:52 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:59:52 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/25 15:59:58 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+25/12/25 15:59:58 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 15:59:58 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/25 16:00:02 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+25/12/25 16:00:02 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:00:02 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/25 16:00:06 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+25/12/25 16:00:06 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:00:06 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/25 16:00:11 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+25/12/25 16:24:54 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:24:54 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/25 16:25:05 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+25/12/25 16:25:05 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:25:05 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/25 16:25:12 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+25/12/25 16:25:13 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:25:13 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/25 16:25:21 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+25/12/25 16:25:21 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/25 16:25:21 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/25 16:25:28 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
