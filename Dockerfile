@@ -33,4 +33,4 @@ RUN useradd -m appuser && chown -R appuser:appuser /app
 USER appuser
 
 # 5. Launch with Xvfb
-CMD ["bash", "-lc", "Xvfb :99 -screen 0 1920x1080x24 & conda run -n smart-price-tracker python main.py"]
+CMD ["python", "-u", "main.py"]
