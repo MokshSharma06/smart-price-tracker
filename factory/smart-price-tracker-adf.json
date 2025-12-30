@@ -1,9 +1,0 @@
-{
-	"name": "smart-price-tracker-adf",
-	"location": "centralindia",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "8af5d399-7c24-4e5d-bce6-a4f66fc111a9",
-		"tenantId": "00138454-6972-4c30-8c5e-4cf73e84b009"
-	}
-}
