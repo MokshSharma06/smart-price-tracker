@@ -6,7 +6,7 @@ Smart Price Tracker is an end-to-end data engineering pipeline that scrapes prod
 
 ## 🏗 Architecture
 
-![Smart Price Tracker Architecture](docs/architecture.png)
+![Smart Price Tracker Architecture](docs/smart-price.png)
 
 The project is built using Medallion Architecture (Bronze → Silver → Gold) with strong emphasis on schema contracts, canonical pricing, idempotency, and testability.
 
