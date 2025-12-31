@@ -20,3 +20,5 @@ data/processed/processed_data
 venv/
 env/
 conda-env/
+
+reading_delta_data.py

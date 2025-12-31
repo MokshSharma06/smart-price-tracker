@@ -5,7 +5,7 @@ azure:
   
   raw_path: "Data/raw"
   processed_path: "Data/processed/processed_data"
-  delta_path: "Data/delta_data/curated_data"
+  gold_alerts: "Data/gold_alerts/"
 
 
 spark:
