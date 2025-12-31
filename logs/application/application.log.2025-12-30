@@ -1,0 +1,226 @@
+25/12/30 18:10:18 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/30 18:10:18 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/30 18:11:01 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/30 18:11:01 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/30 18:11:46 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/30 18:11:50 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 391
+25/12/30 18:12:50 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/30 18:12:50 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/30 18:12:55 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 792
+25/12/30 18:12:59 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 792
+25/12/30 18:12:59 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/30 18:13:03 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 792 | After = 792
+25/12/30 18:13:03 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/30 18:13:08 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 251 | Remaining = 541
+25/12/30 18:13:08 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/30 18:13:08 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/30 18:13:08 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/30 18:13:12 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 541
+25/12/30 18:13:12 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
+25/12/30 18:18:54 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/30 18:18:54 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/30 18:19:54 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/30 18:19:54 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/30 18:20:57 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/30 18:21:01 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 395
+25/12/30 18:21:59 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/30 18:21:59 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/30 18:22:03 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 800
+25/12/30 18:22:07 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 800
+25/12/30 18:22:07 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/30 18:22:12 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 800 | After = 800
+25/12/30 18:22:12 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/30 18:22:17 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 254 | Remaining = 546
+25/12/30 18:22:17 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/30 18:22:17 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/30 18:22:17 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/30 18:22:21 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 546
+25/12/30 18:22:21 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
+25/12/30 20:20:49 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:20:49 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:20:50 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:20:50 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:20:50 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:20:51 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:20:51 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:20:55 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:20:57 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:20:57 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:20:57 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:20:57 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:20:57 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:20:58 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:20:58 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:20:58 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:21:00 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:26:33 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:26:33 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:26:34 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:26:34 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:26:34 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:26:34 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:26:34 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:26:38 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:26:40 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:26:40 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:26:40 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:26:41 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:26:41 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:26:41 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:26:41 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:26:42 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:26:43 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:29:31 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:29:31 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:29:32 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:29:32 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:29:32 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:29:32 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:29:32 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:29:45 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:29:49 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:29:49 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:29:49 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:29:50 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:29:50 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:29:50 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:29:50 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:29:51 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:29:53 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:31:16 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:31:16 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:31:17 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:31:17 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:31:17 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:31:17 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:31:17 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:31:21 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:31:23 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:31:23 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:31:24 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:31:24 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:31:24 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:31:24 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:31:24 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:31:25 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:31:26 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:31:26 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:31:26 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:31:27 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:31:27 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:31:27 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:31:27 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:37:57 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:37:57 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:37:58 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:37:58 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:37:58 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:37:58 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:37:58 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:38:02 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:38:05 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:38:06 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:38:08 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:43:17 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:43:17 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:43:18 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:43:18 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:43:18 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:43:18 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:43:18 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:43:22 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:43:25 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:43:26 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:43:28 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 20:52:37 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:52:37 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:52:38 INFO delta_loader: [delta_loader] Loaded 2 silver records
+25/12/30 20:52:39 INFO delta_loader: [delta_loader] Delta table not found. Performing initial load.
+25/12/30 20:52:39 INFO delta_loader: [delta_loader] Initial load: All silver records will be loaded.
+25/12/30 20:52:39 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:52:39 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:52:43 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Loaded 4 silver records
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-01 10:00:00
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-01 10:00:00
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Found 2 new records to append
+25/12/30 20:52:45 INFO delta_loader: [delta_loader] Appending 2 records to Delta table...
+25/12/30 20:52:46 INFO delta_loader: [delta_loader] Data has been appended successfully.
+25/12/30 20:52:47 INFO delta_loader: [delta_loader] Starting Delta_Loader
+25/12/30 20:52:47 INFO delta_loader: [delta_loader] silver source: data/delta_test/processed to Delta sink: data/delta_test/delta_data/curated_data
+25/12/30 20:52:48 INFO delta_loader: [delta_loader] Loaded 6 silver records
+25/12/30 20:52:48 INFO delta_loader: [delta_loader] Existing Delta table found. Current watermark: 2025-01-02 11:00:00
+25/12/30 20:52:48 INFO delta_loader: [delta_loader] Filtering silver data using watermark: 2025-01-02 11:00:00
+25/12/30 20:52:48 INFO delta_loader: [delta_loader] Found 0 new records to append
+25/12/30 20:52:48 INFO delta_loader: [delta_loader] No new data to append. Exiting.
+25/12/30 21:39:10 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/30 21:39:10 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/30 21:39:42 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/30 21:41:25 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/30 21:41:25 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/30 21:42:09 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/30 21:42:09 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/30 21:43:08 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/30 21:43:11 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 403
+25/12/30 21:43:58 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/30 21:43:58 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/30 21:44:02 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 816
+25/12/30 21:44:06 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 816
+25/12/30 21:44:06 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/30 21:44:10 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 816 | After = 816
+25/12/30 21:44:10 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/30 21:44:15 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 258 | Remaining = 558
+25/12/30 21:44:15 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/30 21:44:15 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/30 21:44:15 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/30 21:44:19 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 558
+25/12/30 21:44:19 INFO smart-price-tracker: [smart-price-tracker] Writing silver data
+25/12/30 21:44:49 INFO smart-price-tracker: [smart-price-tracker] Silver rows after merge = 338
+25/12/30 21:44:49 INFO smart-price-tracker: [smart-price-tracker] Loading full history from Silver for Signal Generation
+25/12/30 21:44:49 INFO smart-price-tracker: [smart-price-tracker] Calculating buying signals (Today vs 7-Day Average)
+25/12/30 21:44:51 INFO smart-price-tracker: [smart-price-tracker] No significant price drops detected for today's data
+25/12/30 21:44:51 INFO smart-price-tracker: [smart-price-tracker] Pipeline execution finished successfully

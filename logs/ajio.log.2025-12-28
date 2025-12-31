@@ -1,0 +1,184 @@
+25/12/28 21:02:22 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:02:22 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/28 21:03:20 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x55ece96b661a <unknown>
+#1 0x55ece913320b <unknown>
+#2 0x55ece918490f <unknown>
+#3 0x55ece9184b51 <unknown>
+#4 0x55ece91d2d84 <unknown>
+#5 0x55ece91d020e <unknown>
+#6 0x55ece9177232 <unknown>
+#7 0x55ece9177ee1 <unknown>
+#8 0x55ece967f3f9 <unknown>
+#9 0x55ece968234d <unknown>
+#10 0x55ece9668122 <unknown>
+#11 0x55ece9682f2b <unknown>
+#12 0x55ece964ec30 <unknown>
+#13 0x55ece96a3d78 <unknown>
+#14 0x55ece96a3f4c <unknown>
+#15 0x55ece96b5973 <unknown>
+#16 0x7ea81de9caa4 <unknown>
+#17 0x7ea81df29c6c <unknown>
+
+25/12/28 21:03:20 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:03:21 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/28 21:03:43 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x60f97dda661a <unknown>
+#1 0x60f97d82320b <unknown>
+#2 0x60f97d87490f <unknown>
+#3 0x60f97d874b51 <unknown>
+#4 0x60f97d8c2d84 <unknown>
+#5 0x60f97d8c020e <unknown>
+#6 0x60f97d867232 <unknown>
+#7 0x60f97d867ee1 <unknown>
+#8 0x60f97dd6f3f9 <unknown>
+#9 0x60f97dd7234d <unknown>
+#10 0x60f97dd58122 <unknown>
+#11 0x60f97dd72f2b <unknown>
+#12 0x60f97dd3ec30 <unknown>
+#13 0x60f97dd93d78 <unknown>
+#14 0x60f97dd93f4c <unknown>
+#15 0x60f97dda5973 <unknown>
+#16 0x76e180e9caa4 <unknown>
+#17 0x76e180f29c6c <unknown>
+
+25/12/28 21:03:43 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:03:43 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/28 21:04:38 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x6287d57fa61a <unknown>
+#1 0x6287d527720b <unknown>
+#2 0x6287d52c890f <unknown>
+#3 0x6287d52c8b51 <unknown>
+#4 0x6287d5316d84 <unknown>
+#5 0x6287d531420e <unknown>
+#6 0x6287d52bb232 <unknown>
+#7 0x6287d52bbee1 <unknown>
+#8 0x6287d57c33f9 <unknown>
+#9 0x6287d57c634d <unknown>
+#10 0x6287d57ac122 <unknown>
+#11 0x6287d57c6f2b <unknown>
+#12 0x6287d5792c30 <unknown>
+#13 0x6287d57e7d78 <unknown>
+#14 0x6287d57e7f4c <unknown>
+#15 0x6287d57f9973 <unknown>
+#16 0x710ce129caa4 <unknown>
+#17 0x710ce1329c6c <unknown>
+
+25/12/28 21:04:38 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:04:39 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/28 21:05:46 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x566d8510361a <unknown>
+#1 0x566d84b8020b <unknown>
+#2 0x566d84bd190f <unknown>
+#3 0x566d84bd1b51 <unknown>
+#4 0x566d84c1fd84 <unknown>
+#5 0x566d84c1d20e <unknown>
+#6 0x566d84bc4232 <unknown>
+#7 0x566d84bc4ee1 <unknown>
+#8 0x566d850cc3f9 <unknown>
+#9 0x566d850cf34d <unknown>
+#10 0x566d850b5122 <unknown>
+#11 0x566d850cff2b <unknown>
+#12 0x566d8509bc30 <unknown>
+#13 0x566d850f0d78 <unknown>
+#14 0x566d850f0f4c <unknown>
+#15 0x566d85102973 <unknown>
+#16 0x724cb2c9caa4 <unknown>
+#17 0x724cb2d29c6c <unknown>
+
+25/12/28 21:12:41 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:12:41 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+25/12/28 21:13:37 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x628f34f4561a <unknown>
+#1 0x628f349c220b <unknown>
+#2 0x628f34a1390f <unknown>
+#3 0x628f34a13b51 <unknown>
+#4 0x628f34a61d84 <unknown>
+#5 0x628f34a5f20e <unknown>
+#6 0x628f34a06232 <unknown>
+#7 0x628f34a06ee1 <unknown>
+#8 0x628f34f0e3f9 <unknown>
+#9 0x628f34f1134d <unknown>
+#10 0x628f34ef7122 <unknown>
+#11 0x628f34f11f2b <unknown>
+#12 0x628f34eddc30 <unknown>
+#13 0x628f34f32d78 <unknown>
+#14 0x628f34f32f4c <unknown>
+#15 0x628f34f44973 <unknown>
+#16 0x77a835c9caa4 <unknown>
+#17 0x77a835d29c6c <unknown>
+
+25/12/28 21:13:37 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:13:37 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+25/12/28 21:13:59 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x611c95a5661a <unknown>
+#1 0x611c954d320b <unknown>
+#2 0x611c9552490f <unknown>
+#3 0x611c95524b51 <unknown>
+#4 0x611c95572d84 <unknown>
+#5 0x611c9557020e <unknown>
+#6 0x611c95517232 <unknown>
+#7 0x611c95517ee1 <unknown>
+#8 0x611c95a1f3f9 <unknown>
+#9 0x611c95a2234d <unknown>
+#10 0x611c95a08122 <unknown>
+#11 0x611c95a22f2b <unknown>
+#12 0x611c959eec30 <unknown>
+#13 0x611c95a43d78 <unknown>
+#14 0x611c95a43f4c <unknown>
+#15 0x611c95a55973 <unknown>
+#16 0x756412c9caa4 <unknown>
+#17 0x756412d29c6c <unknown>
+
+25/12/28 21:13:59 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:13:59 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+25/12/28 21:15:11 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x5f4d535d361a <unknown>
+#1 0x5f4d5305020b <unknown>
+#2 0x5f4d530a190f <unknown>
+#3 0x5f4d530a1b51 <unknown>
+#4 0x5f4d530efd84 <unknown>
+#5 0x5f4d530ed20e <unknown>
+#6 0x5f4d53094232 <unknown>
+#7 0x5f4d53094ee1 <unknown>
+#8 0x5f4d5359c3f9 <unknown>
+#9 0x5f4d5359f34d <unknown>
+#10 0x5f4d53585122 <unknown>
+#11 0x5f4d5359ff2b <unknown>
+#12 0x5f4d5356bc30 <unknown>
+#13 0x5f4d535c0d78 <unknown>
+#14 0x5f4d535c0f4c <unknown>
+#15 0x5f4d535d2973 <unknown>
+#16 0x7ef63b29caa4 <unknown>
+#17 0x7ef63b329c6c <unknown>
+
+25/12/28 21:15:12 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+25/12/28 21:15:12 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+25/12/28 21:16:07 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5f5aa2da061a <unknown>
+#1 0x5f5aa281d20b <unknown>
+#2 0x5f5aa286e90f <unknown>
+#3 0x5f5aa286eb51 <unknown>
+#4 0x5f5aa28bcd84 <unknown>
+#5 0x5f5aa28ba20e <unknown>
+#6 0x5f5aa2861232 <unknown>
+#7 0x5f5aa2861ee1 <unknown>
+#8 0x5f5aa2d693f9 <unknown>
+#9 0x5f5aa2d6c34d <unknown>
+#10 0x5f5aa2d52122 <unknown>
+#11 0x5f5aa2d6cf2b <unknown>
+#12 0x5f5aa2d38c30 <unknown>
+#13 0x5f5aa2d8dd78 <unknown>
+#14 0x5f5aa2d8df4c <unknown>
+#15 0x5f5aa2d9f973 <unknown>
+#16 0x7dc54ac9caa4 <unknown>
+#17 0x7dc54ad29c6c <unknown>
+

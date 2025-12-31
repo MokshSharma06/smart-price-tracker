@@ -1,0 +1,95 @@
+25/12/29 17:35:01 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/29 17:35:01 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/29 17:35:33 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/29 17:35:33 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/29 17:36:22 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/29 17:36:25 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 367
+25/12/29 17:37:07 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/29 17:37:07 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/29 17:37:10 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 748
+25/12/29 17:37:14 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 748
+25/12/29 17:37:14 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/29 17:37:17 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 748 | After = 748
+25/12/29 17:37:17 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/29 17:37:21 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 242 | Remaining = 506
+25/12/29 17:37:21 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/29 17:37:21 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/29 17:37:21 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/29 17:37:25 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 506
+25/12/29 17:37:25 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to processed path
+25/12/29 18:30:50 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/29 18:30:50 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/29 18:31:34 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/29 18:31:34 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/29 18:32:23 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/29 18:32:26 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 375
+25/12/29 18:33:11 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/29 18:33:11 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/29 18:33:14 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 760
+25/12/29 18:33:18 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 760
+25/12/29 18:33:18 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/29 18:33:21 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 760 | After = 760
+25/12/29 18:33:21 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/29 18:33:25 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 244 | Remaining = 516
+25/12/29 18:33:25 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/29 18:33:25 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/29 18:33:25 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/29 18:33:28 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 516
+25/12/29 18:33:28 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
+25/12/29 18:43:45 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/29 18:43:45 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/29 18:44:32 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/29 18:44:32 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/29 18:45:20 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/29 18:45:23 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 379
+25/12/29 18:46:06 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/29 18:46:06 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/29 18:46:10 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 768
+25/12/29 18:46:14 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 768
+25/12/29 18:46:14 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/29 18:46:17 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 768 | After = 768
+25/12/29 18:46:17 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/29 18:46:22 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 245 | Remaining = 523
+25/12/29 18:46:22 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/29 18:46:22 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/29 18:46:22 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/29 18:46:26 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 523
+25/12/29 18:46:26 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
+25/12/29 18:48:04 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/29 18:48:04 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/29 18:49:02 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/29 18:49:02 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/29 18:49:48 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/29 18:49:51 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 383
+25/12/29 18:50:28 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/29 18:50:28 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/29 18:50:31 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 776
+25/12/29 18:50:35 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 776
+25/12/29 18:50:35 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/29 18:50:38 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 776 | After = 776
+25/12/29 18:50:38 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/29 18:50:42 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 247 | Remaining = 529
+25/12/29 18:50:42 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/29 18:50:42 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/29 18:50:42 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/29 18:50:46 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 529
+25/12/29 18:50:46 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
+25/12/29 20:54:52 INFO smart-price-tracker: [smart-price-tracker] Starting Spark application
+25/12/29 20:54:52 INFO smart-price-tracker: [smart-price-tracker] Starting Flipkart and Ajio scrapers
+25/12/29 20:56:54 INFO smart-price-tracker: [smart-price-tracker] Scraping completed successfully
+25/12/29 20:56:54 INFO smart-price-tracker: [smart-price-tracker] Loading raw data from ADLS
+25/12/29 20:57:34 INFO smart-price-tracker: [smart-price-tracker] Reading from Flipkart raw data
+25/12/29 20:57:43 INFO smart-price-tracker: [smart-price-tracker] Flipkart record count = 387
+25/12/29 20:58:12 INFO smart-price-tracker: [smart-price-tracker] Reading from Ajio raw data
+25/12/29 20:58:12 INFO smart-price-tracker: [smart-price-tracker] Combining dataframes using unionByName...
+25/12/29 20:58:29 INFO smart-price-tracker: [smart-price-tracker] Combined record count (Flipkart + Ajio) = 784
+25/12/29 20:58:34 INFO smart-price-tracker: [smart-price-tracker] Raw record count = 784
+25/12/29 20:58:34 INFO smart-price-tracker: [smart-price-tracker] Starting data cleaning
+25/12/29 20:58:43 INFO smart-price-tracker: [smart-price-tracker] Cleaning completed | Before = 784 | After = 784
+25/12/29 20:58:43 INFO smart-price-tracker: [smart-price-tracker] Applying validity filters
+25/12/29 20:58:52 INFO smart-price-tracker: [smart-price-tracker] Filtering completed | Dropped = 249 | Remaining = 535
+25/12/29 20:58:52 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP column
+25/12/29 20:58:52 INFO smart-price-tracker: [smart-price-tracker] MRP enrichment completed | Columns = 11
+25/12/29 20:58:52 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+25/12/29 20:59:01 INFO smart-price-tracker: [smart-price-tracker] Silver transformation completed | Final record count = 535
+25/12/29 20:59:01 INFO smart-price-tracker: [smart-price-tracker] Writing silver data to Silver delta Processed Table
