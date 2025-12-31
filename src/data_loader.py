@@ -44,9 +44,9 @@ def write_processed_data(df, silver_path):
         df_with_date
         .groupBy("url", "website", "date")
         .agg(
-            F.min("selling_price").alias("min_price_day"),
-            F.max("selling_price").alias("max_price_day"),
-            F.avg("selling_price").alias("avg_price_day"),
+            F.min("final_price").alias("min_price_day"),
+            F.max("final_price").alias("max_price_day"),
+            F.avg("final_price").alias("avg_price_day"),
             F.avg("Discount_Percentage").alias("avg_discount_day"),
             F.count("*").alias("num_scrapes_day"),
             # Keep metadata consistent
@@ -63,7 +63,7 @@ def write_processed_data(df, silver_path):
         .filter(F.col("rn") == 1)
         .select(
             "url", "website", "date", 
-            F.col("selling_price").alias("closing_price"),
+            F.col("final_price").alias("closing_price"),
             F.col("timestamp").alias("last_scrape_time"),
             "status"
         )
