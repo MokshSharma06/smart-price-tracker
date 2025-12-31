@@ -4,6 +4,10 @@ Production-style Data Engineering Pipeline (Spark + Delta + ADLS)
 
 Smart Price Tracker is an end-to-end data engineering pipeline that scrapes product prices from multiple e-commerce platforms, cleans and normalizes them, builds idempotent Silver aggregates, and generates Gold BUY alerts based on price-drop logic.
 
+## 🏗 Architecture
+
+![Smart Price Tracker Architecture](docs/architecture.png)
+
 The project is built using Medallion Architecture (Bronze → Silver → Gold) with strong emphasis on schema contracts, canonical pricing, idempotency, and testability.
 
 # Medallion Architecture of the project
