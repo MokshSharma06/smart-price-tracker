@@ -49,7 +49,6 @@ def write_processed_data(df, silver_path):
             F.avg("final_price").alias("avg_price_day"),
             F.avg("Discount_Percentage").alias("avg_discount_day"),
             F.count("*").alias("num_scrapes_day"),
-            # Keep metadata consistent
             F.first("brand").alias("brand"),
             F.first("product_name").alias("product_name"),
             F.first("mrp_final").alias("mrp_final")
