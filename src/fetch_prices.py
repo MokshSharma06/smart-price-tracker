@@ -118,14 +118,6 @@ def run_flipkart_scraper(spark=None, urls=None):
         logger.warn("No data scraped successfully.")
         return None
 
-    # --- DEBUG SECTION ---
-    first_row_keys = all_products[0].keys()
-    print(f"DEBUG: Keys found in first product: {list(first_row_keys)}")
-    
-    if "mrp" in first_row_keys:
-        print("CRITICAL: Your scraper is STILL returning 'mrp'!")
-    # ---------------------
-
     custom_schema = StructType([
         StructField("product_name", StringType(), True),
         StructField("selling_price", StringType(), True),
