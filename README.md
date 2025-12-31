@@ -35,12 +35,14 @@ In-Memory Staging (Spark DataFrame)
 ```
 
 # How to run project Locally
+```
 git clone <repo>
 cd smart-price-tracker
 conda env create -f environment.yml
 conda activate smart-price-tracker
 python main.py
 pytest -v
+```
 
 
 # 📂 Project Structure
