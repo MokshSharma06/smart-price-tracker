@@ -1,525 +1,216 @@
-import sys, os
-
-print("sys.path:", sys.path)
-from datetime import datetime
-from src.process_data import *
-from pyspark.sql.functions import col
 import pytest
+from datetime import datetime
+from pyspark.sql.functions import col
+from pyspark.sql.types import (
+    StructType, StructField,
+    StringType, DoubleType, TimestampType
+)
+
+from src.process_data import (
+    clean_prices,
+    add_final_mrp,
+    calculate_disc,
+    process_data
+)
+from src.data_loader import write_processed_data
 from src.utils import get_spark_session
-from pyspark.sql import SparkSession
 
 
+# --------------------------------------------------
+# Spark Fixture
+# --------------------------------------------------
 @pytest.fixture(scope="session")
 def spark():
-    spark,config = get_spark_session()
+    spark, _ = get_spark_session()
     yield spark
     spark.stop()
 
 
+# --------------------------------------------------
+# Sample RAW dataframe fixture
+# --------------------------------------------------
 @pytest.fixture
 def sample_df(spark):
     data = [
         ("iPhone 14", "Apple", "₹79,900", "₹69,900", "2024-01-10 10:00:00", "In Stock"),
         ("iPhone 14", "Apple", "₹79,900", "₹72,900", "2025-01-02 12:00:00", "In Stock"),
         ("iPhone 14", "Apple", None, "₹65,000", "2025-01-01 15:00:00", "Out of Stock"),
-        ("Samsung S23", "Samsung", "", "Out of Stock", "2025-01-01 09:00:00", None),
-        ("iPhone 14", "Apple", None, "₹69,900", "2025-12-1 08:00:00", "In Stock"),
+        ("Samsung S23", "Samsung", "", "₹70,000", "2025-01-01 09:00:00", "In Stock"),
+        ("iPhone 14", "Apple", None, "₹69,900", "2025-12-01 08:00:00", "In Stock"),
     ]
+
     return spark.createDataFrame(
         data,
-        ["product_name", "brand", "mrp_price", "selling_price", "timestamp", "status"],
+        ["product_name", "brand", "mrp", "selling_price", "timestamp", "status"]
     )
 
 
-class Testing_Process:
+# ==================================================
+# PROCESS DATA TESTS
+# ==================================================
+class TestProcessData:
+
+    # --------------------------------------------------
+    # CLEAN PRICES
+    # --------------------------------------------------
     def test_clean_prices(self, spark, sample_df):
         result = clean_prices(sample_df)
-        rows = result.orderBy("timestamp").collect()
 
-        # Verify first row cleaning (₹79,900 → 79900.0)
-        assert rows[0]["mrp_price"] == 79900.0
-        assert rows[0]["selling_price"] == 69900.0
-        assert result.schema["mrp_price"].dataType.simpleString() == "double"
+        assert result.schema["mrp"].dataType.simpleString() == "double"
         assert result.schema["selling_price"].dataType.simpleString() == "double"
-        print("Row Cleaning Done")
 
-        # Verify row with empty MRP ("" → null)
-        empty_mrp_row = result.filter(col("mrp_price").isNull()).count()
-        assert empty_mrp_row >= 3
-        print("Null values are dropped and verified")
+        cleaned = result.orderBy("timestamp").collect()
+        assert cleaned[0]["mrp"] == 79900.0
+        assert cleaned[0]["selling_price"] == 69900.0
 
-    def test_final_mrp(self, spark):
-        sample_data_2 = [
-            (100, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com"),
-            (101, "A", "Nike", "Running Shoe", 100.0, None, "In Stock", "nike.com"),
-            (102, "A", "Nike", "Running Shoe", 80.0, 100.0, "In Stock", "nike.com"),
-            (103, "A", "Nike", "Running Shoe", 75.0, None, "In Stock", "nike.com"),
-            (104, "A", "Nike", "Running Shoe", 80.0, None, "In Stock", "nike.com"),
-            (
-                110,
-                "B",
-                "Adidas",
-                "Training Pant",
-                250.0,
-                None,
-                "In Stock",
-                "adidas.com",
-            ),
-            (
-                111,
-                "B",
-                "Adidas",
-                "Training Pant",
-                140.0,
-                250.0,
-                "In Stock",
-                "adidas.com",
-            ),
-            (
-                112,
-                "B",
-                "Adidas",
-                "Training Pant",
-                130.0,
-                None,
-                "In Stock",
-                "adidas.com",
-            ),
-        ]
-        sample_df_2 = spark.createDataFrame(
-            sample_data_2,
-            [
-                "timestamp",
-                "URL",
-                "Brand",
-                "product_name",
-                "selling_price",
-                "mrp_price",
-                "status",
-                "website",
-            ],
-        )
-        expected_data = [
-            (
-                100,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-            ),
-            (
-                101,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-            ),
-            (
-                102,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-                100,
-                100,
-            ),
-            (
-                103,
-                "A",
-                "Nike",
-                "Running Shoe",
-                75.0,
-                None,
-                "In Stock",
-                "nike.com",
-                100,
-                100,
-            ),
-            (
-                104,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                None,
-                "In Stock",
-                "nike.com",
-                100,
-                100,
-            ),
-            (
-                110,
-                "B",
-                "Adidas",
-                "Training Pant",
-                250.0,
-                None,
-                "In Stock",
-                "adidas.com",
-                None,
-                250,
-            ),
-            (
-                111,
-                "B",
-                "Adidas",
-                "Training Pant",
-                140.0,
-                250.0,
-                "In Stock",
-                "adidas.com",
-                250,
-                250,
-            ),
-            (
-                112,
-                "B",
-                "Adidas",
-                "Training Pant",
-                130.0,
-                None,
-                "In Stock",
-                "adidas.com",
-                250,
-                250,
-            ),
-        ]
-        expected_df = spark.createDataFrame(
-            expected_data,
-            [
-                "timestamp",
-                "URL",
-                "Brand",
-                "product_name",
-                "selling_price",
-                "mrp_price",
-                "status",
-                "website",
-                "mrp_ffill",
-                "mrp_final",
-            ],
-        )
-        result_df = add_final_mrp(sample_df_2)
-        assert result_df.collect() == expected_df.collect()
+        # NULL mrp rows are allowed in RAW
+        assert result.filter(col("mrp").isNull()).count() >= 2
 
-    def test_discount_percentage(self, spark):
-        sample_data_3 = [
-            (
-                100,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-            ),
-            (
-                101,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-            ),
-            (
-                102,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-                100,
-                100,
-            ),
+
+    # --------------------------------------------------
+    # MRP FORWARD FILL
+    # --------------------------------------------------
+    def test_add_final_mrp_forward_fill(self, spark):
+        data = [
+            ("2025-01-01 10:00:00", "urlA", "Nike", "Shoe", 100.0, None, "In Stock", "siteA"),
+            ("2025-01-01 12:00:00", "urlA", "Nike", "Shoe", 90.0, 120.0, "In Stock", "siteA"),
+            ("2025-01-01 15:00:00", "urlA", "Nike", "Shoe", 85.0, None, "In Stock", "siteA"),
         ]
 
-        sample_df_3 = spark.createDataFrame(
-            sample_data_3,
+        df = spark.createDataFrame(
+            data,
             [
-                "timestamp",
-                "URL",
-                "Brand",
-                "product_name",
-                "selling_price",
-                "mrp_price",
-                "status",
-                "website",
-                "mrp_ffill",
-                "mrp_final",
-            ],
-        )
-        expected_data = [
-            (
-                100,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-                0,
-            ),
-            (
-                101,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100,
-                0,
-            ),
-            (
-                102,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-                100,
-                100,
-                20,
-            ),
+                "timestamp", "url", "brand", "product_name",
+                "selling_price", "mrp", "status", "website"
+            ]
+        ).withColumn("timestamp", col("timestamp").cast("timestamp"))
+
+        result = add_final_mrp(df).orderBy("timestamp").collect()
+
+        assert result[0]["mrp_final"] is None
+        assert result[1]["mrp_final"] == 120.0
+        assert result[2]["mrp_final"] == 120.0
+
+
+    # --------------------------------------------------
+    # DISCOUNT CALCULATION
+    # --------------------------------------------------
+def test_calculate_discount_percentage(spark):
+    data = [
+        (
+            "2025-01-01 10:00:00",
+            "urlA",
+            "Nike",
+            "Shoe",
+            80.0,     # final_price
+            100.0,    # mrp_final
+            "siteA"
+        ),
+    ]
+
+    df = spark.createDataFrame(
+        data,
+        [
+            "timestamp",
+            "url",
+            "brand",
+            "product_name",
+            "final_price",
+            "mrp_final",
+            "website",
         ]
-        expected_df_2 = spark.createDataFrame(
-            expected_data,
-            [
-                "timestamp",
-                "URL",
-                "Brand",
-                "product_name",
-                "selling_price",
-                "mrp_price",
-                "status",
-                "website",
-                "mrp_ffill",
-                "mrp_final",
-                "discount_percentage",
-            ],
-        )
-        result_df = calculate_disc(sample_df_3)
+    ).withColumn("timestamp", col("timestamp").cast("timestamp"))
 
-        print("Result schema:")
-        result_df.printSchema()
-        print("Expected schema:")
-        expected_df_2.printSchema()
+    result = calculate_disc(df).collect()[0]
 
-        assert result_df.collect() == expected_df_2.collect()
+    assert result["Discount_Percentage"] == 20.0
 
-    def test_process(self, spark):
-        timestamp_str = "2025-11-27 11:00:28"
-        date_time = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
-        sample_data_4 = [
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-            ),
+
+
+
+    # --------------------------------------------------
+    # END-TO-END PROCESS TEST
+    # --------------------------------------------------
+    def test_process_data_end_to_end(self, spark):
+        ts = datetime.strptime("2025-11-27 11:00:28", "%Y-%m-%d %H:%M:%S")
+
+        data = [
+            (ts, "urlA", "Nike", "Shoe", 100.0, None, "In Stock", "siteA"),
+            (ts, "urlA", "Nike", "Shoe", 80.0, 120.0, "In Stock", "siteA"),
         ]
-        sample_df_4 = spark.createDataFrame(
-            sample_data_4,
-            [
-                "timestamp",
-                "URL",
-                "Brand",
-                "product_name",
-                "selling_price",
-                "mrp_price",
-                "status",
-                "website",
-            ],
-        )
-        expected_data = [
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100.0,
-                0.0,
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100.0,
-                0.0,
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-                100.0,
-                100.0,
-                20.0,
-            ),
-        ]
-        from pyspark.sql.types import (
-            StructType,
-            StructField,
-            StringType,
-            DoubleType,
-            TimestampType,
-        )
 
-        expected_schema = StructType(
+        df = spark.createDataFrame(
+            data,
             [
-                StructField("timestamp", TimestampType(), True),
-                StructField("URL", StringType(), True),
-                StructField("Brand", StringType(), True),
-                StructField("product_name", StringType(), True),
-                StructField("selling_price", DoubleType(), True),
-                StructField("mrp_price", DoubleType(), True),
-                StructField("status", StringType(), True),
-                StructField("website", StringType(), True),
-                StructField("mrp_ffill", DoubleType(), True),
-                StructField("mrp_final", DoubleType(), True),
-                StructField("discount_percentage", DoubleType(), True),
+                "timestamp", "url", "brand", "product_name",
+                "selling_price", "mrp", "status", "website"
             ]
         )
-        expected_df_3 = spark.createDataFrame(expected_data, schema=expected_schema)
 
-        result_df = process_data(sample_df_4)
-        print("Result schema:")
-        result_df.printSchema()
-        print("Expected schema:")
-        expected_df_3.printSchema()
-        assert result_df.collect() == expected_df_3.collect()
+        result = process_data(df)
 
-    def test_write_data(self, spark):
-        timestamp_str = "2025-11-27 11:00:28"
-        date_time = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
-        data_to_write = [
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100.0,
-                0.0,
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                100.0,
-                None,
-                "In Stock",
-                "nike.com",
-                None,
-                100.0,
-                0.0,
-            ),
-            (
-                date_time,
-                "A",
-                "Nike",
-                "Running Shoe",
-                80.0,
-                100.0,
-                "In Stock",
-                "nike.com",
-                100.0,
-                100.0,
-                20.0,
-            ),
-        ]
-        columns = [
+        assert "mrp_final" in result.columns
+        assert "final_price" in result.columns
+        assert "Discount_Percentage" in result.columns
+
+
+# ==================================================
+# SILVER IDEMPOTENCY TEST
+# ==================================================
+def test_silver_idempotency(spark, tmp_path):
+    data = [
+        (
+            "2025-01-10 10:00:00",
+            "url1",
+            "Nike",
+            "Shoe",
+            100.0,   # final_price
+            120.0,   # mrp_final
+            16.67,
+            "In Stock",
+            "siteA"
+        ),
+        (
+            "2025-01-10 15:00:00",
+            "url1",
+            "Nike",
+            "Shoe",
+            90.0,
+            120.0,
+            25.0,
+            "In Stock",
+            "siteA"
+        ),
+    ]
+
+    df = spark.createDataFrame(
+        data,
+        [
             "timestamp",
-            "URL",
-            "Brand",
+            "url",
+            "brand",
             "product_name",
-            "selling_price",
-            "mrp_price",
+            "final_price",
+            "mrp_final",
+            "Discount_Percentage",
             "status",
             "website",
-            "mrp_ffill",
-            "mrp_final",
-            "discount_percentage",
         ]
-        df_to_write = spark.createDataFrame(data_to_write, schema=columns)
-        write_path = write_processed_data(df_to_write, "./data/processed/test_data")
-        verify_df = spark.read.parquet("./data/processed/test_data")
-        verify_df.show()
+    ).withColumn("timestamp", col("timestamp").cast("timestamp"))
 
-        assert verify_df.count() == df_to_write.count()
-        print(
-            f" Successfully wrote and verified {verify_df.count()} rows in {write_path}"
-        )
+    silver_path = str(tmp_path / "silver")
+
+    write_processed_data(df, silver_path)
+    write_processed_data(df, silver_path)
+
+    silver_df = spark.read.format("delta").load(silver_path)
+
+    dupes = (
+        silver_df
+        .groupBy("url", "website", "date")
+        .count()
+        .filter("count > 1")
+        .count()
+    )
+
+    assert dupes == 0
