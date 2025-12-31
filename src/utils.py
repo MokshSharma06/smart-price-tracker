@@ -27,8 +27,8 @@ def adls_path(layer_name: str) -> str:
         base_folder = azure_conf.get('raw_path')
     elif layer_name == "processed":
         base_folder = azure_conf.get('processed_path')
-    elif layer_name == "delta_path":
-        base_folder = azure_conf.get('delta_path')
+    elif layer_name == "gold_alerts":
+        base_folder = azure_conf.get('gold_alerts')
     else:
         raise ValueError(f"Unknown layer name: {layer_name}")
         

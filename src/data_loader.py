@@ -20,37 +20,82 @@ BASE_ADLS_PATH = (
 )
 
 
-def load_combined_data(spark, logger, base_adls_path):
-    FLIPKART_RAW_PATH = f"{base_adls_path}raw/flipkart/"
-    AJIO_RAW_PATH = f"{base_adls_path}raw/ajio/"
+from pyspark.sql import functions as F
+from pyspark.sql.window import Window
+from delta.tables import DeltaTable
 
-    # 1. Load Flipkart Data
-    df = (
-        spark.read.option("mode", "DropMalformed")
-        .option("multiline", "True")
-        .json(FLIPKART_RAW_PATH)
-    )
-    logger.info("Reading from Flipkart raw data")
-    rc = df.count()
-    logger.info(f"Flipkart record count = {rc}")
+def write_processed_data(df, silver_path):
+    """
+    defining silver grain and writing to idempotent silver layer
+    """
+    spark = df.sparkSession
+    
+    # 1. Add Date and Window definition
+    df_with_date = df.withColumn("date", F.to_date("timestamp"))
 
-    # 2. Load Ajio Data
-    df2 = (
-        spark.read.option("mode", "DropMalformed")
-        .option("multiline", "true")
-        .json(AJIO_RAW_PATH)
-    )
-    logger.info("Reading from Ajio raw data")
-    df2 = (
-        df2.drop("error")
-        .withColumnRenamed("mrp", "mrp_price")
-        .withColumnRenamed("price", "selling_price")
+    latest_window = (
+        Window
+        .partitionBy("url", "website", "date")
+        .orderBy(F.col("timestamp").desc())
     )
 
-    # 3. Combine DataFrames
-    logger.info("Combining dataframes using unionByName...")
-    combined_df = df.unionByName(df2, allowMissingColumns=True)
-    count = combined_df.count()
-    logger.info(f"Combined record count (Flipkart + Ajio) = {count}")
+    # 2. Daily Metrics
+    daily_metrics = (
+        df_with_date
+        .groupBy("url", "website", "date")
+        .agg(
+            F.min("selling_price").alias("min_price_day"),
+            F.max("selling_price").alias("max_price_day"),
+            F.avg("selling_price").alias("avg_price_day"),
+            F.avg("Discount_Percentage").alias("avg_discount_day"),
+            F.count("*").alias("num_scrapes_day"),
+            # Keep metadata consistent
+            F.first("brand").alias("brand"),
+            F.first("product_name").alias("product_name"),
+            F.first("mrp_final").alias("mrp_final")
+        )
+    )
 
-    return combined_df
+
+    latest_per_day = (
+        df_with_date
+        .withColumn("rn", F.row_number().over(latest_window))
+        .filter(F.col("rn") == 1)
+        .select(
+            "url", "website", "date", 
+            F.col("selling_price").alias("closing_price"),
+            F.col("timestamp").alias("last_scrape_time"),
+            "status"
+        )
+    )
+
+    daily_silver = (
+        daily_metrics.alias("m")
+        .join(
+            latest_per_day.alias("l"),
+            on=["url", "website", "date"],
+            how="inner"
+        )
+    )
+
+    if not DeltaTable.isDeltaTable(spark, silver_path):
+        (
+            daily_silver.write
+            .format("delta")
+            .mode("overwrite")
+            .save(silver_path)
+        )
+    else:
+        silver_delta = DeltaTable.forPath(spark, silver_path)
+        (
+            silver_delta.alias("t")
+            .merge(
+                daily_silver.alias("s"),
+                "t.url = s.url AND t.website = s.website AND t.date = s.date"
+            )
+            .whenMatchedUpdateAll()
+            .whenNotMatchedInsertAll()
+            .execute()
+        )
+
+    return daily_silver

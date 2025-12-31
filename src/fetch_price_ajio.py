@@ -12,7 +12,8 @@ import sys, os, logging, json
 from src.logger import get_logger
 from src.utils import get_spark_session
 from pyvirtualdisplay import Display
-
+import time
+import random
 import shutil
 
 
@@ -99,7 +100,7 @@ def fetch_ajio_product(url):
                 "product_name": product_name,
                 "mrp": mrp,
                 "status": status,
-                "price": price,
+                "selling_price": price,
                 "brand": brand,
                 "website": "ajio",
                 "timestamp": timestamp,
@@ -139,11 +140,16 @@ def run_ajio_scraper(spark=None, urls=None) -> str:
     if spark is None:
         from src.utils import get_spark_session
         spark,config = get_spark_session()
+        logger = get_logger(spark, "ajio_scraper")
+
     all_products = []
     for url in urls:
         data = fetch_ajio_product(url)
         if data:
             all_products.append(data)
+        sleep_time = random.uniform(5, 12)
+        print(f"Waiting for {sleep_time:.2f} seconds to avoid bot detection...")
+        time.sleep(sleep_time)
 
     if not all_products:
         logger.warn("No data scraped successfully. Skipping write to cloud.")
@@ -165,26 +171,5 @@ def run_ajio_scraper(spark=None, urls=None) -> str:
 
     raw_df = spark.createDataFrame(all_products, custom_schema)
 
+    return raw_df
 
-    from pyspark.sql.utils import AnalysisException
-    base_raw_path = adls_path("raw")
-    site_folder = "ajio"
-
-    # directory path : abfss://.../Data/raw/ajio/
-    full_output_path = f"{base_raw_path}{site_folder}/"
-    print(f"--- Starting Scalable APPEND Write for Ajio ---")
-    print(f"Appending new records to ADLS Gen2 directory: {full_output_path}")
-    raw_df.write.mode("append").format("json").save(full_output_path)
-
-    print(f"--- Write Complete: New files added to the 'ajio' folder ---")
-
-#  testing
- 
-# if __name__ == "__main__":
-#     from .utils import get_spark_session
-
-#     spark,config= get_spark_session()
-#     run_ajio_scraper(spark, ajio_urls)
-
-
-# spark.stop()

@@ -38,7 +38,7 @@ def scrape_flipkart_product(url):
                 "product_name": name_tag.text.strip() if name_tag else None,
                 "selling_price": None,
                 "status": "Out of Stock",
-                "mrp_price": None,
+                "mrp": None,
                 "brand": brand_tag.text.strip() if brand_tag else None,
                 "website": site_name,
                 "timestamp": timestamp,
@@ -71,7 +71,7 @@ def scrape_flipkart_product(url):
                     else price_tag
                 ),
                 "status": "In Stock",
-                "mrp_price": mrp_tag.get_text(strip=True) if mrp_tag else None,
+                "mrp": mrp_tag.get_text(strip=True) if mrp_tag else None,
                 "brand": brand_tag.text.strip(),
                 "website": site_name,
                 "timestamp": timestamp,
@@ -100,15 +100,13 @@ from src.utils import *
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType
 
-
-def run_flipkart_scraper(spark =None, urls =None) -> str:
-    if urls is None:
-        urls = flipkart_urls
-
-    # 2. Fallback to existing Spark session if none provided
+def run_flipkart_scraper(spark=None, urls=None):
+    if urls is None: urls = flipkart_urls
     if spark is None:
         from src.utils import get_spark_session
-        spark,config = get_spark_session()
+        spark, _ = get_spark_session()
+    
+    logger = get_logger(spark, "flipkart_scraper")
     all_products = []
 
     for url in urls:
@@ -117,39 +115,38 @@ def run_flipkart_scraper(spark =None, urls =None) -> str:
             all_products.append(data)
 
     if not all_products:
-        logger.warn("No data scraped successfully. Skipping write to cloud.")
-        return ""
+        logger.warn("No data scraped successfully.")
+        return None
 
-    custom_schema = StructType(
-        [
-            StructField("product_name", StringType(), True),
-            StructField("selling_price", StringType(), True),
-            StructField("status", StringType(), True),
-            StructField("mrp_price", StringType(), True),
-            StructField("brand", StringType(), True),
-            StructField("website", StringType(), True),
-            StructField("timestamp", StringType(), True),
-            StructField("url", StringType(), True),
-        ]
-    )
-    raw_df = spark.createDataFrame(all_products, custom_schema)
+    # --- DEBUG SECTION ---
+    first_row_keys = all_products[0].keys()
+    print(f"DEBUG: Keys found in first product: {list(first_row_keys)}")
+    
+    if "mrp" in first_row_keys:
+        print("CRITICAL: Your scraper is STILL returning 'mrp'!")
+    # ---------------------
 
-    from pyspark.sql.utils import AnalysisException
+    custom_schema = StructType([
+        StructField("product_name", StringType(), True),
+        StructField("selling_price", StringType(), True),
+        StructField("status", StringType(), True),
+        StructField("mrp", StringType(), True), 
+        StructField("brand", StringType(), True),
+        StructField("website", StringType(), True),
+        StructField("timestamp", StringType(), True),
+        StructField("url", StringType(), True),
+    ])
 
-    base_raw_path = adls_path("raw")
-    site_folder = "flipkart"
-    # full_output_path is: abfss://.../Data/raw/flipkart_products.json
-    full_output_path = f"{base_raw_path}{site_folder}/"
+    return spark.createDataFrame(all_products, custom_schema)
 
-    print(f"Appending new records to ADLS Gen2 directory: {full_output_path}")
-
-    raw_df.write.mode("append").format("json").save(full_output_path)
-
-    print(f"--- Write Complete: New files added to the 'flipkart' folder ---")
+ 
 
 
 # testing
+# from dotenv import load_dotenv
+
 # if __name__ == "__main__":
+#     load_dotenv()
 
 #     from .utils import get_spark_session
 

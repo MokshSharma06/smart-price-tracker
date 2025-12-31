@@ -21,14 +21,12 @@ from pyspark.sql import functions as F, Window
 
 # lets remove the Ruppee symbol and , from the prices and cast them to double for calculations, using try_cast because some mrp fiels contain literal MRP or MRP 500
 def clean_prices(df):
-    spark, config = get_spark_session("Process_data")
-    logger = Log4j(spark)
     df = df.withColumn(
-        "mrp_price",
-        trim(regexp_replace(col("mrp_price"), "[₹,]", ""))
+        "mrp",
+        trim(regexp_replace(col("mrp"), "[₹,]", ""))
     ).withColumn(
-        "mrp_price", 
-        expr("try_cast(mrp_price AS double)")
+        "mrp", 
+        expr("try_cast(mrp AS double)")
     ).withColumn(
         "selling_price",
         expr("try_cast(regexp_replace(selling_price, '[₹,]', '') AS double)")
@@ -42,15 +40,9 @@ def clean_prices(df):
 
 def filter_valid_data(df):
     return df.filter(
-        ~(
-            col("status").isNull()
-            | (col("status") == "Out of Stock")
-            # col("brand").isNull() &
-            # col("mrp_price").isNull()
-            # col("product_name").isNull()
-        )
+        (F.col("status") == "In Stock") & 
+        (F.col("mrp").isNotNull() | F.col("selling_price").isNotNull())
     )
-
 
 def add_final_mrp(df):
     w = (
@@ -58,18 +50,21 @@ def add_final_mrp(df):
         .orderBy("timestamp")
         .rowsBetween(Window.unboundedPreceding, Window.currentRow)
     )
+# Forward-fill to find the mrp
+    df = df.withColumn("mrp_ffill", F.last("mrp", ignorenulls=True).over(w))
 
-    # 1) Forward-fill true MRP
-    df = df.withColumn("mrp_ffill", F.last("mrp_price", ignorenulls=True).over(w))
-
-    # 2) For rows before first MRP (where mrp_ffill is still null),
-    # treat selling_price as MRP
+    #  Pick the first non-null value
     df = df.withColumn(
         "mrp_final",
-        F.when(F.col("mrp_ffill").isNull(), F.col("selling_price")).otherwise(
-            F.col("mrp_ffill")
-        ),
+        F.last("mrp", ignorenulls=True).over(w)
     )
+    
+    # selling price logic and ensuring not null
+    df = df.withColumn(
+        "final_price",
+        F.coalesce(F.col("selling_price"), F.col("mrp_final"))
+    )
+    
     return df
 
 
@@ -77,11 +72,10 @@ def calculate_disc(df):
     return df.withColumn(
         "Discount_Percentage",
         round(
-            ((F.col("mrp_final") - F.col("selling_price")) / F.col("mrp_final")) * 100,
+            ((F.col("mrp_final") - F.col("final_price")) / F.col("mrp_final")) * 100,
             2,
         ),
     )
-
 
 def process_data(df):
     df1 = clean_prices(df)
@@ -90,12 +84,3 @@ def process_data(df):
     df4 = calculate_disc(df3)
     return df4
 
-
-from pathlib import Path
-
-
-def write_processed_data(df, full_path):
-    df.write.mode("overwrite").parquet(f"{full_path}")
-
-    print(f" Data has been written to {full_path}")
-    return df
