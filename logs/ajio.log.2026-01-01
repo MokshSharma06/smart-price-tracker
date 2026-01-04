@@ -1,0 +1,400 @@
+26/01/01 10:31:20 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 10:31:20 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 10:31:32 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 10:31:42 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 10:31:42 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 10:31:48 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 10:31:57 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 10:31:57 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 10:32:03 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 10:32:14 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 10:32:14 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 10:32:20 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+26/01/01 19:51:51 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:51:51 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 19:51:55 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 19:52:07 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:52:07 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 19:52:11 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 19:52:21 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:52:21 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 19:52:25 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 19:52:32 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:52:32 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 19:52:53 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5f021ffb461a <unknown>
+#1 0x5f021fa3120b <unknown>
+#2 0x5f021fa8290f <unknown>
+#3 0x5f021fa82b51 <unknown>
+#4 0x5f021fad0d84 <unknown>
+#5 0x5f021face20e <unknown>
+#6 0x5f021fa75232 <unknown>
+#7 0x5f021fa75ee1 <unknown>
+#8 0x5f021ff7d3f9 <unknown>
+#9 0x5f021ff8034d <unknown>
+#10 0x5f021ff66122 <unknown>
+#11 0x5f021ff80f2b <unknown>
+#12 0x5f021ff4cc30 <unknown>
+#13 0x5f021ffa1d78 <unknown>
+#14 0x5f021ffa1f4c <unknown>
+#15 0x5f021ffb3973 <unknown>
+#16 0x75542fe9caa4 <unknown>
+#17 0x75542ff29c6c <unknown>
+
+26/01/01 19:57:21 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:57:21 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 19:57:25 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 19:57:31 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:57:32 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 19:57:37 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 19:57:46 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:57:46 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 19:57:50 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 19:57:56 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 19:57:56 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 19:58:17 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x5ed2acd7561a <unknown>
+#1 0x5ed2ac7f220b <unknown>
+#2 0x5ed2ac84390f <unknown>
+#3 0x5ed2ac843b51 <unknown>
+#4 0x5ed2ac891d84 <unknown>
+#5 0x5ed2ac88f20e <unknown>
+#6 0x5ed2ac836232 <unknown>
+#7 0x5ed2ac836ee1 <unknown>
+#8 0x5ed2acd3e3f9 <unknown>
+#9 0x5ed2acd4134d <unknown>
+#10 0x5ed2acd27122 <unknown>
+#11 0x5ed2acd41f2b <unknown>
+#12 0x5ed2acd0dc30 <unknown>
+#13 0x5ed2acd62d78 <unknown>
+#14 0x5ed2acd62f4c <unknown>
+#15 0x5ed2acd74973 <unknown>
+#16 0x7b8c8589caa4 <unknown>
+#17 0x7b8c85929c6c <unknown>
+
+26/01/01 20:06:40 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:06:40 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 20:06:47 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 20:06:53 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:06:53 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 20:06:59 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 20:07:05 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:07:05 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 20:07:11 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 20:07:18 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:07:18 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 20:07:25 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+26/01/01 20:39:05 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:39:05 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 20:39:11 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 20:39:17 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:39:17 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 20:39:23 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 20:39:35 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:39:35 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 20:39:41 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 20:39:49 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:39:49 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 20:39:55 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+26/01/01 20:54:35 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:54:35 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 20:54:41 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 20:54:53 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:54:53 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 20:54:59 INFO ajio_scraper: [ajio_scraper] Scraped: Downshifter 13 Running Shoes | Price: ₹3,350 | Status: In Stock
+26/01/01 20:55:06 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:55:06 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 20:55:28 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x617414e7261a <unknown>
+#1 0x6174148ef20b <unknown>
+#2 0x61741494090f <unknown>
+#3 0x617414940b51 <unknown>
+#4 0x61741498ed84 <unknown>
+#5 0x61741498c20e <unknown>
+#6 0x617414933232 <unknown>
+#7 0x617414933ee1 <unknown>
+#8 0x617414e3b3f9 <unknown>
+#9 0x617414e3e34d <unknown>
+#10 0x617414e24122 <unknown>
+#11 0x617414e3ef2b <unknown>
+#12 0x617414e0ac30 <unknown>
+#13 0x617414e5fd78 <unknown>
+#14 0x617414e5ff4c <unknown>
+#15 0x617414e71973 <unknown>
+#16 0x7b179f49caa4 <unknown>
+#17 0x7b179f529c6c <unknown>
+
+26/01/01 20:55:34 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 20:55:34 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 20:55:56 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x57989f01d61a <unknown>
+#1 0x57989ea9a20b <unknown>
+#2 0x57989eaeb90f <unknown>
+#3 0x57989eaebb51 <unknown>
+#4 0x57989eb39d84 <unknown>
+#5 0x57989eb3720e <unknown>
+#6 0x57989eade232 <unknown>
+#7 0x57989eadeee1 <unknown>
+#8 0x57989efe63f9 <unknown>
+#9 0x57989efe934d <unknown>
+#10 0x57989efcf122 <unknown>
+#11 0x57989efe9f2b <unknown>
+#12 0x57989efb5c30 <unknown>
+#13 0x57989f00ad78 <unknown>
+#14 0x57989f00af4c <unknown>
+#15 0x57989f01c973 <unknown>
+#16 0x70885569caa4 <unknown>
+#17 0x708855729c6c <unknown>
+
+26/01/01 21:12:50 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:12:51 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 21:12:56 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 21:13:03 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:13:03 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 21:13:25 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x64b40068761a <unknown>
+#1 0x64b40010420b <unknown>
+#2 0x64b40015590f <unknown>
+#3 0x64b400155b51 <unknown>
+#4 0x64b4001a3d84 <unknown>
+#5 0x64b4001a120e <unknown>
+#6 0x64b400148232 <unknown>
+#7 0x64b400148ee1 <unknown>
+#8 0x64b4006503f9 <unknown>
+#9 0x64b40065334d <unknown>
+#10 0x64b400639122 <unknown>
+#11 0x64b400653f2b <unknown>
+#12 0x64b40061fc30 <unknown>
+#13 0x64b400674d78 <unknown>
+#14 0x64b400674f4c <unknown>
+#15 0x64b400686973 <unknown>
+#16 0x752680c9caa4 <unknown>
+#17 0x752680d29c6c <unknown>
+
+26/01/01 21:13:34 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:13:35 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 21:13:41 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 21:13:50 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:13:50 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 21:13:56 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+26/01/01 21:18:16 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:18:17 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 21:18:38 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x5fab104b461a <unknown>
+#1 0x5fab0ff3120b <unknown>
+#2 0x5fab0ff8290f <unknown>
+#3 0x5fab0ff82b51 <unknown>
+#4 0x5fab0ffd0d84 <unknown>
+#5 0x5fab0ffce20e <unknown>
+#6 0x5fab0ff75232 <unknown>
+#7 0x5fab0ff75ee1 <unknown>
+#8 0x5fab1047d3f9 <unknown>
+#9 0x5fab1048034d <unknown>
+#10 0x5fab10466122 <unknown>
+#11 0x5fab10480f2b <unknown>
+#12 0x5fab1044cc30 <unknown>
+#13 0x5fab104a1d78 <unknown>
+#14 0x5fab104a1f4c <unknown>
+#15 0x5fab104b3973 <unknown>
+#16 0x778e0d09caa4 <unknown>
+#17 0x778e0d129c6c <unknown>
+
+26/01/01 21:18:45 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:18:46 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 21:19:08 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5febe30d061a <unknown>
+#1 0x5febe2b4d20b <unknown>
+#2 0x5febe2b9e90f <unknown>
+#3 0x5febe2b9eb51 <unknown>
+#4 0x5febe2becd84 <unknown>
+#5 0x5febe2bea20e <unknown>
+#6 0x5febe2b91232 <unknown>
+#7 0x5febe2b91ee1 <unknown>
+#8 0x5febe30993f9 <unknown>
+#9 0x5febe309c34d <unknown>
+#10 0x5febe3082122 <unknown>
+#11 0x5febe309cf2b <unknown>
+#12 0x5febe3068c30 <unknown>
+#13 0x5febe30bdd78 <unknown>
+#14 0x5febe30bdf4c <unknown>
+#15 0x5febe30cf973 <unknown>
+#16 0x79b8b709caa4 <unknown>
+#17 0x79b8b7129c6c <unknown>
+
+26/01/01 21:19:14 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:19:14 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 21:19:36 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x63887d23a61a <unknown>
+#1 0x63887ccb720b <unknown>
+#2 0x63887cd0890f <unknown>
+#3 0x63887cd08b51 <unknown>
+#4 0x63887cd56d84 <unknown>
+#5 0x63887cd5420e <unknown>
+#6 0x63887ccfb232 <unknown>
+#7 0x63887ccfbee1 <unknown>
+#8 0x63887d2033f9 <unknown>
+#9 0x63887d20634d <unknown>
+#10 0x63887d1ec122 <unknown>
+#11 0x63887d206f2b <unknown>
+#12 0x63887d1d2c30 <unknown>
+#13 0x63887d227d78 <unknown>
+#14 0x63887d227f4c <unknown>
+#15 0x63887d239973 <unknown>
+#16 0x7bc406c9caa4 <unknown>
+#17 0x7bc406d29c6c <unknown>
+
+26/01/01 21:19:47 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:19:47 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 21:19:53 INFO ajio_scraper: [ajio_scraper] Scraped: Men Killshot 2 Leather Lace-Up Tennis Shoes | Price: ₹6,076 | Status: In Stock
+26/01/01 21:25:43 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:25:43 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 21:25:47 INFO ajio_scraper: [ajio_scraper] Scraped: Men C1TY Low-Top Lace-Up Basket Ball Shoes | Price: ₹6,782 | Status: In Stock
+26/01/01 21:25:55 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:25:55 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 21:26:16 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x59628768261a <unknown>
+#1 0x5962870ff20b <unknown>
+#2 0x59628715090f <unknown>
+#3 0x596287150b51 <unknown>
+#4 0x59628719ed84 <unknown>
+#5 0x59628719c20e <unknown>
+#6 0x596287143232 <unknown>
+#7 0x596287143ee1 <unknown>
+#8 0x59628764b3f9 <unknown>
+#9 0x59628764e34d <unknown>
+#10 0x596287634122 <unknown>
+#11 0x59628764ef2b <unknown>
+#12 0x59628761ac30 <unknown>
+#13 0x59628766fd78 <unknown>
+#14 0x59628766ff4c <unknown>
+#15 0x596287681973 <unknown>
+#16 0x700dc309caa4 <unknown>
+#17 0x700dc3129c6c <unknown>
+
+26/01/01 21:26:26 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:26:26 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 21:26:30 INFO ajio_scraper: [ajio_scraper] Scraped: Field General Running Shoes | Price: ₹6,521 | Status: In Stock
+26/01/01 21:26:41 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:26:41 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 21:27:02 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x589ad65d461a <unknown>
+#1 0x589ad605120b <unknown>
+#2 0x589ad60a290f <unknown>
+#3 0x589ad60a2b51 <unknown>
+#4 0x589ad60f0d84 <unknown>
+#5 0x589ad60ee20e <unknown>
+#6 0x589ad6095232 <unknown>
+#7 0x589ad6095ee1 <unknown>
+#8 0x589ad659d3f9 <unknown>
+#9 0x589ad65a034d <unknown>
+#10 0x589ad6586122 <unknown>
+#11 0x589ad65a0f2b <unknown>
+#12 0x589ad656cc30 <unknown>
+#13 0x589ad65c1d78 <unknown>
+#14 0x589ad65c1f4c <unknown>
+#15 0x589ad65d3973 <unknown>
+#16 0x755dd029caa4 <unknown>
+#17 0x755dd0329c6c <unknown>
+
+26/01/01 21:28:57 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:28:57 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green
+26/01/01 21:29:19 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-c1ty-low-top-lace-up-basket-ball-shoes/p/469695776_green: Message: 
+Stacktrace:
+#0 0x55ce99d9c61a <unknown>
+#1 0x55ce9981920b <unknown>
+#2 0x55ce9986a90f <unknown>
+#3 0x55ce9986ab51 <unknown>
+#4 0x55ce998b8d84 <unknown>
+#5 0x55ce998b620e <unknown>
+#6 0x55ce9985d232 <unknown>
+#7 0x55ce9985dee1 <unknown>
+#8 0x55ce99d653f9 <unknown>
+#9 0x55ce99d6834d <unknown>
+#10 0x55ce99d4e122 <unknown>
+#11 0x55ce99d68f2b <unknown>
+#12 0x55ce99d34c30 <unknown>
+#13 0x55ce99d89d78 <unknown>
+#14 0x55ce99d89f4c <unknown>
+#15 0x55ce99d9b973 <unknown>
+#16 0x75488ea9caa4 <unknown>
+#17 0x75488eb29c6c <unknown>
+
+26/01/01 21:29:25 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:29:25 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?
+26/01/01 21:29:46 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-downshifter-13-running-shoes/p/469581864_black?: Message: 
+Stacktrace:
+#0 0x5d782d04361a <unknown>
+#1 0x5d782cac020b <unknown>
+#2 0x5d782cb1190f <unknown>
+#3 0x5d782cb11b51 <unknown>
+#4 0x5d782cb5fd84 <unknown>
+#5 0x5d782cb5d20e <unknown>
+#6 0x5d782cb04232 <unknown>
+#7 0x5d782cb04ee1 <unknown>
+#8 0x5d782d00c3f9 <unknown>
+#9 0x5d782d00f34d <unknown>
+#10 0x5d782cff5122 <unknown>
+#11 0x5d782d00ff2b <unknown>
+#12 0x5d782cfdbc30 <unknown>
+#13 0x5d782d030d78 <unknown>
+#14 0x5d782d030f4c <unknown>
+#15 0x5d782d042973 <unknown>
+#16 0x72326b69caa4 <unknown>
+#17 0x72326b729c6c <unknown>
+
+26/01/01 21:29:51 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:29:51 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?
+26/01/01 21:30:12 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-field-general-running-shoes/p/469763433_blackgrey?: Message: 
+Stacktrace:
+#0 0x5e79adb3061a <unknown>
+#1 0x5e79ad5ad20b <unknown>
+#2 0x5e79ad5fe90f <unknown>
+#3 0x5e79ad5feb51 <unknown>
+#4 0x5e79ad64cd84 <unknown>
+#5 0x5e79ad64a20e <unknown>
+#6 0x5e79ad5f1232 <unknown>
+#7 0x5e79ad5f1ee1 <unknown>
+#8 0x5e79adaf93f9 <unknown>
+#9 0x5e79adafc34d <unknown>
+#10 0x5e79adae2122 <unknown>
+#11 0x5e79adafcf2b <unknown>
+#12 0x5e79adac8c30 <unknown>
+#13 0x5e79adb1dd78 <unknown>
+#14 0x5e79adb1df4c <unknown>
+#15 0x5e79adb2f973 <unknown>
+#16 0x7aad4049caa4 <unknown>
+#17 0x7aad40529c6c <unknown>
+
+26/01/01 21:30:19 INFO ajio_scraper: [ajio_scraper] starting ajio scraper
+26/01/01 21:30:19 INFO ajio_scraper: [ajio_scraper] Fetching product from https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?
+26/01/01 21:30:42 ERROR ajio_scraper: [ajio_scraper] Error scraping https://www.ajio.com/nike-men-killshot-2-leather-lace-up-tennis-shoes/p/469759270_white?: Message: 
+Stacktrace:
+#0 0x56d44feb461a <unknown>
+#1 0x56d44f93120b <unknown>
+#2 0x56d44f98290f <unknown>
+#3 0x56d44f982b51 <unknown>
+#4 0x56d44f9d0d84 <unknown>
+#5 0x56d44f9ce20e <unknown>
+#6 0x56d44f975232 <unknown>
+#7 0x56d44f975ee1 <unknown>
+#8 0x56d44fe7d3f9 <unknown>
+#9 0x56d44fe8034d <unknown>
+#10 0x56d44fe66122 <unknown>
+#11 0x56d44fe80f2b <unknown>
+#12 0x56d44fe4cc30 <unknown>
+#13 0x56d44fea1d78 <unknown>
+#14 0x56d44fea1f4c <unknown>
+#15 0x56d44feb3973 <unknown>
+#16 0x79de17a9caa4 <unknown>
+#17 0x79de17b29c6c <unknown>
+

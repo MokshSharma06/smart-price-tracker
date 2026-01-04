@@ -1,0 +1,57 @@
+26/01/02 20:10:36 INFO smart-price-tracker: [smart-price-tracker] Starting Smart Price Tracker pipeline
+26/01/02 20:10:36 INFO smart-price-tracker: [smart-price-tracker] Running Flipkart scraper
+26/01/02 20:10:40 INFO smart-price-tracker: [smart-price-tracker] Running Ajio scraper
+26/01/02 20:11:43 INFO smart-price-tracker: [smart-price-tracker] Unioning scraped data in staging
+26/01/02 20:11:46 INFO smart-price-tracker: [smart-price-tracker] Staging record count = 8
+26/01/02 20:11:46 INFO smart-price-tracker: [smart-price-tracker] Cleaning and normalizing raw data
+26/01/02 20:11:48 WARN smart-price-tracker: [smart-price-tracker] Dropping 2 records due to missing selling price
+26/01/02 20:11:48 INFO smart-price-tracker: [smart-price-tracker] RAW data validation passed
+26/01/02 20:11:48 INFO smart-price-tracker: [smart-price-tracker] Writing validated RAW data to ADLS
+26/01/02 20:11:55 INFO smart-price-tracker: [smart-price-tracker] RAW write completed
+26/01/02 20:11:55 INFO smart-price-tracker: [smart-price-tracker] Filtering valid records
+26/01/02 20:11:55 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP
+26/01/02 20:11:55 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+26/01/02 20:11:57 INFO smart-price-tracker: [smart-price-tracker] Silver record count = 6
+26/01/02 20:11:57 INFO smart-price-tracker: [smart-price-tracker] Writing Silver layer idempotently
+26/01/02 20:12:15 INFO smart-price-tracker: [smart-price-tracker] Generating BUY signals
+26/01/02 20:12:18 INFO smart-price-tracker: [smart-price-tracker] Found 5 BUY signals
+26/01/02 20:12:27 INFO smart-price-tracker: [smart-price-tracker] Gold alerts written successfully
+26/01/02 20:12:27 INFO smart-price-tracker: [smart-price-tracker] Pipeline execution finished successfully
+26/01/02 20:22:11 INFO smart-price-tracker: [smart-price-tracker] Starting Smart Price Tracker pipeline
+26/01/02 20:22:11 INFO smart-price-tracker: [smart-price-tracker] Running Flipkart scraper
+26/01/02 20:22:16 INFO smart-price-tracker: [smart-price-tracker] Running Ajio scraper
+26/01/02 20:23:10 INFO smart-price-tracker: [smart-price-tracker] Unioning scraped data in staging
+26/01/02 20:23:14 INFO smart-price-tracker: [smart-price-tracker] Staging record count = 8
+26/01/02 20:23:14 INFO smart-price-tracker: [smart-price-tracker] Cleaning and normalizing raw data
+26/01/02 20:23:16 WARN smart-price-tracker: [smart-price-tracker] Dropping 2 records due to missing selling price
+26/01/02 20:23:16 INFO smart-price-tracker: [smart-price-tracker] RAW data validation passed
+26/01/02 20:23:16 INFO smart-price-tracker: [smart-price-tracker] Writing validated RAW data to ADLS
+26/01/02 20:23:23 INFO smart-price-tracker: [smart-price-tracker] RAW write completed
+26/01/02 20:23:23 INFO smart-price-tracker: [smart-price-tracker] Filtering valid records
+26/01/02 20:23:23 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP
+26/01/02 20:23:23 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+26/01/02 20:23:25 INFO smart-price-tracker: [smart-price-tracker] Silver record count = 6
+26/01/02 20:23:25 INFO smart-price-tracker: [smart-price-tracker] Writing Silver layer idempotently
+26/01/02 20:23:44 INFO smart-price-tracker: [smart-price-tracker] Generating BUY signals
+26/01/02 20:23:46 INFO smart-price-tracker: [smart-price-tracker] Found 5 BUY signals
+26/01/02 20:23:54 INFO smart-price-tracker: [smart-price-tracker] Gold alerts written successfully
+26/01/02 20:23:54 INFO smart-price-tracker: [smart-price-tracker] Pipeline execution finished successfully
+26/01/02 21:59:04 INFO smart-price-tracker: [smart-price-tracker] Starting Smart Price Tracker pipeline
+26/01/02 21:59:04 INFO smart-price-tracker: [smart-price-tracker] Running Flipkart scraper
+26/01/02 21:59:08 INFO smart-price-tracker: [smart-price-tracker] Running Ajio scraper
+26/01/02 22:00:44 INFO smart-price-tracker: [smart-price-tracker] Unioning scraped data in staging
+26/01/02 22:00:49 INFO smart-price-tracker: [smart-price-tracker] Staging record count = 8
+26/01/02 22:00:49 INFO smart-price-tracker: [smart-price-tracker] Cleaning and normalizing raw data
+26/01/02 22:00:50 WARN smart-price-tracker: [smart-price-tracker] Dropping 4 records due to missing selling price
+26/01/02 22:00:50 INFO smart-price-tracker: [smart-price-tracker] RAW data validation passed
+26/01/02 22:00:50 INFO smart-price-tracker: [smart-price-tracker] Writing validated RAW data to ADLS
+26/01/02 22:00:55 INFO smart-price-tracker: [smart-price-tracker] RAW write completed
+26/01/02 22:00:55 INFO smart-price-tracker: [smart-price-tracker] Filtering valid records
+26/01/02 22:00:55 INFO smart-price-tracker: [smart-price-tracker] Adding final MRP
+26/01/02 22:00:55 INFO smart-price-tracker: [smart-price-tracker] Calculating discount percentages
+26/01/02 22:00:57 INFO smart-price-tracker: [smart-price-tracker] Silver record count = 4
+26/01/02 22:00:57 INFO smart-price-tracker: [smart-price-tracker] Writing Silver layer idempotently
+26/01/02 22:01:14 INFO smart-price-tracker: [smart-price-tracker] Generating BUY signals
+26/01/02 22:01:15 INFO smart-price-tracker: [smart-price-tracker] Found 3 BUY signals
+26/01/02 22:01:24 INFO smart-price-tracker: [smart-price-tracker] Gold alerts written successfully
+26/01/02 22:01:24 INFO smart-price-tracker: [smart-price-tracker] Sending Emails to users to alert the price drop
