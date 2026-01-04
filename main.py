@@ -14,9 +14,11 @@ from src.process_data import (
     calculate_disc,
 )
 
-from src.logic import generate_signals
+from src.logic import generate_signals,send_alert
 from src.data_loader import write_processed_data
 from src.gold_loader import write_gold_alerts
+import os
+from pyspark.sql.functions import col
 
 
 def main():
@@ -24,6 +26,10 @@ def main():
     # 1. Spark + Logger
     # --------------------------------------------------
     load_dotenv()
+
+    LOGIC_APP_URL = os.getenv("LOGIC_APP_ALERT_URL")
+    if not LOGIC_APP_URL:
+        raise RuntimeError("LOGIC_APP_ALERT_URL not set")
     spark, config = get_spark_session()
     app_logger = get_logger(spark, "smart-price-tracker")
 
@@ -98,15 +104,16 @@ def main():
     app_logger.info(f"Silver record count = {silver_df.count():,}")
 
     app_logger.info("Writing Silver layer idempotently")
-    write_processed_data(silver_df, silver_path)
+
+    daily_silver_df=write_processed_data(silver_df, silver_path)
 
     # --------------------------------------------------
-    # 7. GOLD SIGNAL GENERATION (IDEMPOTENT)
+    # 7. GOLD SIGNAL GENERATION (IDEMPOTENT) and sending alerts using email
     # --------------------------------------------------
     gold_path = adls_path("gold_alerts")
 
     app_logger.info("Generating BUY signals")
-    signal_df = generate_signals(silver_df)
+    signal_df = generate_signals(daily_silver_df)
 
     signal_count = signal_df.count()
 
@@ -114,6 +121,13 @@ def main():
         app_logger.info(f"Found {signal_count} BUY signals")
         write_gold_alerts(signal_df, gold_path)
         app_logger.info("Gold alerts written successfully")
+
+        app_logger.info("Sending Emails to users to alert the price drop")
+        alerts_df = signal_df.filter(col("signal") == "BUY")
+        alerts = alerts_df.collect()
+        for row in alerts:
+            send_alert(row)
+        app_logger.info(f"Sent {len(alerts)} email alerts")
     else:
         app_logger.info("No BUY signals generated today")
 
