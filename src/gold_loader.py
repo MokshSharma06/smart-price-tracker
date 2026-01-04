@@ -1,12 +1,11 @@
 from delta.tables import DeltaTable
+from pyspark.sql.functions import col, lit, coalesce
 
 def write_gold_alerts(signal_df, gold_path):
     spark = signal_df.sparkSession
 
-    # 1. Deduplicate incoming batch
     new_data = signal_df.dropDuplicates(["url", "website", "date"])
 
-    # 2. Idempotent write
     if DeltaTable.isDeltaTable(spark, gold_path):
         delta_table = DeltaTable.forPath(spark, gold_path)
 
@@ -16,20 +15,47 @@ def write_gold_alerts(signal_df, gold_path):
                 new_data.alias("s"),
                 "t.url = s.url AND t.website = s.website AND t.date = s.date"
             )
+            .whenMatchedUpdate(set={
+                "closing_price": "s.closing_price",
+                "min_price_day": "s.min_price_day",
+                "max_price_day": "s.max_price_day",
+                "avg_price_day": "s.avg_price_day",
+                "avg_discount_day": "s.avg_discount_day",
+                "num_scrapes_day": "s.num_scrapes_day", 
+                "avg_price_7d": "s.avg_price_7d",
+                "signal": "s.signal",
+                "last_scrape_time": "s.last_scrape_time",
+                "status": "s.status"
+            })
             .whenNotMatchedInsert(values={
                 "url": "s.url",
                 "website": "s.website",
                 "date": "s.date",
                 "brand": "s.brand",
                 "product_name": "s.product_name",
-                "final_price": "s.final_price",
+                "closing_price": "s.closing_price",
+                "min_price_day": "s.min_price_day",
+                "max_price_day": "s.max_price_day",
+                "avg_price_day": "s.avg_price_day",
+                "avg_discount_day": "s.avg_discount_day",
+                "num_scrapes_day": "s.num_scrapes_day",
+                "mrp_final": "s.mrp_final",
                 "avg_price_7d": "s.avg_price_7d",
-                "Discount_Percentage": "s.Discount_Percentage",
-                "signal": "s.signal"
+                "signal": "s.signal",
+                "last_scrape_time": "s.last_scrape_time",
+                "status": "s.status"
             })
             .execute()
         )
-
     else:
-        # First-time table creation
-        new_data.write.format("delta").mode("overwrite").save(gold_path)
+        (
+            new_data
+            .withColumn(
+                "num_scrapes_day",
+                coalesce(col("num_scrapes_day"), lit(1))
+            )
+            .write
+            .format("delta")
+            .mode("overwrite")
+            .save(gold_path)
+        )
