@@ -115,6 +115,20 @@ Unit Testing (pytest) – test-driven modules
 Logging (log4j + Python logger)
 Github Actions – CI/CD automation
 
+# ScreenShots
+## Persistent Storage ADLS
+![Smart Price Tracker Architecture](docs/ADLS.png)
+
+## logic app design
+![Smart Price Tracker Architecture](docs/logic_app.png)
+
+## end_to_end pipeline
+![Smart Price Tracker Architecture](docs/endtoendpipeline.png)
+
+## email / consuming gold data
+![Smart Price Tracker Architecture](docs/email.png)
+
+
 🔑 Features
 
 Fetch product price data (simulated for 5–7 products).
