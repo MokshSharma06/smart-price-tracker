@@ -125,8 +125,14 @@ Github Actions – CI/CD automation
 ## end_to_end pipeline
 ![Smart Price Tracker Architecture](docs/endtoendpipeline.png)
 
+## Ci/Cd ( how every push on master deployes auto tests and pushes image to ACR )
+![Smart Price Tracker Architecture](docs/cicd.png)
+
+
 ## email / consuming gold data
 ![Smart Price Tracker Architecture](docs/email.png)
+
+
 
 
 🔑 Features
