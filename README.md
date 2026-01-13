@@ -3,6 +3,8 @@
 Production-style Data Engineering Pipeline (Spark + Delta + ADLS)
 
 Smart Price Tracker is an end-to-end data engineering pipeline that scrapes product prices from multiple e-commerce platforms, cleans and normalizes them, builds idempotent Silver aggregates, and generates Gold BUY alerts based on price-drop logic.
+The pipeline integrates GitHub Actions for CI/CD automation, running unit tests, data quality checks, and Spark job validation on every push to master branch.
+Dockerized artifacts are built, tagged, and pushed to Azure Container Registry (ACR).
 
 ## 🏗 Architecture
 
