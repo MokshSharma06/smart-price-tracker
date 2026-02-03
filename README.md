@@ -137,13 +137,7 @@ Github Actions – CI/CD automation
 
 
 
-🔑 Features
 
-Fetch product price data (simulated for 5–7 products).
-Store raw → processed → delta layers.
-Config-driven pipeline (no hardcoded values).
-Unit tested modules for reliability.
-Scalable design – can later be deployed to cloud.
 
 👨‍💻 Author
 Moksh Sharma – Aspiring Data Engineer | BCA Graduate | Azure & PySpark Enthusiast | DP- 900 
